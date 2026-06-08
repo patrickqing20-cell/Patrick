@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "default_mode": "light",
+  "usage_note": "优先使用轻方言版本。强方言版本适合地域感鲜明的配角或喜剧角色。除粤语外，其余方言以大众可理解的地域化表达为主，不声称覆盖完整地方语音系统。",
+  "dialects": [
+    {
+      "dialect": "普通话",
+      "aliases": ["普通话短句", "普通话情绪句", "国语"],
+      "tier": "high",
+      "prompt_label": "普通话",
+      "model_note": "默认稳定路线。",
+      "lexical_patterns": ["儿化按角色需要少量使用", "避免书面腔", "单句短促"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你终于来了。", "strong": "你终于来了。", "acting_note": "先停顿半秒，再克制开口。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到什么时候？", "strong": "你还要躲到什么时候？", "acting_note": "压住火气，句尾略沉。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你为什么不告诉我？", "strong": "你为什么一直瞒着我？", "acting_note": "有委屈，不要喊。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "我一个字都不信。", "acting_note": "短促、坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你别再逼我了。", "strong": "别再逼我。", "acting_note": "语速偏慢，克制警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "别怕，有我在。", "strong": "别怕，我在这儿。", "acting_note": "声音放柔。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这件事，到此为止。", "strong": "这件事就到这里。", "acting_note": "冷静收尾。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快点回来。", "strong": "你马上回来。", "acting_note": "急切但不要大喊。"}
+      ]
+    },
+    {
+      "dialect": "粤语",
+      "aliases": ["广东话", "廣東話", "Cantonese"],
+      "tier": "high",
+      "prompt_label": "自然粤语",
+      "model_note": "优先验证。可使用常见粤语书面字，避免堆叠过多生僻字。",
+      "lexical_patterns": ["做咩", "唔", "同我讲", "返嚟", "喺度", "啫", "啦"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你终于嚟啦。", "strong": "你终于肯嚟喇。", "acting_note": "如释重负，但保持克制。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要匿到几时？", "strong": "你仲想匿到几时啊？", "acting_note": "质问感，尾音不要夸张。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你做咩唔同我讲？", "strong": "你点解一直都唔同我讲？", "acting_note": "带委屈的追问。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我唔信。", "strong": "我一个字都唔信。", "acting_note": "短促、坚决。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你唔好再逼我。", "strong": "你唔好再逼我喇。", "acting_note": "低声警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "唔使惊，有我喺度。", "strong": "唔使惊，我喺度。", "acting_note": "放轻声音。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "呢件事，到此为止。", "strong": "呢件事就到呢度。", "acting_note": "冷淡收声。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快啲返嚟。", "strong": "你即刻返嚟。", "acting_note": "急切但清晰。"}
+      ]
+    },
+    {
+      "dialect": "四川话",
+      "aliases": ["川话", "四川方言"],
+      "tier": "high",
+      "prompt_label": "轻度四川方言",
+      "model_note": "优先验证。使用大众熟悉的词汇与语气词，保持可理解性。",
+      "lexical_patterns": ["啥子", "咋个", "莫", "晓得", "嘛", "安逸", "回来噻"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你终于来了嘛。", "strong": "你娃终于晓得来了嗦。", "acting_note": "松一口气，句尾自然。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到啥时候嘛？", "strong": "你到底要躲到好久嘛？", "acting_note": "压住火气，不要表演化。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你咋个不跟我说嘛？", "strong": "你为啥子一直瞒到我嘛？", "acting_note": "有委屈，略带埋怨。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我才不信。", "strong": "我硬是不信。", "acting_note": "短促坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你莫再逼我了。", "strong": "你莫再逼我哈。", "acting_note": "克制的警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "莫怕，有我在。", "strong": "莫得事，有我在。", "acting_note": "语气温和。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这个事，就到这儿。", "strong": "这个事情，就莫再说了。", "acting_note": "平静但不容商量。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快点回来嘛。", "strong": "你赶紧回来噻。", "acting_note": "急切，不要吼。"}
+      ]
+    },
+    {
+      "dialect": "东北话",
+      "aliases": ["东北方言", "东北口音"],
+      "tier": "high",
+      "prompt_label": "轻度东北方言",
+      "model_note": "优先验证。避免把所有台词写成喜剧腔，严肃角色也要克制。",
+      "lexical_patterns": ["搁这儿", "磨叽", "咋回事", "整啥", "可别", "赶紧", "寻思"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你可算来了。", "strong": "你可算是来了。", "acting_note": "放下心来，轻叹气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到啥时候？", "strong": "你还打算躲到啥时候啊？", "acting_note": "直接质问，保持严肃。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你咋不跟我说呢？", "strong": "你咋一直瞒着我呢？", "acting_note": "困惑和埋怨混合。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "你说啥我都不信。", "acting_note": "干脆利落。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你可别再逼我了。", "strong": "你别搁这儿逼我。", "acting_note": "压低声音。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "别怕，有我呢。", "strong": "没事儿，有我在这儿呢。", "acting_note": "可靠、放松。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这事儿，就到这儿。", "strong": "这事儿打今儿起就翻篇了。", "acting_note": "明确结束话题。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你赶紧回来。", "strong": "别磨叽了，赶紧回来。", "acting_note": "略急，保持清晰。"}
+      ]
+    },
+    {
+      "dialect": "河南话风格",
+      "aliases": ["河南话", "河南方言"],
+      "tier": "medium",
+      "prompt_label": "轻度河南方言",
+      "model_note": "建议小规模实测。以大众可理解表达为主。",
+      "lexical_patterns": ["弄啥嘞", "中不中", "可别", "咋", "恁"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你可算来了。", "strong": "你可算来了嘞。", "acting_note": "轻微松气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到啥时候？", "strong": "你还要躲到啥时候嘞？", "acting_note": "不满但克制。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你咋不跟我说？", "strong": "你咋一直不跟我说嘞？", "acting_note": "埋怨追问。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "我可不信。", "acting_note": "坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你可别再逼我了。", "strong": "你可甭再逼我了。", "acting_note": "警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "别怕，有我在。", "strong": "别怕，有我嘞。", "acting_note": "放柔声音。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这事儿就到这儿。", "strong": "这事儿就恁办吧。", "acting_note": "收尾。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你赶紧回来。", "strong": "你赶紧回来吧。", "acting_note": "急切。"}
+      ]
+    },
+    {
+      "dialect": "陕西话风格",
+      "aliases": ["陕西话", "陕西方言", "西安话风格"],
+      "tier": "medium",
+      "prompt_label": "轻度陕西方言",
+      "model_note": "建议小规模实测。保持短句，避免过多地域字词。",
+      "lexical_patterns": ["额", "咋咧", "甭", "弄啥", "美得很"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你可算来了。", "strong": "你可算来咧。", "acting_note": "松气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到啥时候？", "strong": "你到底要躲到啥时候咧？", "acting_note": "压住急躁。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你咋不跟我说？", "strong": "你咋一直不跟额说咧？", "acting_note": "委屈追问。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "额不信。", "acting_note": "干脆。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你甭再逼我了。", "strong": "你甭再逼额咧。", "acting_note": "低声警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "甭怕，有我在。", "strong": "甭怕，有额在。", "acting_note": "可靠。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这事儿就到这儿。", "strong": "这事儿就到这儿咧。", "acting_note": "明确结束。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你赶紧回来。", "strong": "你赶紧回来咧。", "acting_note": "急切。"}
+      ]
+    },
+    {
+      "dialect": "湖南话风格",
+      "aliases": ["湖南话", "湖南方言"],
+      "tier": "medium",
+      "prompt_label": "轻度湖南方言",
+      "model_note": "建议小规模实测。优先使用晓得、莫等大众熟悉表达。",
+      "lexical_patterns": ["莫", "晓得", "咯", "啵", "噻"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你终于来了咯。", "strong": "你总算晓得来了咯。", "acting_note": "轻轻松气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到什么时候咯？", "strong": "你还要躲到什么时候咯？", "acting_note": "质问。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你怎么不跟我讲咯？", "strong": "你怎么一直不跟我讲咯？", "acting_note": "埋怨。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "我才不信咯。", "acting_note": "坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你莫再逼我了。", "strong": "你莫再逼我咯。", "acting_note": "警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "莫怕，有我在。", "strong": "莫怕咯，有我在。", "acting_note": "温和。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这个事，就到这里。", "strong": "这个事就莫再讲了咯。", "acting_note": "收尾。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快点回来咯。", "strong": "你赶紧回来咯。", "acting_note": "急切。"}
+      ]
+    },
+    {
+      "dialect": "山东话风格",
+      "aliases": ["山东话", "山东方言"],
+      "tier": "medium",
+      "prompt_label": "轻度山东方言",
+      "model_note": "建议小规模实测。使用大众可理解的恁、咋等少量特征。",
+      "lexical_patterns": ["恁", "咋", "甭", "怪", "这事儿"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你可算来了。", "strong": "恁可算来了。", "acting_note": "松气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到啥时候？", "strong": "恁还要躲到啥时候？", "acting_note": "直截了当。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你咋不跟我说？", "strong": "恁咋一直不跟我说？", "acting_note": "困惑埋怨。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不信。", "strong": "我可不信。", "acting_note": "坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你甭再逼我了。", "strong": "恁甭再逼我了。", "acting_note": "警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "甭怕，有我在。", "strong": "甭怕，有我在这儿。", "acting_note": "温和。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这事儿就到这儿。", "strong": "这事儿就恁着吧。", "acting_note": "结束话题。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你赶紧回来。", "strong": "恁赶紧回来。", "acting_note": "急切。"}
+      ]
+    },
+    {
+      "dialect": "香港粤语中英夹杂",
+      "aliases": ["港式粤语中英夹杂", "香港口语", "香港粤语口语", "Cantonese code-switching", "港式中英夹杂"],
+      "tier": "high",
+      "prompt_label": "自然香港粤语口语，少量中英夹杂",
+      "model_note": "优先小样验证。英文只插入香港口语中自然出现的常用词，不要逐词翻译，不要为了中英夹杂而硬塞英文。",
+      "lexical_patterns": ["OK", "sorry", "check", "confirm", "call", "message", "deadline", "meeting", "plan", "problem", "搞掂", "唔使", "点解", "返嚟"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你终于嚟啦，我等咗你好耐。", "strong": "你终于show up啦，我等咗你好耐。", "acting_note": "松一口气，英文轻带过，不要刻意重读。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底想避到几时？", "strong": "你仲想avoid到几时啊？", "acting_note": "质问但克制，英文自然连读。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你做咩唔同我讲？", "strong": "你做咩连个message都唔俾我？", "acting_note": "委屈追问，英文如出现则自然轻带过。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我唔信。", "strong": "Sorry，我真系唔信。", "acting_note": "先轻停顿，再明确否定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你唔好再逼我。", "strong": "你唔好再push我喇。", "acting_note": "低声警告，push 自然融入粤语节奏。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "唔使惊，有我喺度。", "strong": "Relax，有我喺度，会搞掂嘅。", "acting_note": "安抚语气，英文轻柔。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "呢件事，就到呢度。", "strong": "呢件事close咗佢，唔使再讲。", "acting_note": "冷静收尾，close 不要强调。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快啲返嚟。", "strong": "你即刻返嚟，返到call我。", "acting_note": "急切但清晰。"}
+      ]
+    },
+    {
+      "dialect": "上海话风格",
+      "aliases": ["上海话", "沪语风格"],
+      "tier": "experimental",
+      "prompt_label": "轻度上海话风格",
+      "model_note": "实验性路线。公开视频模型的沪语准确度需实测；优先使用轻度地域表达。",
+      "lexical_patterns": ["侬", "覅", "好伐", "晓得", "讲"],
+      "lines": [
+        {"intent": "arrival", "mandarin": "你终于来了。", "light": "你总算来了。", "strong": "侬总算来了。", "acting_note": "轻轻松气。"},
+        {"intent": "question_hide", "mandarin": "你到底要躲到什么时候？", "light": "你到底要躲到什么时候？", "strong": "侬到底要躲到啥辰光？", "acting_note": "实验性强方言，先小样验证。"},
+        {"intent": "complaint_tell", "mandarin": "你为什么不告诉我？", "light": "你为什么不跟我讲？", "strong": "侬为啥勿跟我讲？", "acting_note": "委屈追问。"},
+        {"intent": "deny", "mandarin": "我不信。", "light": "我不相信。", "strong": "我勿相信。", "acting_note": "坚定。"},
+        {"intent": "warning", "mandarin": "你别再逼我了。", "light": "你不要再逼我了。", "strong": "侬覅再逼我了。", "acting_note": "克制警告。"},
+        {"intent": "reassure", "mandarin": "别怕，有我在。", "light": "不要怕，有我在。", "strong": "覅怕，有我在。", "acting_note": "放柔声音。"},
+        {"intent": "dismiss", "mandarin": "这件事，到此为止。", "light": "这件事就到这里。", "strong": "迭桩事体就到此为止。", "acting_note": "实验性强方言。"},
+        {"intent": "urge", "mandarin": "你快点回来。", "light": "你快点回来。", "strong": "侬快点回来。", "acting_note": "急切。"}
+      ]
+    }
+  ]
+}

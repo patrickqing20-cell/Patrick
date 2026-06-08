@@ -1,0 +1,1846 @@
+{
+  "version": "1.0.0",
+  "count": 120,
+  "dialogues": [
+    {
+      "dialogue_id": "MANDARIN-001",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "我们已经没关系了。",
+      "acting_note": "表情克制，不要提高音量。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-002",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "你不用再解释。",
+      "acting_note": "开口前轻停顿，声音偏低，结尾收声。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-003",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "以后别再来找我。",
+      "acting_note": "表情克制，不要提高音量。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-004",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "这不是你该问的事。",
+      "acting_note": "开口前轻停顿，声音偏低，结尾收声。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-005",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "我没有义务等你。",
+      "acting_note": "表情克制，不要提高音量。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-006",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "中",
+      "line_text": "你迟到了太久。",
+      "acting_note": "开口前轻停顿，声音偏低，结尾收声。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-007",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "偏强",
+      "line_text": "我不想再听第二遍。",
+      "acting_note": "表情克制，不要提高音量。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-008",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "偏强",
+      "line_text": "你可以走了。",
+      "acting_note": "开口前轻停顿，声音偏低，结尾收声。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-009",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "偏强",
+      "line_text": "有些事，错过了就是错过了。",
+      "acting_note": "表情克制，不要提高音量。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-010",
+      "category_id": "cold_distance",
+      "category_name": "冷淡疏离",
+      "role_tags": [
+        "冷感主角",
+        "前任",
+        "职场上位者"
+      ],
+      "emotion": "失望克制",
+      "intensity": "偏强",
+      "line_text": "从今天开始，我们各走各的。",
+      "acting_note": "开口前轻停顿，声音偏低，结尾收声。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-011",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "我不喜欢别人替我做决定。",
+      "acting_note": "直视镜头，句尾明确落下。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-012",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "这件事，我说了算。",
+      "acting_note": "语速偏慢，咬字清晰，压低声音。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-013",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "不要挑战我的耐心。",
+      "acting_note": "直视镜头，句尾明确落下。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-014",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "你没有拒绝的余地。",
+      "acting_note": "语速偏慢，咬字清晰，压低声音。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-015",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "我给你的时间不多。",
+      "acting_note": "直视镜头，句尾明确落下。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-016",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "中",
+      "line_text": "先回答我的问题。",
+      "acting_note": "语速偏慢，咬字清晰，压低声音。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-017",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "偏强",
+      "line_text": "别让我再问第二次。",
+      "acting_note": "直视镜头，句尾明确落下。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-018",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "偏强",
+      "line_text": "你最好想清楚再开口。",
+      "acting_note": "语速偏慢，咬字清晰，压低声音。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-019",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "偏强",
+      "line_text": "我可以给你机会，也可以收回来。",
+      "acting_note": "直视镜头，句尾明确落下。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-020",
+      "category_id": "pressure_control",
+      "category_name": "压迫掌控",
+      "role_tags": [
+        "霸总",
+        "强势上司",
+        "掌权者"
+      ],
+      "emotion": "低压强势",
+      "intensity": "偏强",
+      "line_text": "我的底线，不是谁都能碰。",
+      "acting_note": "语速偏慢，咬字清晰，压低声音。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-021",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "你有没有哪怕一次，相信过我？",
+      "acting_note": "开口前短暂停顿，委屈压在声音里。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-022",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "原来你一直是这么想我的。",
+      "acting_note": "眼神略有动摇，声音轻，不要哭喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-023",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "我解释过，是你不愿意听。",
+      "acting_note": "开口前短暂停顿，委屈压在声音里。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-024",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "我等了你整整一夜。",
+      "acting_note": "眼神略有动摇，声音轻，不要哭喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-025",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "你明明知道，我最怕什么。",
+      "acting_note": "开口前短暂停顿，委屈压在声音里。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-026",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "中",
+      "line_text": "我没有你想得那么坚强。",
+      "acting_note": "眼神略有动摇，声音轻，不要哭喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-027",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "偏强",
+      "line_text": "我只是想听你说一句实话。",
+      "acting_note": "开口前短暂停顿，委屈压在声音里。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-028",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "偏强",
+      "line_text": "我以为你会站在我这边。",
+      "acting_note": "眼神略有动摇，声音轻，不要哭喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-029",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "偏强",
+      "line_text": "你可以不爱我，但别骗我。",
+      "acting_note": "开口前短暂停顿，委屈压在声音里。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-030",
+      "category_id": "restrained_grievance",
+      "category_name": "隐忍委屈",
+      "role_tags": [
+        "受伤主角",
+        "隐忍伴侣",
+        "被误解者"
+      ],
+      "emotion": "委屈克制",
+      "intensity": "偏强",
+      "line_text": "我已经没有力气再解释了。",
+      "acting_note": "眼神略有动摇，声音轻，不要哭喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-031",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "这次，我不会再回头了。",
+      "acting_note": "保持冷静，不要激烈表演。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-032",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "我们到此为止。",
+      "acting_note": "声音平静，结尾不要拖长。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-033",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "我不要你的补偿。",
+      "acting_note": "保持冷静，不要激烈表演。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-034",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "以后，各自珍重。",
+      "acting_note": "声音平静，结尾不要拖长。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-035",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "我已经决定了。",
+      "acting_note": "保持冷静，不要激烈表演。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-036",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "中",
+      "line_text": "你不用再挽留我。",
+      "acting_note": "声音平静，结尾不要拖长。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-037",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "偏强",
+      "line_text": "迟来的道歉，我不需要。",
+      "acting_note": "保持冷静，不要激烈表演。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-038",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "偏强",
+      "line_text": "我不是在赌气。",
+      "acting_note": "声音平静，结尾不要拖长。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-039",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "偏强",
+      "line_text": "我终于学会放过自己了。",
+      "acting_note": "保持冷静，不要激烈表演。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-040",
+      "category_id": "breakup_decision",
+      "category_name": "决绝分手",
+      "role_tags": [
+        "清醒主角",
+        "离婚妻子",
+        "失望恋人"
+      ],
+      "emotion": "决绝平静",
+      "intensity": "偏强",
+      "line_text": "这段关系，我退出。",
+      "acting_note": "声音平静，结尾不要拖长。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-041",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "你欠我的，我会一点一点拿回来。",
+      "acting_note": "压低声音，重点词略微加重。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-042",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "现在，该轮到你害怕了。",
+      "acting_note": "轻微冷笑后开口，声音稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-043",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "这只是开始。",
+      "acting_note": "压低声音，重点词略微加重。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-044",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "我回来，不是为了原谅你。",
+      "acting_note": "轻微冷笑后开口，声音稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-045",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "你做过的事，我一件都没忘。",
+      "acting_note": "压低声音，重点词略微加重。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-046",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "中",
+      "line_text": "别急，我们慢慢算。",
+      "acting_note": "轻微冷笑后开口，声音稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-047",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "偏强",
+      "line_text": "你以为我还是从前的我吗？",
+      "acting_note": "压低声音，重点词略微加重。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-048",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "偏强",
+      "line_text": "这一次，我不会再输。",
+      "acting_note": "轻微冷笑后开口，声音稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-049",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "偏强",
+      "line_text": "你最在意的，我会亲手拿走。",
+      "acting_note": "压低声音，重点词略微加重。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-050",
+      "category_id": "revenge_counterattack",
+      "category_name": "复仇反击",
+      "role_tags": [
+        "复仇主角",
+        "归来者",
+        "隐藏身份者"
+      ],
+      "emotion": "冷静锋利",
+      "intensity": "偏强",
+      "line_text": "好戏才刚刚开始。",
+      "acting_note": "轻微冷笑后开口，声音稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-051",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "你一直想找的人，就是我。",
+      "acting_note": "语气自然，不要刻意炫耀。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-052",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "重新认识一下，我才是这里的负责人。",
+      "acting_note": "沉稳开口，留出短暂停顿。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-053",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "这家公司，是我的。",
+      "acting_note": "语气自然，不要刻意炫耀。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-054",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "你手里的那份合同，是我签的。",
+      "acting_note": "沉稳开口，留出短暂停顿。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-055",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "不用猜了，是我安排的。",
+      "acting_note": "语气自然，不要刻意炫耀。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-056",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "中",
+      "line_text": "我从来没有离开过。",
+      "acting_note": "沉稳开口，留出短暂停顿。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-057",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "偏强",
+      "line_text": "你口中的那个人，就站在你面前。",
+      "acting_note": "语气自然，不要刻意炫耀。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-058",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "偏强",
+      "line_text": "现在，你知道我是谁了吗？",
+      "acting_note": "沉稳开口，留出短暂停顿。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-059",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "偏强",
+      "line_text": "这个位置，本来就属于我。",
+      "acting_note": "语气自然，不要刻意炫耀。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-060",
+      "category_id": "identity_reveal",
+      "category_name": "身份揭晓",
+      "role_tags": [
+        "隐藏大佬",
+        "失踪继承人",
+        "归来强者"
+      ],
+      "emotion": "沉稳揭晓",
+      "intensity": "偏强",
+      "line_text": "我没有隐瞒，只是你从没问过。",
+      "acting_note": "沉稳开口，留出短暂停顿。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-061",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "你是不是还有事情瞒着我？",
+      "acting_note": "尾音略沉，等待对方回答。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-062",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "你刚才为什么躲开我的眼睛？",
+      "acting_note": "轻微皱眉，语速中等。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-063",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "这句话，你自己信吗？",
+      "acting_note": "尾音略沉，等待对方回答。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-064",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "你到底在害怕什么？",
+      "acting_note": "轻微皱眉，语速中等。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-065",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "你认识他，对不对？",
+      "acting_note": "尾音略沉，等待对方回答。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-066",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "中",
+      "line_text": "你今天很不对劲。",
+      "acting_note": "轻微皱眉，语速中等。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-067",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "偏强",
+      "line_text": "你为什么突然改口？",
+      "acting_note": "尾音略沉，等待对方回答。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-068",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "偏强",
+      "line_text": "你确定，这就是全部真相？",
+      "acting_note": "轻微皱眉，语速中等。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-069",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "偏强",
+      "line_text": "你先告诉我，昨晚你在哪里。",
+      "acting_note": "尾音略沉，等待对方回答。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-070",
+      "category_id": "suspicion_probe",
+      "category_name": "试探怀疑",
+      "role_tags": [
+        "警惕主角",
+        "调查者",
+        "敏锐伴侣"
+      ],
+      "emotion": "怀疑试探",
+      "intensity": "偏强",
+      "line_text": "我再给你一次说实话的机会。",
+      "acting_note": "轻微皱眉，语速中等。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-071",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "没关系，你已经做得很好了。",
+      "acting_note": "轻微呼吸，表情温和。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-072",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "别怕，我在这里。",
+      "acting_note": "声音放柔，语速稍慢。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-073",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "慢一点，不着急。",
+      "acting_note": "轻微呼吸，表情温和。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-074",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "你可以不用一直逞强。",
+      "acting_note": "声音放柔，语速稍慢。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-075",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "累了就休息一下。",
+      "acting_note": "轻微呼吸，表情温和。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-076",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "中",
+      "line_text": "这次换我陪着你。",
+      "acting_note": "声音放柔，语速稍慢。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-077",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "偏强",
+      "line_text": "你不用一个人扛。",
+      "acting_note": "轻微呼吸，表情温和。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-078",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "偏强",
+      "line_text": "想哭就哭吧。",
+      "acting_note": "声音放柔，语速稍慢。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-079",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "偏强",
+      "line_text": "我不会走。",
+      "acting_note": "轻微呼吸，表情温和。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-080",
+      "category_id": "gentle_comfort",
+      "category_name": "温柔安慰",
+      "role_tags": [
+        "温柔恋人",
+        "医生",
+        "可靠朋友"
+      ],
+      "emotion": "温柔安抚",
+      "intensity": "偏强",
+      "line_text": "先照顾好自己，好吗？",
+      "acting_note": "声音放柔，语速稍慢。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-081",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "在你眼里，我到底算什么？",
+      "acting_note": "有情绪但不要喊叫。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-082",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "你们从来没有问过我愿不愿意。",
+      "acting_note": "压住情绪，逐渐加重语气。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-083",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "我不是你们安排的人生。",
+      "acting_note": "有情绪但不要喊叫。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-084",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "为什么每次妥协的人都是我？",
+      "acting_note": "压住情绪，逐渐加重语气。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-085",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "这个家，不是只有你会累。",
+      "acting_note": "有情绪但不要喊叫。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-086",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "中",
+      "line_text": "你只看见他的难处，那我呢？",
+      "acting_note": "压住情绪，逐渐加重语气。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-087",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "偏强",
+      "line_text": "我已经忍了很多年。",
+      "acting_note": "有情绪但不要喊叫。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-088",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "偏强",
+      "line_text": "你别再替我做决定。",
+      "acting_note": "压住情绪，逐渐加重语气。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-089",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "偏强",
+      "line_text": "我不是来听你指责我的。",
+      "acting_note": "有情绪但不要喊叫。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-090",
+      "category_id": "family_conflict",
+      "category_name": "家庭冲突",
+      "role_tags": [
+        "女儿",
+        "母亲",
+        "妻子",
+        "儿子"
+      ],
+      "emotion": "压抑爆发",
+      "intensity": "偏强",
+      "line_text": "这一次，我想为自己活。",
+      "acting_note": "压住情绪，逐渐加重语气。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-091",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "方案可以改，底线不能退。",
+      "acting_note": "表情冷静，语速稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-092",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "我只看结果。",
+      "acting_note": "专业、简洁，咬字清楚。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-093",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "这不是理由。",
+      "acting_note": "表情冷静，语速稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-094",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "数据不会替你说谎。",
+      "acting_note": "专业、简洁，咬字清楚。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-095",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "请你先回答核心问题。",
+      "acting_note": "表情冷静，语速稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-096",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "中",
+      "line_text": "风险我会承担，决定也由我来做。",
+      "acting_note": "专业、简洁，咬字清楚。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-097",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "偏强",
+      "line_text": "这份报告，你重新做。",
+      "acting_note": "表情冷静，语速稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-098",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "偏强",
+      "line_text": "合作可以继续，但条件要重谈。",
+      "acting_note": "专业、简洁，咬字清楚。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-099",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "偏强",
+      "line_text": "我需要的是解决方案，不是借口。",
+      "acting_note": "表情冷静，语速稳定。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-100",
+      "category_id": "workplace_confrontation",
+      "category_name": "职场交锋",
+      "role_tags": [
+        "女高管",
+        "律师",
+        "创业者",
+        "项目负责人"
+      ],
+      "emotion": "专业克制",
+      "intensity": "偏强",
+      "line_text": "今天下班前，我要看到结果。",
+      "acting_note": "专业、简洁，咬字清楚。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-101",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "别问了，先离开这里。",
+      "acting_note": "急切压低声音，动作保持克制。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-102",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "马上关掉手机。",
+      "acting_note": "语速略快但清楚，不要喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-103",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "你现在就走。",
+      "acting_note": "急切压低声音，动作保持克制。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-104",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "不要回头。",
+      "acting_note": "语速略快但清楚，不要喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-105",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "听我的，先上车。",
+      "acting_note": "急切压低声音，动作保持克制。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-106",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "中",
+      "line_text": "来不及解释了。",
+      "acting_note": "语速略快但清楚，不要喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-107",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "偏强",
+      "line_text": "他们已经发现你了。",
+      "acting_note": "急切压低声音，动作保持克制。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-108",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "偏强",
+      "line_text": "记住，千万别开门。",
+      "acting_note": "语速略快但清楚，不要喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-109",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "偏强",
+      "line_text": "你先保证自己的安全。",
+      "acting_note": "急切压低声音，动作保持克制。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-110",
+      "category_id": "crisis_urgency",
+      "category_name": "危机催促",
+      "role_tags": [
+        "保护者",
+        "调查者",
+        "逃亡者",
+        "医生"
+      ],
+      "emotion": "急切克制",
+      "intensity": "偏强",
+      "line_text": "到安全的地方再联系我。",
+      "acting_note": "语速略快但清楚，不要喊。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-111",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "你紧张什么，我又不会吃了你。",
+      "acting_note": "嘴角轻微变化，不要夸张。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-112",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "你今天怎么这么奇怪？",
+      "acting_note": "语气自然，带一点轻松调侃。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-113",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "行了，别装了。",
+      "acting_note": "嘴角轻微变化，不要夸张。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-114",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "你是不是又忘了？",
+      "acting_note": "语气自然，带一点轻松调侃。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-115",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "我就知道你靠不住。",
+      "acting_note": "嘴角轻微变化，不要夸张。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-116",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "中",
+      "line_text": "少来这套。",
+      "acting_note": "语气自然，带一点轻松调侃。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-117",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "偏强",
+      "line_text": "你先把嘴角压下去再说。",
+      "acting_note": "嘴角轻微变化，不要夸张。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-118",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "偏强",
+      "line_text": "我可什么都没答应。",
+      "acting_note": "语气自然，带一点轻松调侃。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-119",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "偏强",
+      "line_text": "你这人怎么这么会找借口？",
+      "acting_note": "嘴角轻微变化，不要夸张。",
+      "duration_hint": "10秒内单句"
+    },
+    {
+      "dialogue_id": "MANDARIN-120",
+      "category_id": "light_daily",
+      "category_name": "轻喜日常",
+      "role_tags": [
+        "欢喜冤家",
+        "室友",
+        "年轻情侣",
+        "同事"
+      ],
+      "emotion": "轻松自然",
+      "intensity": "偏强",
+      "line_text": "好吧，这次算你赢。",
+      "acting_note": "语气自然，带一点轻松调侃。",
+      "duration_hint": "10秒内单句"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "goal": "Guide an LLM to rewrite short-drama dialogue into natural regional spoken language before constructing a talking-video prompt.",
+  "default_policy": {
+    "mode": "light",
+    "max_spoken_units": 24,
+    "max_english_insertions": 2,
+    "preserve_intent": true,
+    "single_line_only": true,
+    "avoid_obscure_writing": true,
+    "avoid_stereotype_comedy": true
+  },
+  "decision_order": [
+    "Identify dramatic intent, relationship, emotional pressure, and scene formality.",
+    "Choose language profile from dialect_line_database.json.",
+    "Use a stored line when the intent matches.",
+    "For a new line, imitate the profile's lexical_patterns and existing examples.",
+    "Prefer light localization for leads and emotional scenes.",
+    "Use strong localization only when requested or when the role is regionally distinctive.",
+    "Return one spoken line plus a short delivery note.",
+    "Check that the line remains understandable and speakable within a 10-second clip."
+  ],
+  "hong_kong_code_switching": {
+    "profile": "香港粤语中英夹杂",
+    "light_rule": "Use natural Cantonese first. English insertion is optional and usually zero or one common spoken term.",
+    "strong_rule": "Use one or two natural English insertions at most. Keep Cantonese grammar as the base.",
+    "good_insertions": ["OK", "sorry", "check", "confirm", "call", "message", "deadline", "meeting", "plan", "problem", "close", "push", "relax", "show up"],
+    "avoid": [
+      "Do not translate every noun or verb into English.",
+      "Do not use English merely to sound fashionable.",
+      "Do not mix formal business English into intimate dialogue unless the character would naturally do so.",
+      "Do not exceed two English insertions in a short 10-second line."
+    ]
+  },
+  "required_output": {
+    "localized_line": "One speakable localized line.",
+    "accent_label": "Language profile used.",
+    "dialect_mode": "light or strong.",
+    "acting_note": "One restrained speaking-state note.",
+    "assumptions": "Only include when the user omitted important context."
+  }
+}

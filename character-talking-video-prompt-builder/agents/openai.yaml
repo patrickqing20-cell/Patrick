@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色说话视频 Prompt 构造器"
+  short_description: "根据角色形象与台词生成 10 秒纯人声说话视频 Prompt"
+  default_prompt: "Use $character-talking-video-prompt-builder to build a copy-ready 10-second talking-video prompt from my character image and dialogue."
