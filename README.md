@@ -1,138 +1,170 @@
-# Character Talking Video Prompt Builder
+<div align="center">
 
-> 「一张角色图，一句话，生成 10 秒真人说话视频 Prompt。」
+# 🎙️ character-talking-video-prompt-builder
 
-把角色立绘 + 一句台词，变成可直接粘贴到视频模型的完整 Prompt。支持普通话、粤语、四川话、东北话等多方言本地化，内置 120 条都市短剧台词库。
+> *"不是让角色说话，是让角色像人一样说话。"*
 
-基于开放的 Agent Skills 协议，可在 Claude Code、Codex、Cursor、OpenClaw、Qoder 等 50+ 兼容 runtime 中运行。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Prompt Only](https://img.shields.io/badge/Prompt_Only-No_API_Cost-brightgreen?style=flat-square)](#说明)
+[![Voice DNA](https://img.shields.io/badge/Voice_DNA-8_Dimensions-blueviolet?style=flat-square)](#voice-dna)
+[![Dialects](https://img.shields.io/badge/Dialects-8_Supported-orange?style=flat-square)](#方言本地化)
 
-[效果示例](#效果示例) · [安装](#安装) · [使用方法](#使用方法) · [核心能力](#核心能力) · [工作原理](#工作原理)
+<br>
+
+**把一张角色图 + 一句台词，变成带情绪、语气、停顿、气口的 speaking-video prompt。**
+
+<sub>适用于可灵、Wan、Sora 等视频模型的「人物开口」场景。<br>不生成视频，只负责把「人物说话这一刻」写对、写真、写活。</sub>
+
+<br>
+
+[效果示例](#效果示例) · [它解决什么问题](#它解决什么问题) · [它补了什么](#它补了什么) · [使用方式](#使用方式) · [安装](#安装)
+
+</div>
 
 ---
-
 
 ## 效果示例
 
-```
-输入图片：9:16 竖屏半身人像
-输入台词：「你终于来了。」
+### 示例一：都市情感 — 质问
 
-输出 Prompt ↓
-
-【主体】一位成熟男性，面部清晰可见，表情从平静转为微微皱眉
-【镜头】固定机位中近景，极缓慢推进，人物占画面 60-70%
-【表演】角色微微抬起头，嘴唇自然开合说出对白，眼神从期待变为失望
-【对白】"你终于来了。"——普通话，成熟男性嗓音，偏低音高，语速偏慢，
-       语气冷淡而克制，开口前停顿半秒
-【声音】仅人声对白，无背景音乐，无音效，无环境音
-【音频限制】不添加字幕、文字覆盖或水印
-【禁止】不做夸张肢体动作，不转头，不添加其他角色
-
-推荐设置：
-  Generate audio: true
-  Aspect ratio: 9:16
-  Duration: 10 seconds
-  Resolution: 720p
-```
-
-方言本地化示例——同一句台词，四川话版本：
+**普通 prompt：**
 
 ```
-输入台词：「你为什么不告诉我？」
-方言模式：四川话 · light
-
-输出台词：「你咋个不给我说嘛？」
-——保留原意，替换为四川话常用表达，语气自然不生硬
+一个年轻女生看着镜头说：你为什么不告诉我？
 ```
 
+**强化后：**
+
+```
+【主体】都市青年女性，28岁，五官精致但此刻眉头微蹙，眼眶泛红但没有流泪
+【镜头】9:16竖屏，中近景，固定机位极缓慢推进，人物居中直视镜头
+【表演】开口前停顿半秒，先压住一口气，眼神从回避到直视。前半句语速偏慢，
+       像在确认自己没有听错；后半句咬字明显变重，尾音轻微发颤。
+       不喊叫、不崩溃，保持体面中的受伤感。下巴微微收紧，嘴角向下绷住
+【对白】你为什么不告诉我？
+【声音】中高音域清亮但此刻压低了半个调，咬字克制精准，气声偏重，
+       尾音有不自觉的颤抖。语速偏慢，每个字之间有明显的犹豫间隙
+【音频限制】仅人声对白，无BGM，无环境音，无音效
+【禁止】无字幕，无多余台词，无第二人出现
+```
+
+差别不在「说了什么」，在**怎么说**。
 
 ---
 
+### 示例二：古装权谋 — 压迫
 
-## 安装
-
-### 方式一：一行命令（推荐）
-
-打开你正在用的 Agent（Claude Code、Codex、Cursor、Qoder 等），告诉它：
+**普通 prompt：**
 
 ```
-帮我安装这个 skill：https://github.com/patrickqing20-cell/Patrick
+一个古装男人冷冷地说：急什么，棋还没下完呢。
 ```
 
-或者用通用 CLI 安装器：
+**强化后：**
 
-```bash
-npx skills add patrickqing20-cell/Patrick
 ```
-
-### 方式二：手动安装
-
-```bash
-git clone https://github.com/patrickqing20-cell/Patrick.git
+【主体】中年男性，45岁，身着暗色官袍，面容沉稳不怒自威，双手交叠置于身前
+【镜头】9:16竖屏，中近景，固定机位，人物微偏三分面
+【表演】从始至终嘴角挂着一丝若有若无的笑意，但眼底没有任何温度。
+       说话时几乎不动，只有嘴唇在动。「急什么」语速极慢，每个字像棋子落盘；
+       「棋还没下完呢」尾音微微上扬，带一丝看透一切的不屑
+【对白】急什么，棋还没下完呢。
+【声音】中低音域浑厚沉稳，声线有砂砾质感。字正腔圆的古装配音腔，
+       吐字一板一眼不容置疑。语速极慢，气息绵长，每个字之间有刻意的停顿，
+       像是给对方留出恐惧蔓延的时间
+【音频限制】仅人声对白，无BGM，无环境音，无音效
+【禁止】无字幕，无多余台词，无第二人出现
 ```
-
-将 `character-talking-video-prompt-builder` 目录复制到你使用的 runtime 的 skills 目录：
-
-| Runtime | 安装路径 |
-| --- | --- |
-| Claude Code | `~/.claude/skills/character-talking-video-prompt-builder/` |
-| Codex CLI | `~/.codex/skills/character-talking-video-prompt-builder/` |
-| Cursor | `~/.cursor/skills/character-talking-video-prompt-builder/` |
-| OpenClaw | `~/.openclaw/workspace/skills/character-talking-video-prompt-builder/` |
-| Qoder | `.qoder/skills/character-talking-video-prompt-builder/` |
-
 
 ---
 
+### 示例三：港式中英夹杂 — 职场
 
-## 使用方法
-
-装好后，告诉 Agent：
+**普通 prompt：**
 
 ```
-> 把这张角色图做成说话视频，台词是「我等了你三年」
-> 帮我批量生成 5 个角色的说话视频 Prompt
-> 用粤语版本重新生成这段对白
-> 帮我写一段四川话的短剧台词
+一个女生用港式腔调说：你回来以后给我打电话。
 ```
 
+**强化后（方言本地化 · 港式中英夹杂 light）：**
+
+```
+【主体】都市青年女性，30岁，职业装，表情干练利落
+【镜头】9:16竖屏，中近景，固定机位
+【表演】说话时微微抬下巴，语气不容商量但不凶。眼神短暂移开又回来，
+       像在同时处理三件事。尾音干脆截断，说完立刻低头看手机
+【对白】你返嚟之后call我。
+【声音】中高音域明亮干脆，港式粤语节奏快而清晰，
+       「返嚟」自然连读，「call」轻咬不强调，整句一气呵成。
+       语速略快，带职场女性特有的果断感
+【音频限制】仅人声对白，无BGM，无环境音，无音效
+【禁止】无字幕，无多余台词，无第二人出现
+```
 
 ---
 
+## 它解决什么问题
 
-## 核心能力
+用视频模型生成「角色说话」片段时，你可能遇到过这些问题：
 
-### 七大模块 Prompt 构建
+| 😐 痛点 | 🎯 这个 Skill 的解法 |
+|---------|---------------------|
+| 模型只会**念台词**，不会**演台词** | 补齐表演状态：停顿、气口、咬字力度、眼神变化 |
+| 台词字面没错，但**没有情绪层次** | 强制双层情绪：「表面 X 实则 Y」 |
+| 角色说话**不像这个人设** | Voice DNA 8 维声音特征锁定角色声音人格 |
+| 方言/语气词一加就很假 | 内置 8 种方言本地化规则 + 120 条真人台词库 |
+| 不知道 prompt 该**写多细** | 固定 7 段结构模板，照着填就行 |
 
-每个输出严格遵循固定结构，确保视频模型理解一致：
+---
 
-| 模块 | 说明 |
-| --- | --- |
-| 【主体】 | 角色外貌、表情变化 |
-| 【镜头】 | 固定机位中近景 + 极缓慢推进 |
-| 【表演】 | 动作幅度克制，嘴唇自然开合 |
-| 【对白】 | Voice DNA 完整描述（音色/音高/语速/情绪） |
-| 【声音】 | 仅人声，无 BGM / 音效 / 环境音 |
-| 【音频限制】 | 无字幕、无文字覆盖 |
-| 【禁止】 | 不做夸张动作、不添加角色 |
+## 它补了什么
 
-### 方言本地化
+一般人写 speaking prompt 只写「谁说了什么」。这个 Skill 补齐了 **4 层**：
 
-不是简单加口音标签，而是真正改写台词表达：
+```
+┌────────────────────────────────────────┐
+│  Layer 4: 本地化层                      │
+│  普通话 / 粤语 / 四川话 / 东北话 /       │
+│  港式中英夹杂 / 河南话 / 陕西话 / 湖南话  │
+├────────────────────────────────────────┤
+│  Layer 3: 声音层 (Voice DNA)            │
+│  音高 · 音色 · 语速 · 咬字 ·            │
+│  情绪 · 气口 · 方言 · 年龄感             │
+├────────────────────────────────────────┤
+│  Layer 2: 情绪层                        │
+│  12 种情绪场景 × 双层情绪               │
+│  「表面克制 → 实则失控边缘」             │
+├────────────────────────────────────────┤
+│  Layer 1: 对白层                        │
+│  让一句话更适合被「说出来」而非被「读到」  │
+│  4-24 字 · 口语化 · 可演绎               │
+└────────────────────────────────────────┘
+```
 
-| 验证等级 | 方言 |
-| --- | --- |
-| 高可靠 | 普通话、粤语、香港粤语中英夹杂、四川话、东北话 |
-| 中可靠 | 河南话风格、陕西话风格、湖南话风格、山东话风格 |
-| 实验性 | 上海话风格 |
+---
 
-两种模式：
-- **light**（默认）：保留普通话骨架，点缀方言词汇
-- **strong**：深度方言改写，适合地域特色强烈的场景
+## Voice DNA
 
-### 120 条都市短剧台词库
+每个角色的声音由 **8 个维度** 定义：
 
-覆盖 12 种经典短剧情绪场景：
+| 维度 | 示例值 | 作用 |
+|------|--------|------|
+| `age_feel` | 青年感 / 成熟感 / 年长感 | 声线基底 |
+| `gender` | 女性表达 / 男性表达 / 中性 | 音域范围 |
+| `pitch` | 偏低 / 中等 / 偏高 | 音高定位 |
+| `timbre` | 温润 / 冷淡 / 沙哑 / 清亮 / 厚重 | 声音质感 |
+| `speed` | 偏慢 / 中等 / 略快 | 语速节奏 |
+| `articulation` | 清晰 / 松弛 / 克制 / 强势 | 咬字风格 |
+| `emotion` | 平静 / 坚定 / 委屈 / 犹豫 / 压迫 | 情绪基调 |
+| `breath_pause` | 开口前停顿半秒，先吸气再说 | 气口设计 |
+
+缺少任何一个维度，Agent 会根据角色人设**自动推断**一个克制值，不会空着。
+
+---
+
+## 12 种情绪场景
+
+内置 **120 条** 都市短剧台词库，覆盖 12 种核心情绪场景：
 
 ```
 冷淡疏离 · 压迫掌控 · 隐忍委屈 · 决绝分手
@@ -140,91 +172,161 @@ git clone https://github.com/patrickqing20-cell/Patrick.git
 家庭冲突 · 职场交锋 · 危机催促 · 轻喜日常
 ```
 
-可选择已有台词保证批量稳定性，也可以台词库为风格参考让 LLM 生成新台词。
+每个场景都有可直接使用的台词，也可以用台词库作为 few-shot 参考让 LLM 生成新台词。
 
-### 批量 CSV 输出
+---
 
-一次处理整个角色库，输出可直接导入视频平台的 CSV：
+## 方言本地化
+
+不是在普通话上面贴方言标签，而是**真正改写台词**：
+
+| 方言 | 模型验证度 | 示例 |
+|------|-----------|------|
+| 普通话 | 🟢 高 | 你为什么不告诉我？ |
+| 粤语 | 🟢 高 | 你点解唔话我知？ |
+| 港式中英夹杂 | 🟢 高 | 你返嚟之后 call 我 |
+| 四川话 | 🟢 高 | 你啷个不跟我说嘛？ |
+| 东北话 | 🟢 高 | 你咋不告诉我呢？ |
+| 河南话风格 | 🟡 中 | 你咋不给我说嘞？ |
+| 陕西话风格 | 🟡 中 | 你咋不给我说呢么？ |
+| 湖南话风格 | 🟡 中 | 你哪门子不跟我讲？ |
+
+支持 `light`（轻度口音，大众可懂）和 `strong`（浓重地方味，适合配角/喜剧）两种模式。
+
+---
+
+## 输出格式
+
+每次输出一个**可直接粘贴到视频模型 prompt 框**的 7 段结构：
+
+```text
+【主体】角色外貌、年龄、服装、当前状态
+【镜头】9:16竖屏 · 中近景 · 固定机位缓慢推进
+【表演】微表情、肢体语言、眼神变化、表演节奏
+【对白】4-24字 · 一句话 · 口语化
+【声音】Voice DNA 8维描述
+【音频限制】仅人声 · 无BGM · 无音效 · 无环境音
+【禁止】无字幕 · 无多余台词 · 无第二人
+```
+
+也支持**批量 CSV 输出**，适合角色库批量生产：
+
+```text
+character_id, image_path, line_text, accent, dialect_mode, prompt, ...
+```
+
+---
+
+## 使用方式
+
+装好后，在 Agent 里直接说：
+
+```
+给这个角色图生成一个说话视频 prompt
+```
+
+```
+把这句台词改得更有真人感，带停顿和情绪
+```
+
+```
+用四川话改写这句对白：你为什么不告诉我？
+```
+
+```
+给我生成 5 条短剧女主的说话 prompt，情绪分别是隐忍、爆发、释然、冷漠、撒娇
+```
+
+```
+这个角色图，帮我生成一段 10 秒的对镜说话 prompt，台词自己配
+```
+
+---
+
+## 安装
+
+### 方式一：直接告诉你的 Agent
+
+```
+帮我安装这个 skill：https://github.com/patrickqing20-cell/Patrick
+```
+
+### 方式二：手动 clone
 
 ```bash
-python scripts/build_talking_video_prompt.py \
-  --input-csv characters.csv \
-  --output-csv talking-video-prompts.csv
+git clone https://github.com/patrickqing20-cell/Patrick.git
 ```
 
-输出字段：`character_id, image_path, source_line_text, line_text, accent, dialect_mode, prompt, Generate audio, Aspect ratio, Duration, Resolution, Seed`
-
+Skill 文件在 `character-talking-video-prompt-builder/` 目录下。
 
 ---
 
+## 它不做什么
 
-## 工作原理
+诚实边界，这很重要：
 
-这个 Skill 不调用任何付费 API，纯 Prompt 工程。工作流程：
-
-1. **图片校验** —— 检查是否为 9:16 单人中近景，嘴部无遮挡，背景简洁
-2. **Voice DNA 推断** —— 从角色形象推断音色、音高、语速等缺失字段
-3. **Prompt 构建** —— 按七大模块严格组装，确保视频模型可理解
-4. **方言本地化** —— 匹配方言数据库，生成自然地道的本地化台词
-5. **输出格式化** —— 单条 Prompt 或批量 CSV，可直接复制使用
-
-默认参数锁定：
-
-```
-时长：10 秒
-画面比例：9:16
-镜头：单人中近景 + 固定机位极缓推进
-音频：仅人声对白
-音乐/音效/环境音：无
-字幕/文字：无
-```
-
+- ❌ **不生成视频** — 只输出 prompt，不调用付费 API
+- ❌ **不替你写剧本** — 只管「说话这一刻」，不管前因后果
+- ❌ **不保证 100% 还原** — 但显著提升「像真人在说话」的概率
+- ❌ **不是配音工具** — 不生成音频，只描述声音应该是什么样
 
 ---
-
 
 ## 仓库结构
 
 ```
 character-talking-video-prompt-builder/
-├── SKILL.md                              # Skill 主文件（Prompt 工程核心）
+├── SKILL.md                          # 核心规则文档
 ├── agents/
-│   └── openai.yaml                       # OpenAI Agent 配置
+│   └── openai.yaml                   # Agent 配置
 ├── assets/
-│   ├── dialect_line_database.json        # 方言台词数据库
-│   ├── dialect_line_database.csv         # 方言台词数据库（CSV 版）
-│   ├── language_generation_rules.json    # 语言生成规则
-│   ├── mandarin_urban_dialogue_database.json  # 普通话都市台词库（120条）
-│   └── mandarin_urban_dialogue_database.csv   # 普通话都市台词库（CSV 版）
+│   ├── dialect_line_database.json    # 方言台词库
+│   ├── mandarin_urban_dialogue_database.json  # 120条都市台词库
+│   └── language_generation_rules.json # 方言生成规则
 ├── references/
-│   ├── prompt-patterns.md               # Prompt 模板与模式
-│   ├── dialect-guidelines.md            # 方言本地化指南
-│   └── mandarin-dialogue-guidelines.md  # 普通话台词创作指南
+│   ├── prompt-patterns.md            # Prompt 模板参考
+│   ├── mandarin-dialogue-guidelines.md # 普通话台词指南
+│   └── dialect-guidelines.md         # 方言本地化指南
 └── scripts/
-    ├── build_talking_video_prompt.py     # 核心：生成说话视频 Prompt
-    ├── build_llm_localization_instruction.py  # 生成方言本地化指令
-    ├── build_mandarin_dialogue_database.py    # 构建普通话台词库
-    ├── build_mandarin_dialogue_instruction.py # 生成普通话台词创作指令
-    ├── export_dialect_database.py             # 导出方言数据库
-    └── select_mandarin_dialogue.py            # 从台词库采样
+    ├── build_talking_video_prompt.py  # 单条/批量 prompt 构建
+    ├── build_mandarin_dialogue_instruction.py  # LLM 台词生成指令
+    ├── build_llm_localization_instruction.py   # LLM 方言化指令
+    ├── select_mandarin_dialogue.py    # 台词库采样
+    └── export_dialect_database.py     # 方言库导出
 ```
 
+---
+
+## 适用场景
+
+- 🎬 短剧角色开口视频
+- 🗣️ 单人对镜讲话
+- 📱 图生视频的「人物说话」段
+- 🎭 情绪对白 / 冲突台词 / 独白
+- 🏭 批量角色资产的 speaking prompt 生产
 
 ---
 
+## 关于
 
-## 关于作者
+**Patrick / 青山** — AI 创作工具链构建者
 
-**Patrick 青山** — AI 效果运营 @ 阿里巴巴夸克，专注于 AI 生图生视频的创作工具与 Prompt 工程。
-
-| 平台 | 链接 |
-| --- | --- |
-| 🐙 GitHub | [patrickqing20-cell](https://github.com/patrickqing20-cell) |
-
+专注于 AIGC 视频生产链路中的「最后一公里」：让 AI 生成的角色不只是动起来，而是**活过来**。
 
 ---
 
+<div align="center">
 
-## 许可证
+AI 能让角色动起来。<br>
+但让角色**像人一样说话**，需要的不是更强的模型，<br>
+而是更懂「人怎么说话」的 prompt。
 
-MIT — 随便用，随便改，随便造。
+<br>
+
+*不是让角色说话，是让角色像人一样说话。*
+
+<br>
+
+MIT License © Patrick
+
+</div>
