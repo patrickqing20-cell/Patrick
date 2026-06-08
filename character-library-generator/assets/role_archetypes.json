@@ -1,0 +1,2930 @@
+[
+  {
+    "archetype_id": "ROLE-001",
+    "category": "都市爱情",
+    "role_name": "霸道总裁",
+    "visual_traits": "棱角分明、剑眉星目、180+修长、偏分背头、薄唇冷峻",
+    "outfit": "黑色三件套定制西装、白衬衫解扣、名表(百达翡丽)、锃亮皮鞋、袖扣",
+    "common_scenes": "高层落地窗办公室、迈巴赫后座、高端酒会、私人别墅"
+  },
+  {
+    "archetype_id": "ROLE-002",
+    "category": "都市爱情",
+    "role_name": "高冷禁欲男",
+    "visual_traits": "清冷疏离、白皙近苍白、清瘦骨感、自然黑短发、薄唇微抿",
+    "outfit": "黑色高领毛衣、深色羊绒大衣、黑白灰极简、质感高级",
+    "common_scenes": "书房/图书馆、雨天落地窗前、医院走廊、大学讲台"
+  },
+  {
+    "archetype_id": "ROLE-003",
+    "category": "都市爱情",
+    "role_name": "温柔竹马",
+    "visual_traits": "温润儒雅、邻家感、干净微笑、中等身材、眉眼温和",
+    "outfit": "针织衫/衬衫、卡其米色系、帆布包/书本、干净球鞋",
+    "common_scenes": "咖啡厅角落、公园长椅、超市偶遇、雨天送伞"
+  },
+  {
+    "archetype_id": "ROLE-004",
+    "category": "都市爱情",
+    "role_name": "日久生情暖男",
+    "visual_traits": "阳光干净、笑容治愈、身材匀称、短发清爽",
+    "outfit": "白T恤+牛仔裤、休闲夹克、帆布鞋、简约手表",
+    "common_scenes": "便利店偶遇、地铁站、公司茶水间、深夜陪加班"
+  },
+  {
+    "archetype_id": "ROLE-005",
+    "category": "都市爱情",
+    "role_name": "腹黑律师",
+    "visual_traits": "五官深邃精致、戴金丝眼镜、嘴角似笑非笑、气场强大",
+    "outfit": "深蓝/灰色修身西装、领带夹、公文包、皮质手表带",
+    "common_scenes": "律所会议室、法庭辩论席、高档餐厅谈案、书房堆满卷宗"
+  },
+  {
+    "archetype_id": "ROLE-006",
+    "category": "都市爱情",
+    "role_name": "外科医生",
+    "visual_traits": "面容俊朗严肃、眼神专注锐利、双手修长、身材高挑",
+    "outfit": "白大褂、手术服(蓝/绿)、听诊器挂脖、运动鞋(值班)",
+    "common_scenes": "手术室无影灯下、病房走廊、医生办公室、急诊室"
+  },
+  {
+    "archetype_id": "ROLE-007",
+    "category": "都市爱情",
+    "role_name": "大学教授",
+    "visual_traits": "儒雅书卷气、微卷中长发、戴眼镜、气质温和深沉",
+    "outfit": "灰色/棕色针织衫+衬衫、卡其裤、牛津鞋、皮质手提包",
+    "common_scenes": "大学讲台、图书馆、研究室、校园林荫道"
+  },
+  {
+    "archetype_id": "ROLE-008",
+    "category": "都市爱情",
+    "role_name": "钢琴家",
+    "visual_traits": "白皙修长手指、五官精致偏忧郁、气质出尘、发型微卷",
+    "outfit": "黑色燕尾服/修身西装、白衬衫、领结、漆皮鞋",
+    "common_scenes": "音乐厅舞台、琴房练习、雨天窗前弹琴、欧式客厅"
+  },
+  {
+    "archetype_id": "ROLE-009",
+    "category": "都市爱情",
+    "role_name": "独立女主",
+    "visual_traits": "明艳大气、眉眼英气、高马尾、裸妆精致、眼神坚定",
+    "outfit": "职业套装(西装+阔腿裤)、尖头高跟鞋、质感手提包、小耳钉",
+    "common_scenes": "写字楼会议室、咖啡厅办公、商业谈判桌、创业公司"
+  },
+  {
+    "archetype_id": "ROLE-010",
+    "category": "都市爱情",
+    "role_name": "职场精英女",
+    "visual_traits": "干练利落、中长直发、妆容精致不浓、身姿挺拔",
+    "outfit": "铅笔裙套装、丝质衬衫、细高跟、质感耳钉项链",
+    "common_scenes": "CBD写字楼、提案现场、商务午餐、出差高铁"
+  },
+  {
+    "archetype_id": "ROLE-011",
+    "category": "都市爱情",
+    "role_name": "前妻",
+    "visual_traits": "憔悴中带坚韧、素颜疲惫、发丝凌乱或简单扎起",
+    "outfit": "朴素家居服(前期)→逆袭后精致套装、围裙→高跟鞋",
+    "common_scenes": "离婚法庭、独自租房、接送孩子校门口→高端场合重逢"
+  },
+  {
+    "archetype_id": "ROLE-012",
+    "category": "都市爱情",
+    "role_name": "离异母亲",
+    "visual_traits": "眼角有疲惫但温柔、素面朝天、身形偏瘦",
+    "outfit": "简单T恤牛仔裤、平底鞋、背妈咪包、无多余首饰",
+    "common_scenes": "幼儿园门口、超市买菜、深夜加班、出租屋"
+  },
+  {
+    "archetype_id": "ROLE-013",
+    "category": "都市爱情",
+    "role_name": "灰姑娘女主",
+    "visual_traits": "清纯可爱、圆脸大眼、皮肤白净、笑容甜美但怯生生",
+    "outfit": "朴素棉质衣服、平价运动鞋、无品牌背包、马尾辫",
+    "common_scenes": "打工餐厅/咖啡店、拥挤地铁、老旧出租屋、意外闯入豪门"
+  },
+  {
+    "archetype_id": "ROLE-014",
+    "category": "都市爱情",
+    "role_name": "白莲花(反派)",
+    "visual_traits": "清纯无辜大眼、肤白如纸、楚楚可怜、泪点低",
+    "outfit": "白色碎花裙、浅色系甜美穿搭、蝴蝶结发饰、帆布鞋",
+    "common_scenes": "男主面前装柔弱、楼梯口'不小心'摔倒、医院假装生病"
+  },
+  {
+    "archetype_id": "ROLE-015",
+    "category": "都市爱情",
+    "role_name": "拜金前女友(反派)",
+    "visual_traits": "浓妆艳抹、网红脸、身材前凸后翘、表情傲慢",
+    "outfit": "大牌logo外露、名牌包包、高跟鞋、夸张墨镜",
+    "common_scenes": "名品店扫货、新男友跑车旁炫耀、同学会秀优越"
+  },
+  {
+    "archetype_id": "ROLE-016",
+    "category": "都市爱情",
+    "role_name": "心机闺蜜(反派)",
+    "visual_traits": "容貌不输女主、笑容亲切实则精于算计、善于模仿女主",
+    "outfit": "穿搭紧跟潮流、略显刻意精致、暗暗超越女主的品味",
+    "common_scenes": "闺蜜下午茶套话、暗中接近男主、关键时刻背刺"
+  },
+  {
+    "archetype_id": "ROLE-017",
+    "category": "都市爱情",
+    "role_name": "恶婆婆(反派)",
+    "visual_traits": "面相刻薄、嘴角下撇、法令纹深、目光审视",
+    "outfit": "暗色旗袍/套装、金饰翡翠、烫卷短发、珍珠项链",
+    "common_scenes": "饭桌上指桑骂槐、婚房里立规矩、背后拆散小两口"
+  },
+  {
+    "archetype_id": "ROLE-018",
+    "category": "都市爱情",
+    "role_name": "富家长辈(反派)",
+    "visual_traits": "威严端正、不怒自威、银发梳理整齐、西装笔挺",
+    "outfit": "定制西装/旗袍、名贵手表、翡翠/玉扳指、拐杖(老年)",
+    "common_scenes": "集团董事会、家族大宅客厅、私人医院病房、律师见证遗嘱"
+  },
+  {
+    "archetype_id": "ROLE-019",
+    "category": "都市爱情",
+    "role_name": "秘书助理",
+    "visual_traits": "干练精明、中长发扎低马尾、妆容得体、随时待命状态",
+    "outfit": "OL套装(黑/灰/白)、平板电脑不离手、耳麦、中跟鞋",
+    "common_scenes": "总裁身后半步、会议室安排日程、车旁开门、接打电话"
+  },
+  {
+    "archetype_id": "ROLE-020",
+    "category": "都市爱情",
+    "role_name": "司机保镖",
+    "visual_traits": "身材魁梧壮实、面容刚毅寡言、寸头/板寸、站姿笔直",
+    "outfit": "黑色西装套装、耳麦、墨镜、皮鞋、西装内别枪套",
+    "common_scenes": "豪车驾驶座、总裁身旁站岗、停车场巡视、替老板挡刀"
+  },
+  {
+    "archetype_id": "ROLE-021",
+    "category": "都市爱情",
+    "role_name": "情敌富二代(反派)",
+    "visual_traits": "相貌普通自觉帅、油头粉面、表情轻浮嚣张",
+    "outfit": "花哨名牌堆砌、大金链金表、跑车钥匙外露",
+    "common_scenes": "同学会炫耀、女主面前挑衅、KTV包间闹事"
+  },
+  {
+    "archetype_id": "ROLE-022",
+    "category": "都市爱情",
+    "role_name": "小奶狗男友",
+    "visual_traits": "面容青涩可爱、比女主年轻、大眼睛+婴儿肥、笑容灿烂",
+    "outfit": "卫衣+牛仔裤、运动鞋、棒球帽、双肩包",
+    "common_scenes": "校园操场追女主、便利店买早餐、路边撑伞等人"
+  },
+  {
+    "archetype_id": "ROLE-023",
+    "category": "都市爱情",
+    "role_name": "年下追妻男",
+    "visual_traits": "五官精致偏少年感、身高优势但气质青涩、眼神执着",
+    "outfit": "干净休闲装、白T恤、运动外套、学生气穿搭",
+    "common_scenes": "公司楼下等人、各种借口制造偶遇、深夜接加班的女主"
+  },
+  {
+    "archetype_id": "ROLE-024",
+    "category": "都市爱情",
+    "role_name": "契约丈夫",
+    "visual_traits": "外表冷淡克制、英俊但表情疏离、不主动亲近",
+    "outfit": "居家时休闲衬衫+居家裤、外出时精英西装",
+    "common_scenes": "共同住所各占一边、民政局签协议、假装恩爱的公众场合"
+  },
+  {
+    "archetype_id": "ROLE-025",
+    "category": "都市爱情",
+    "role_name": "假结婚对象",
+    "visual_traits": "条件优越但性格有缺陷、帅气+冷漠/毒舌",
+    "outfit": "高定西装(工作)、T恤短裤(在家反差)、运动装(意外暴露好身材)",
+    "common_scenes": "父母安排相亲、同居生活磨合、被拍到的公开场合"
+  },
+  {
+    "archetype_id": "ROLE-026",
+    "category": "都市爱情",
+    "role_name": "暗恋备胎",
+    "visual_traits": "温和不起眼、总在角落默默注视、长相中上但存在感低",
+    "outfit": "朴素低调穿搭、随身带着为女主准备的东西(伞/外套)",
+    "common_scenes": "远处默默看着、替女主挡酒/出头后默默离开、深夜接到电话立刻出现"
+  },
+  {
+    "archetype_id": "ROLE-027",
+    "category": "女性成长",
+    "role_name": "觉醒大女主",
+    "visual_traits": "前：素面憔悴眼圈黑、头发邋遢；后：容光焕发、气场全开",
+    "outfit": "前：旧T恤围裙拖鞋；后：修身西装+高跟+精致配饰+红唇",
+    "common_scenes": "前：凌乱厨房、菜市场；后：律师事务所、法庭、自己公司"
+  },
+  {
+    "archetype_id": "ROLE-028",
+    "category": "女性成长",
+    "role_name": "隐忍妻子",
+    "visual_traits": "面容疲惫显老、眼睛红肿(常哭)、身形消瘦",
+    "outfit": "围裙+旧家居服、素色棉布衣、平底布鞋、无首饰",
+    "common_scenes": "厨房灶台、被婆婆训斥的客厅、深夜独自流泪的阳台"
+  },
+  {
+    "archetype_id": "ROLE-029",
+    "category": "女性成长",
+    "role_name": "马甲大佬女主",
+    "visual_traits": "日常：圆脸大眼清纯无害；揭马甲：气场全开眼神凌厉",
+    "outfit": "日常：卫衣牛仔裤；大佬态：黑色西装/高定礼服+精致盘发",
+    "common_scenes": "日常：大学校园、路边摊；揭马甲：国际会议、手术室、赛车场"
+  },
+  {
+    "archetype_id": "ROLE-030",
+    "category": "女性成长",
+    "role_name": "穿越者(女)",
+    "visual_traits": "现代灵魂古代躯体、表情夸张现代化、气质与周围格格不入",
+    "outfit": "穿越初期穿着睡衣到古代(反差搞笑)→古装穿出现代时尚感",
+    "common_scenes": "穿越瞬间(摔崖/落水)、用现代知识震惊古人的各种场合"
+  },
+  {
+    "archetype_id": "ROLE-031",
+    "category": "女性成长",
+    "role_name": "重生女主",
+    "visual_traits": "同样面容但眼神从天真变深沉、嘴角带意味深长的冷笑",
+    "outfit": "前世朴素→重生后逐渐精致、色系从暗沉变明亮、红色象征觉醒",
+    "common_scenes": "重生瞬间(病床睁眼)、重新面对当年关键抉择、主动改变命运"
+  },
+  {
+    "archetype_id": "ROLE-032",
+    "category": "女性成长",
+    "role_name": "被欺压的媳妇",
+    "visual_traits": "面容憔悴操劳、双手粗糙、弯腰驼背、眼神胆怯",
+    "outfit": "旧围裙+拖鞋、破旧家居服、头发乱糟糟随意扎起",
+    "common_scenes": "厨房刷碗做饭、跪着擦地板、饭桌上被数落、门外偷听哭泣"
+  },
+  {
+    "archetype_id": "ROLE-033",
+    "category": "女性成长",
+    "role_name": "被替换的真千金",
+    "visual_traits": "灰头土脸但遮不住天生丽质、气质与贫困环境不符",
+    "outfit": "前期：粗布衣/工作服；回归后：名媛套装+珠宝加身",
+    "common_scenes": "前期：工厂/小餐馆打工；回归：DNA鉴定室→豪门大宅→名流派对"
+  },
+  {
+    "archetype_id": "ROLE-034",
+    "category": "女性成长",
+    "role_name": "隐退富婆/董事长",
+    "visual_traits": "保养极好但刻意朴素、眼神深邃从容、举止间尽显上位者气质",
+    "outfit": "低调但质感极好的衣服(无logo但面料顶级)、老花镜、简约首饰",
+    "common_scenes": "伪装成普通老太太、菜市场买菜、关键时刻一个电话惊动全城"
+  },
+  {
+    "archetype_id": "ROLE-035",
+    "category": "女性成长",
+    "role_name": "极品婆婆(反派)",
+    "visual_traits": "面相刻薄尖酸、嘴角下撇、指手画脚的姿态",
+    "outfit": "暗色衣服+金饰、烫发、厚底皮鞋",
+    "common_scenes": "儿子家颐指气使、逼媳妇伺候、偷看/翻媳妇东西"
+  },
+  {
+    "archetype_id": "ROLE-036",
+    "category": "女性成长",
+    "role_name": "渣男前夫(反派)",
+    "visual_traits": "油头粉面、表面精致实则虚伪、眼神闪躲",
+    "outfit": "名牌西装外套、发蜡梳得精致、身上有女人香水味",
+    "common_scenes": "净身出户后又回来找前妻要钱、带小三炫耀、法庭上狡辩"
+  },
+  {
+    "archetype_id": "ROLE-037",
+    "category": "女性成长",
+    "role_name": "绿茶小三(反派)",
+    "visual_traits": "年轻貌美、浓妆网红脸、身材暴露、装无辜大眼",
+    "outfit": "短裙/紧身装、奢侈品包包、夸张美甲、高跟鞋",
+    "common_scenes": "挽着有妇之夫逛街、在正宫面前示威、假装受欺负发朋友圈"
+  },
+  {
+    "archetype_id": "ROLE-038",
+    "category": "女性成长",
+    "role_name": "偏心父母(反派)",
+    "visual_traits": "看儿子慈眉善目/看女儿横眉冷对、精神头十足(骂人时)",
+    "outfit": "朴素家常服装",
+    "common_scenes": "饭桌上区别对待、逼女儿出钱给儿子买房、女儿成功后反过来哭求"
+  },
+  {
+    "archetype_id": "ROLE-039",
+    "category": "女性成长",
+    "role_name": "吸血弟弟(反派)",
+    "visual_traits": "好吃懒做面相、偏胖或瘦弱(不劳动)、眼神贪婪",
+    "outfit": "穿着姐姐买的名牌、打游戏宅在家、邋遢居家装",
+    "common_scenes": "家里躺着玩手机、找姐姐要钱、闯祸后让家人擦屁股"
+  },
+  {
+    "archetype_id": "ROLE-040",
+    "category": "女性成长",
+    "role_name": "心机女配(反派)",
+    "visual_traits": "容貌不差但总带嫉妒表情、笑不达眼",
+    "outfit": "模仿女主穿搭但略显刻意/便宜感",
+    "common_scenes": "在领导面前抢功、散播女主谣言、假意关心实则套话"
+  },
+  {
+    "archetype_id": "ROLE-041",
+    "category": "女性成长",
+    "role_name": "职场女强人",
+    "visual_traits": "气场两米八、冷面御姐、精致利落、不苟言笑",
+    "outfit": "全套高定职业装、黑色系为主、细高跟、墨镜、大牌手表",
+    "common_scenes": "董事会发号施令、商务谈判桌、高层办公室、私人飞机"
+  },
+  {
+    "archetype_id": "ROLE-042",
+    "category": "女性成长",
+    "role_name": "创业女boss",
+    "visual_traits": "兼具干练与亲和力、短发或齐肩发、妆容利落",
+    "outfit": "简约质感穿搭(黑白灰)、平底鞋或中跟(忙碌)、Always拿手机",
+    "common_scenes": "创业公司办公区、路演现场、投资人咖啡厅、通宵加班"
+  },
+  {
+    "archetype_id": "ROLE-043",
+    "category": "女性成长",
+    "role_name": "律师(女)",
+    "visual_traits": "知性优雅、长发或盘发、框架眼镜可有可无",
+    "outfit": "深色西装套裙、白衬衫、公文包、低跟鞋",
+    "common_scenes": "律所办公室、法庭辩护席、监狱探视室、深夜翻卷宗"
+  },
+  {
+    "archetype_id": "ROLE-044",
+    "category": "女性成长",
+    "role_name": "法官(女)",
+    "visual_traits": "端正严肃、不带情绪的面容、气质威严",
+    "outfit": "法袍+法槌、黑色套装(日常)、发型规整(盘发/短发)",
+    "common_scenes": "审判庭法台、合议室讨论、法院走廊"
+  },
+  {
+    "archetype_id": "ROLE-045",
+    "category": "女性成长",
+    "role_name": "女侦探",
+    "visual_traits": "目光锐利善于观察、五官精致但不化浓妆、身手矫健",
+    "outfit": "黑色风衣/皮夹克、平底靴、随身小包(装备)、简单扎发",
+    "common_scenes": "案发现场、跟踪嫌疑人的街道、凌乱办公桌(线索板)"
+  },
+  {
+    "archetype_id": "ROLE-046",
+    "category": "女性成长",
+    "role_name": "闺蜜团",
+    "visual_traits": "性格各异的2-3人组合(一活泼一安静一毒舌)",
+    "outfit": "风格各异但都时尚：闺蜜A运动风/B甜美风/C御姐风",
+    "common_scenes": "火锅局、逛街、酒吧吐槽渣男、帮女主出谋划策"
+  },
+  {
+    "archetype_id": "ROLE-047",
+    "category": "女性成长",
+    "role_name": "正义路人甲",
+    "visual_traits": "普通面容但表情正直热心、邻家感",
+    "outfit": "日常休闲装、普通打工人穿搭",
+    "common_scenes": "关键时刻挺身而出帮女主说话、目击不公路见不平"
+  },
+  {
+    "archetype_id": "ROLE-048",
+    "category": "女性成长",
+    "role_name": "暖男新男友",
+    "visual_traits": "阳光帅气不油腻、笑容温暖、穿搭干净",
+    "outfit": "休闲衬衫/针织衫、干净牛仔裤、白色运动鞋",
+    "common_scenes": "下雨天递伞、加班后送夜宵、女主低谷时陪伴"
+  },
+  {
+    "archetype_id": "ROLE-049",
+    "category": "女性成长",
+    "role_name": "工具人总裁",
+    "visual_traits": "帅气多金但出场不多、存在感为女主逆袭服务",
+    "outfit": "标准总裁西装三件套、不苟言笑",
+    "common_scenes": "关键时刻出场递资源、为女主挡人、商务场合给女主撑腰"
+  },
+  {
+    "archetype_id": "ROLE-050",
+    "category": "男频逆袭/都市日常",
+    "role_name": "隐退战神/兵王",
+    "visual_traits": "身材魁梧健硕、面容刚毅有疤、眼神如鹰、肤色偏黝黑、寸头",
+    "outfit": "日常：旧军绿T恤+迷彩裤+军靴；亮身份：笔挺军装+肩章勋章",
+    "common_scenes": "退伍归来火车站、岳父家被嘲的饭桌、军用直升机突然出现"
+  },
+  {
+    "archetype_id": "ROLE-051",
+    "category": "男频逆袭/都市日常",
+    "role_name": "赘婿",
+    "visual_traits": "前期：面容普通含胸低头；后期：抬头挺胸气质大变帅气逼人",
+    "outfit": "前期：岳父给的旧衣服+围裙；后期：顶级定制西装+名表豪车",
+    "common_scenes": "岳父家餐桌被羞辱、厨房洗碗→商业场合亮明身份碾压全场"
+  },
+  {
+    "archetype_id": "ROLE-052",
+    "category": "男频逆袭/都市日常",
+    "role_name": "龙王归来",
+    "visual_traits": "兼具军人刚毅和王者贵气、五官深邃、185+、蓄短须增沧桑",
+    "outfit": "归来：黑色长风衣全身暗色系；亮身份：龙纹中式立领+龙形玉佩/戒指",
+    "common_scenes": "深夜独自归来街头、万人朝拜的盛大场面、悬崖海边回忆"
+  },
+  {
+    "archetype_id": "ROLE-053",
+    "category": "男频逆袭/都市日常",
+    "role_name": "退伍特种兵",
+    "visual_traits": "肌肉健硕但不夸张、晒痕明显、伤疤、寸头利落、站姿标准",
+    "outfit": "紧身黑T恤+工装裤+军靴(日常)、偶尔穿迷彩",
+    "common_scenes": "退伍回乡的大巴、保护嫂子/战友家属、单挑一群混混的巷子"
+  },
+  {
+    "archetype_id": "ROLE-054",
+    "category": "男频逆袭/都市日常",
+    "role_name": "外卖员",
+    "visual_traits": "面容疲惫但底子好、皮肤偏黑(风吹日晒)、身材精瘦有力",
+    "outfit": "黄色/蓝色骑手服+头盔、电动车标配→逆袭后西装革履",
+    "common_scenes": "暴雨中送外卖、电梯里被白领嫌弃、出租屋吃泡面"
+  },
+  {
+    "archetype_id": "ROLE-055",
+    "category": "男频逆袭/都市日常",
+    "role_name": "保安",
+    "visual_traits": "身材高大被制服掩盖气质、面容端正沉默寡言、站姿笔直",
+    "outfit": "深蓝/黑色保安制服+大檐帽+对讲机→脱制服换西装身材优势立现",
+    "common_scenes": "小区门岗值班、被业主呼来喝去、深夜巡逻→逆袭后开豪车经过曾站岗的门"
+  },
+  {
+    "archetype_id": "ROLE-056",
+    "category": "男频逆袭/都市日常",
+    "role_name": "司机",
+    "visual_traits": "沉稳低调、面容普通偏老实、双手有力(方向盘常年握)",
+    "outfit": "黑色Polo衫/衬衫+黑裤+皮鞋(职业装)→揭身份后换高定",
+    "common_scenes": "后视镜中观察老板、车内默默听对话、关键时刻展露技术"
+  },
+  {
+    "archetype_id": "ROLE-057",
+    "category": "男频逆袭/都市日常",
+    "role_name": "快递员",
+    "visual_traits": "皮肤偏黑晒伤、面容年轻精瘦、满头汗、脚步匆忙",
+    "outfit": "红色/蓝色快递工服+运动鞋+手持扫码枪",
+    "common_scenes": "穿梭楼宇间送件、暴雨中赶时间、被客户刁难的门口"
+  },
+  {
+    "archetype_id": "ROLE-058",
+    "category": "男频逆袭/都市日常",
+    "role_name": "上门女婿",
+    "visual_traits": "低眉顺眼(前期)、隐忍含蓄、被家务磨没了锐气",
+    "outfit": "妻子家给的旧衣→逆袭后合身休闲装/轻奢风",
+    "common_scenes": "丈人家做家务、家庭聚会被嘲讽角落、妻子公司被人刁难时出手"
+  },
+  {
+    "archetype_id": "ROLE-059",
+    "category": "男频逆袭/都市日常",
+    "role_name": "落魄千金女总裁",
+    "visual_traits": "容貌出众但眼神倔强、表面坚强内心脆弱、女强人姿态",
+    "outfit": "依然保持精致(最后的体面)：旧款大牌西装、高跟鞋有磨损",
+    "common_scenes": "公司被夺走的董事会、深夜独自喝酒、求助银行被拒"
+  },
+  {
+    "archetype_id": "ROLE-060",
+    "category": "男频逆袭/都市日常",
+    "role_name": "集团继承人(隐藏)",
+    "visual_traits": "外表平凡低调、穿着朴素、眼神偶尔闪过锐利",
+    "outfit": "便宜T恤牛仔(伪装)→亮身份：全套定制西装+豪车+保镖",
+    "common_scenes": "混在普通人中不起眼→一个电话调来车队/打款十亿"
+  },
+  {
+    "archetype_id": "ROLE-061",
+    "category": "男频逆袭/都市日常",
+    "role_name": "嚣张富二代(反派)",
+    "visual_traits": "油头粉面、面相轻浮、偏胖/瘦弱、鼻孔朝天",
+    "outfit": "花哨名牌堆砌(logo外露)、大金链金表、发蜡过量",
+    "common_scenes": "KTV包间称王、豪车旁炫富、餐厅刁难服务员"
+  },
+  {
+    "archetype_id": "ROLE-062",
+    "category": "男频逆袭/都市日常",
+    "role_name": "前女友的现男友(反派)",
+    "visual_traits": "相貌普通但自以为帅、表情轻蔑嘲讽",
+    "outfit": "名牌西装/潮牌、车钥匙刻意外露、手表故意亮给人看",
+    "common_scenes": "同学会炫耀、女主面前搂女人示威→被反杀后目瞪口呆"
+  },
+  {
+    "archetype_id": "ROLE-063",
+    "category": "男频逆袭/都市日常",
+    "role_name": "势利丈母娘(反派)",
+    "visual_traits": "精明市侩面相、眼珠转动算计、嘴快舌利",
+    "outfit": "金手镯+烫头+碎花衣服、挎着买菜包",
+    "common_scenes": "饭桌上阴阳怪气、逼女婿掏彩礼、看到豪车后态度180度"
+  },
+  {
+    "archetype_id": "ROLE-064",
+    "category": "男频逆袭/都市日常",
+    "role_name": "刻薄岳父(反派)",
+    "visual_traits": "大腹便便或瘦削刻薄、端着架子、看女婿鼻子不是鼻子",
+    "outfit": "中年休闲装、抽烟喝茶、翘着二郎腿",
+    "common_scenes": "客厅沙发上指点江山、指使女婿干活、发现真相后求饶"
+  },
+  {
+    "archetype_id": "ROLE-065",
+    "category": "男频逆袭/都市日常",
+    "role_name": "欺人的老板(反派)",
+    "visual_traits": "中年发福、秃顶/地中海、面相猥琐或凶悍",
+    "outfit": "松垮西装、金戒指、皮带扣夸张",
+    "common_scenes": "办公室拍桌骂人、克扣工资、最终被碾压后跪地"
+  },
+  {
+    "archetype_id": "ROLE-066",
+    "category": "男频逆袭/都市日常",
+    "role_name": "混混小弟(反派)",
+    "visual_traits": "纹身刺青外露、染黄发/莫西干头、嚼口香糖",
+    "outfit": "花衬衫/背心+大裤衩+拖鞋/板鞋、脖子上粗链子",
+    "common_scenes": "街头堵人收保护费、KTV闹事→被男主一人打翻一群"
+  },
+  {
+    "archetype_id": "ROLE-067",
+    "category": "男频逆袭/都市日常",
+    "role_name": "美女总裁(花瓶)",
+    "visual_traits": "绝美容颜、身材高挑、气质冷艳、女神距离感",
+    "outfit": "修身商务裙装/连衣裙、高跟鞋、名牌手提包",
+    "common_scenes": "公司顶楼办公室、豪车出行→对男主产生兴趣后主动接近"
+  },
+  {
+    "archetype_id": "ROLE-068",
+    "category": "男频逆袭/都市日常",
+    "role_name": "美女秘书",
+    "visual_traits": "容貌姣好、身材苗条、微笑服务、随时待命",
+    "outfit": "紧身OL套装、高跟鞋、手持平板/文件夹",
+    "common_scenes": "总裁身旁候命、会议室安排一切、对男主特别照顾"
+  },
+  {
+    "archetype_id": "ROLE-069",
+    "category": "男频逆袭/都市日常",
+    "role_name": "同学会同学(反派)",
+    "visual_traits": "自以为混得好、表情优越感、时不时瞟人",
+    "outfit": "撑场面的穿搭：名表名包外露",
+    "common_scenes": "同学聚会饭桌上吹嘘→被男主碾压后沉默"
+  },
+  {
+    "archetype_id": "ROLE-070",
+    "category": "男频逆袭/都市日常",
+    "role_name": "老战友",
+    "visual_traits": "同样军人气质、寸头/板寸、身材壮实、眼神坚毅",
+    "outfit": "便装但挺拔(黑色夹克/Polo衫)、军牌项链",
+    "common_scenes": "突然出现救场、列队喊'首长好'、关键时刻带车队接人"
+  },
+  {
+    "archetype_id": "ROLE-071",
+    "category": "男频逆袭/都市日常",
+    "role_name": "忠诚手下/副官",
+    "visual_traits": "精明干练、面容中性、随时备战状态",
+    "outfit": "黑色西装(保镖风)或军装(副官风)、耳麦、墨镜",
+    "common_scenes": "主角身后待命、一声令下调集资源、为主角挡枪/挡刀"
+  },
+  {
+    "archetype_id": "ROLE-072",
+    "category": "家庭伦理",
+    "role_name": "隐忍母亲",
+    "visual_traits": "面容显老态、眼角细纹、法令纹深、眼睛红肿、双手粗糙",
+    "outfit": "朴素棉布衫/针织开衫、围裙标配、布鞋、无首饰",
+    "common_scenes": "厨房灶台前忙碌、医院走廊独自流泪、菜市场精打细算"
+  },
+  {
+    "archetype_id": "ROLE-073",
+    "category": "家庭伦理",
+    "role_name": "重生老母亲",
+    "visual_traits": "重生前：白发苍苍病态；重生后：恢复青春但眼神多份成熟锐利",
+    "outfit": "重生前：病号服；重生后：从朴素逐渐转变→穿红色衣服象征觉醒",
+    "common_scenes": "病床重生瞬间、回到年轻时老房子、重新面对当年关键抉择"
+  },
+  {
+    "archetype_id": "ROLE-074",
+    "category": "家庭伦理",
+    "role_name": "被压榨的媳妇",
+    "visual_traits": "疲惫到极致、黑眼圈重、头发随意扎、身形佝偻操劳",
+    "outfit": "旧围裙+居家拖鞋、手指因洗涤粗糙皲裂、衣服有油渍",
+    "common_scenes": "凌晨起床做饭、一个人收拾全家、被全家使唤不敢吭声"
+  },
+  {
+    "archetype_id": "ROLE-075",
+    "category": "家庭伦理",
+    "role_name": "被偏心的女儿",
+    "visual_traits": "外表坚强内心脆弱、表情中带着不甘和委屈、穿着比弟弟差",
+    "outfit": "朴素甚至有补丁的衣服(与弟弟新衣形成对比)、自己赚钱后低调精致",
+    "common_scenes": "饭桌上看父母给弟弟夹菜、被要求辍学打工供弟弟、长大后衣锦还乡"
+  },
+  {
+    "archetype_id": "ROLE-076",
+    "category": "家庭伦理",
+    "role_name": "孝顺子女",
+    "visual_traits": "面容温和有教养、穿着得体干净、眼神中带敬意",
+    "outfit": "朴实整洁的穿搭、给父母买的新衣/补品",
+    "common_scenes": "节假日赶回老家、医院陪护、教父母用手机"
+  },
+  {
+    "archetype_id": "ROLE-077",
+    "category": "家庭伦理",
+    "role_name": "忤逆子女(反派)",
+    "visual_traits": "面相不善、不耐烦的表情、眼神贪婪冷漠",
+    "outfit": "花哨/邋遢(两极：啃老族邋遢or炫富型花哨)",
+    "common_scenes": "回家就要钱、对父母摔门大喊、争遗产时翻脸"
+  },
+  {
+    "archetype_id": "ROLE-078",
+    "category": "家庭伦理",
+    "role_name": "极品吸血亲戚(反派)",
+    "visual_traits": "面相刻薄尖酸、三角眼/吊梢眉、见人下菜碟",
+    "outfit": "穿戴不差但爱占便宜、金饰傍身、名牌A货",
+    "common_scenes": "逢年过节闹事、堵门要钱、医院/婚礼关键场合生事"
+  },
+  {
+    "archetype_id": "ROLE-079",
+    "category": "家庭伦理",
+    "role_name": "偏心父母(反派)",
+    "visual_traits": "看儿子慈眉善目/看女儿横眉冷对",
+    "outfit": "朴素家常服装",
+    "common_scenes": "饭桌区别对待、逼女儿签字转账、女儿成功后哭求原谅"
+  },
+  {
+    "archetype_id": "ROLE-080",
+    "category": "家庭伦理",
+    "role_name": "扶弟魔母亲(反派)",
+    "visual_traits": "面容操劳但死要面子、说话嗓门大、表情苦大仇深",
+    "outfit": "老旧朴素衣服、塑料袋/布袋装东西",
+    "common_scenes": "女儿家拿东西给儿子、哭着说'你弟弟没你命好'、逼女儿出钱"
+  },
+  {
+    "archetype_id": "ROLE-081",
+    "category": "家庭伦理",
+    "role_name": "啃老弟弟/妹妹(反派)",
+    "visual_traits": "好吃懒做面相、偏胖/瘦弱(不劳动)、眼神贪婪理所当然",
+    "outfit": "穿姐姐买的好衣服/名牌、整天宅家打游戏",
+    "common_scenes": "家里躺着要钱、闯祸后让家人善后、结婚要姐姐出首付"
+  },
+  {
+    "archetype_id": "ROLE-082",
+    "category": "家庭伦理",
+    "role_name": "妈宝男丈夫(反派)",
+    "visual_traits": "面容软弱没主见、夹在老妈和老婆中间的窝囊相",
+    "outfit": "穿着没特点、妈妈挑的衣服",
+    "common_scenes": "老婆受委屈时站妈那边、事事回家汇报妈妈、从不帮老婆说话"
+  },
+  {
+    "archetype_id": "ROLE-083",
+    "category": "家庭伦理",
+    "role_name": "出轨丈夫(反派)",
+    "visual_traits": "表面精致(给外人看)、油头粉面、鬼鬼祟祟",
+    "outfit": "精心打扮出门(见外人)、回家邋里邋遢(给妻子看)",
+    "common_scenes": "深夜偷偷发消息、酒店被抓现行、法庭上狡辩"
+  },
+  {
+    "archetype_id": "ROLE-084",
+    "category": "家庭伦理",
+    "role_name": "贤惠丈夫",
+    "visual_traits": "面容敦厚老实、身材壮实(干活多)、眼神温柔",
+    "outfit": "朴素工装/居家T恤、袖子卷起干活状态",
+    "common_scenes": "厨房做饭、修理家具、默默站妻子身后撑腰"
+  },
+  {
+    "archetype_id": "ROLE-085",
+    "category": "家庭伦理",
+    "role_name": "白眼狼子女(反派)",
+    "visual_traits": "小时候可爱→长大后面目可憎、忘恩负义的嘴脸",
+    "outfit": "穿父母供出来的好衣服、出人头地后穿名牌不认穷亲",
+    "common_scenes": "有出息后不回家、父母病了推脱不管、争遗产第一个到"
+  },
+  {
+    "archetype_id": "ROLE-086",
+    "category": "家庭伦理",
+    "role_name": "善良邻居",
+    "visual_traits": "面容和善朴实、年纪略长、自来熟的亲切感",
+    "outfit": "家常衣服、围裙/拿着自家种的菜",
+    "common_scenes": "端碗菜来串门、帮忙带孩子、关键时刻出来作证/说公道话"
+  },
+  {
+    "archetype_id": "ROLE-087",
+    "category": "家庭伦理",
+    "role_name": "正义亲家",
+    "visual_traits": "明事理的长辈、面容正派、不苟言笑但有底线",
+    "outfit": "整洁得体的中老年装扮",
+    "common_scenes": "饭桌上为弱者说话、看不惯时仗义执言、调解家庭矛盾"
+  },
+  {
+    "archetype_id": "ROLE-088",
+    "category": "家庭伦理",
+    "role_name": "八卦邻里(反派)",
+    "visual_traits": "碎嘴八婆形象、表情夸张、爱打探消息",
+    "outfit": "家常衣服+拖鞋、端着碗出来看热闹",
+    "common_scenes": "门口聚堆嚼舌根、散播谣言、看热闹不嫌事大"
+  },
+  {
+    "archetype_id": "ROLE-089",
+    "category": "家庭伦理",
+    "role_name": "法官/调解员",
+    "visual_traits": "严肃公正、穿着正式、表情中立",
+    "outfit": "法袍/工作制服(司法/调解机构)",
+    "common_scenes": "调解室/法庭、听双方陈述、敲锤判决"
+  },
+  {
+    "archetype_id": "ROLE-090",
+    "category": "家庭伦理",
+    "role_name": "退休干部",
+    "visual_traits": "白发但精神矍铄、眼神犀利有智慧、坐姿端正",
+    "outfit": "中山装/整洁衬衫+西裤、老花镜",
+    "common_scenes": "家里发表意见、社区活动中心、以身份震慑欺负人的一方"
+  },
+  {
+    "archetype_id": "ROLE-091",
+    "category": "家庭伦理",
+    "role_name": "孙子孙女(萌娃)",
+    "visual_traits": "圆脸大眼天真烂漫、可爱+鬼马精灵",
+    "outfit": "卡通T恤/小裙子、小书包、各种可爱发饰",
+    "common_scenes": "撒娇抱大腿、童言无忌说出真相、被利用(争夺抚养权)"
+  },
+  {
+    "archetype_id": "ROLE-092",
+    "category": "奇幻脑洞",
+    "role_name": "系统宿主(男)",
+    "visual_traits": "初始普通甚至窝囊→获得系统后逐渐自信精气神大变",
+    "outfit": "前：格子衫/旧卫衣+牛仔裤；后：随任务变化(西装/运动/潮牌)",
+    "common_scenes": "出租屋操作虚拟面板、收到系统提示愣住的大街、系统商城虚拟空间"
+  },
+  {
+    "archetype_id": "ROLE-093",
+    "category": "奇幻脑洞",
+    "role_name": "穿越者(男)",
+    "visual_traits": "现代人气质在古代格格不入、表情语言现代化",
+    "outfit": "穿越初期：现代衣服出现在古代(反差)→逐渐换古装但穿法不对",
+    "common_scenes": "穿越瞬间(摔崖/车祸)、用现代知识震惊古人(做菜/医术/科技)"
+  },
+  {
+    "archetype_id": "ROLE-094",
+    "category": "奇幻脑洞",
+    "role_name": "穿越者(女)",
+    "visual_traits": "灵动活泼、表情丰富(翻白眼/摊手)、气质与古人不同",
+    "outfit": "初期睡衣穿越→适应后古装穿出现代感、配色大胆",
+    "common_scenes": "穿越瞬间茫然四顾、用现代口头禅惊呆古人"
+  },
+  {
+    "archetype_id": "ROLE-095",
+    "category": "奇幻脑洞",
+    "role_name": "异能觉醒者",
+    "visual_traits": "外表普通但觉醒后眼神/瞳孔异变、周身隐隐有异能光芒",
+    "outfit": "普通人穿搭(便于混入人群)、使用能力时可能衣物变化",
+    "common_scenes": "第一次发现异能的惊慌场所(家中/街头)、秘密训练基地"
+  },
+  {
+    "archetype_id": "ROLE-096",
+    "category": "奇幻脑洞",
+    "role_name": "乞丐/底层小人物",
+    "visual_traits": "蓬头垢面衣衫褴褛→获得金手指后从底层一路蜕变",
+    "outfit": "破衣烂衫/捡来的衣服→逐渐换上体面衣物→最终华服加身",
+    "common_scenes": "桥洞/垃圾堆旁→街头逆袭→最终翻身场所"
+  },
+  {
+    "archetype_id": "ROLE-097",
+    "category": "奇幻脑洞",
+    "role_name": "透视眼持有者",
+    "visual_traits": "普通青年面容、眼睛偶尔闪过特殊光芒(特效)",
+    "outfit": "普通休闲装(低调)、可能戴墨镜遮掩(暴露后)",
+    "common_scenes": "赌石市场、古玩店、医院(透视诊病)、寻宝场景"
+  },
+  {
+    "archetype_id": "ROLE-098",
+    "category": "奇幻脑洞",
+    "role_name": "时间暂停者",
+    "visual_traits": "外表普通但表情从容(掌控时间的自信)",
+    "outfit": "日常休闲装、关键时刻一切静止只有他在动",
+    "common_scenes": "繁忙的十字路口(一切静止)、考场、危险一瞬间"
+  },
+  {
+    "archetype_id": "ROLE-099",
+    "category": "奇幻脑洞",
+    "role_name": "动物变身者",
+    "visual_traits": "人形时有动物特征(如猫瞳/尖耳/灵活)；动物形态可爱",
+    "outfit": "人形：休闲舒适装(便于变身)、可能有尾巴/耳朵暴露",
+    "common_scenes": "深夜变身的月光下、以动物形态潜入各种场所"
+  },
+  {
+    "archetype_id": "ROLE-100",
+    "category": "奇幻脑洞",
+    "role_name": "无限抽奖者",
+    "visual_traits": "初始穷困→每次抽奖后外形逐步升级改造",
+    "outfit": "抽到什么穿什么(从地摊货→限量联名→绝版古董)",
+    "common_scenes": "系统抽奖界面(金光特效)、领取奖品的各种惊喜场所"
+  },
+  {
+    "archetype_id": "ROLE-101",
+    "category": "奇幻脑洞",
+    "role_name": "万物点化者",
+    "visual_traits": "手掌有异样(金光/纹路)、触碰物品时闪光特效",
+    "outfit": "普通穿搭但随着点化越来越多而暴富升级穿搭",
+    "common_scenes": "随手触碰石头变金子、破旧物品变古董、市场捡漏"
+  },
+  {
+    "archetype_id": "ROLE-102",
+    "category": "奇幻脑洞",
+    "role_name": "嫉妒抢夺者(反派)",
+    "visual_traits": "表面斯文实则阴鸷、眼神贪婪",
+    "outfit": "西装(伪装体面)→暗黑系穿搭(暴露本性)",
+    "common_scenes": "暗处监视主角、设局陷害、实验室研究能力"
+  },
+  {
+    "archetype_id": "ROLE-103",
+    "category": "奇幻脑洞",
+    "role_name": "平行世界来客",
+    "visual_traits": "与现实中某人长相一模一样但气质完全不同",
+    "outfit": "另一个世界的奇异服装(科技感/蒸汽朋克/中世纪)",
+    "common_scenes": "次元裂缝出场、两个世界的切换对比"
+  },
+  {
+    "archetype_id": "ROLE-104",
+    "category": "奇幻脑洞",
+    "role_name": "AI/机器人",
+    "visual_traits": "完美对称五官、表情略生硬(或过于完美的不真实感)",
+    "outfit": "统一制服(科技感)/仿人穿搭(但完美无瑕)",
+    "common_scenes": "实验室诞生、融入人群的尝试、关键时刻暴露机械内部"
+  },
+  {
+    "archetype_id": "ROLE-105",
+    "category": "奇幻脑洞",
+    "role_name": "外星人",
+    "visual_traits": "人形伪装(完美外表但细节异常)or直接异形",
+    "outfit": "银色/反光材质太空服、或学人类穿搭但搭配诡异",
+    "common_scenes": "UFO降落田野、以人形混入城市、被发现的紧张时刻"
+  },
+  {
+    "archetype_id": "ROLE-106",
+    "category": "奇幻脑洞",
+    "role_name": "神仙下凡",
+    "visual_traits": "仙气飘飘+不谙世事的呆萌、容貌绝美超越凡人",
+    "outfit": "白色/金色仙袍(刚下凡)→尝试穿现代装(搞笑反差)",
+    "common_scenes": "从天而降/祥云托着落地、对现代科技一脸懵的街头"
+  },
+  {
+    "archetype_id": "ROLE-107",
+    "category": "奇幻脑洞",
+    "role_name": "鬼怪精灵",
+    "visual_traits": "人形但有不自然之处(过白/无影子/飘浮感)",
+    "outfit": "古装(死于古代的鬼)、白色/破旧衣物、透明质感",
+    "common_scenes": "深夜古宅/废弃楼宇、镜子中出现、月光下飘荡"
+  },
+  {
+    "archetype_id": "ROLE-108",
+    "category": "奇幻脑洞",
+    "role_name": "术士/道士",
+    "visual_traits": "年轻型：清俊+邋遢混搭；年长型：仙风道骨白须",
+    "outfit": "道袍(改良版)、背布袋装法器、黄符缠身、手持桃木剑",
+    "common_scenes": "抓鬼现场、炼丹房、道观山门、街头算命摊"
+  },
+  {
+    "archetype_id": "ROLE-109",
+    "category": "奇幻脑洞",
+    "role_name": "古代公主(穿越来)",
+    "visual_traits": "端庄贵气+对一切好奇的大眼睛、举止间带皇家气度",
+    "outfit": "初到：华丽古装在现代引路人注目→换现代装但气质出众",
+    "common_scenes": "第一次坐电梯/看手机/吃汉堡的震惊、各种古今反差"
+  },
+  {
+    "archetype_id": "ROLE-110",
+    "category": "奇幻脑洞",
+    "role_name": "科研反派",
+    "visual_traits": "戴金丝眼镜、表情冷静理性到冷酷、秃顶/白发(科学狂人)",
+    "outfit": "白大褂+护目镜、实验室手套、胸口别名牌",
+    "common_scenes": "地下实验室(不道德实验)、数据屏幕前的疯狂眼神"
+  },
+  {
+    "archetype_id": "ROLE-111",
+    "category": "奇幻脑洞",
+    "role_name": "贪婪地主/富人(反派)",
+    "visual_traits": "肥头大耳/尖嘴猴腮(两种)、数钱时两眼放光",
+    "outfit": "华丽但俗气(暴发户审美)、金链子满身",
+    "common_scenes": "大宅内搜刮百姓、仓库数金银、最终被惩治抄家"
+  },
+  {
+    "archetype_id": "ROLE-112",
+    "category": "都市脑洞/系统流",
+    "role_name": "外卖员(获得系统)",
+    "visual_traits": "初始疲惫→觉醒后精气神大变、从麻木变锐利",
+    "outfit": "黄/蓝骑手服+头盔→逐渐换质感休闲装→最终西装",
+    "common_scenes": "暴雨中送外卖→出租屋看系统面板→曾被羞辱的场所重返"
+  },
+  {
+    "archetype_id": "ROLE-113",
+    "category": "都市脑洞/系统流",
+    "role_name": "墓地保安",
+    "visual_traits": "面色苍白(夜班多)、眼神沉静、不怕鬼的淡定",
+    "outfit": "深色保安制服+手电筒、夜间巡逻装备",
+    "common_scenes": "深夜墓地巡逻、古墓中发现宝贝/机缘、与灵异事件对话"
+  },
+  {
+    "archetype_id": "ROLE-114",
+    "category": "都市脑洞/系统流",
+    "role_name": "维修工",
+    "visual_traits": "双手粗糙有力、皮肤偏黑(户外作业)、穿着简单朴素",
+    "outfit": "工装/蓝色连体服+工具腰带、安全帽",
+    "common_scenes": "爬高修空调/水管、各种住户家中(窥见不同阶层)"
+  },
+  {
+    "archetype_id": "ROLE-115",
+    "category": "都市脑洞/系统流",
+    "role_name": "快递员(系统流)",
+    "visual_traits": "年轻精瘦面容、跑上跑下体力好、表情从卑微变自信",
+    "outfit": "快递工服+运动鞋→升级后穿搭一步步变好",
+    "common_scenes": "配送站分拣、写字楼被前台拦、别墅门口送件"
+  },
+  {
+    "archetype_id": "ROLE-116",
+    "category": "都市脑洞/系统流",
+    "role_name": "打工仔",
+    "visual_traits": "面容普通疲惫、微驼背(长期体力劳动)、双手有茧",
+    "outfit": "便宜地摊货T恤+牛仔裤+运动鞋(磨损)",
+    "common_scenes": "工地/工厂/餐厅后厨、群租房、深夜路边吃摊"
+  },
+  {
+    "archetype_id": "ROLE-117",
+    "category": "都市脑洞/系统流",
+    "role_name": "网约车司机",
+    "visual_traits": "中年面容略显沧桑、黑眼圈(熬夜跑车)、憨厚老实",
+    "outfit": "休闲Polo衫/格子衫+深色裤子、车里挂平安符",
+    "common_scenes": "各种乘客(体验百态)、深夜空车等单、意外载到贵人"
+  },
+  {
+    "archetype_id": "ROLE-118",
+    "category": "都市脑洞/系统流",
+    "role_name": "废品回收员",
+    "visual_traits": "皮肤黝黑粗糙、身材精瘦、不起眼的存在",
+    "outfit": "旧工作服/迷彩服、戴手套、骑三轮车",
+    "common_scenes": "小区收废品、垃圾堆中发现宝物(系统鉴定)、暴富后重回故地"
+  },
+  {
+    "archetype_id": "ROLE-119",
+    "category": "都市脑洞/系统流",
+    "role_name": "摆摊小贩",
+    "visual_traits": "嗓门大、面相灵活精明(底层智慧)、常年日晒偏黑",
+    "outfit": "T恤+围裙/短裤+拖鞋、腰包装零钱",
+    "common_scenes": "夜市摆摊吆喝、城管来了跑路、摊位上获得系统/奇遇"
+  },
+  {
+    "archetype_id": "ROLE-120",
+    "category": "都市脑洞/系统流",
+    "role_name": "前女友(反派)",
+    "visual_traits": "浓妆网红脸、身材暴露、挽着新男友时一脸炫耀",
+    "outfit": "大牌包+名牌鞋+紧身裙",
+    "common_scenes": "挽新男友经过男主→看到男主豪车后追出来求复合"
+  },
+  {
+    "archetype_id": "ROLE-121",
+    "category": "都市脑洞/系统流",
+    "role_name": "势利丈母娘(反派)",
+    "visual_traits": "精明市侩面相、嘴快如刀",
+    "outfit": "金手镯+烫头、碎花衣服",
+    "common_scenes": "饭桌阴阳怪气、逼女婿掏钱→态度180度大转弯"
+  },
+  {
+    "archetype_id": "ROLE-122",
+    "category": "都市脑洞/系统流",
+    "role_name": "前女友现男友(反派)",
+    "visual_traits": "自觉帅气实则油腻、搂着前女友时表情嚣张",
+    "outfit": "名牌穿搭外露、开的车要比男主好(初期)",
+    "common_scenes": "当面嘲讽→被男主碾压后灰头土脸"
+  },
+  {
+    "archetype_id": "ROLE-123",
+    "category": "都市脑洞/系统流",
+    "role_name": "美女总裁(奖品)",
+    "visual_traits": "绝美+冷艳+高不可攀、女神光环",
+    "outfit": "修身西装裙/连衣裙、高跟鞋、名牌全套",
+    "common_scenes": "写字楼出场→逐渐被男主吸引→倒追"
+  },
+  {
+    "archetype_id": "ROLE-124",
+    "category": "都市脑洞/系统流",
+    "role_name": "忠犬美女秘书",
+    "visual_traits": "温婉甜美、对男主死心塌地、随时待命",
+    "outfit": "OL套装(略性感)、高跟鞋、耳麦",
+    "common_scenes": "寸步不离、帮男主处理事务、替男主传话震慑对手"
+  },
+  {
+    "archetype_id": "ROLE-125",
+    "category": "都市脑洞/系统流",
+    "role_name": "黑心老板(反派)",
+    "visual_traits": "大腹便便/面相精明、算计到骨子里的眼神",
+    "outfit": "廉价西装(装体面)、手里把玩核桃/茶杯",
+    "common_scenes": "办公室扣工资骂人、对员工颐指气使→知道男主身份后跪舔"
+  },
+  {
+    "archetype_id": "ROLE-126",
+    "category": "都市脑洞/系统流",
+    "role_name": "嚣张客户(反派)",
+    "visual_traits": "趾高气扬、指着人说话、表情不耐烦",
+    "outfit": "穿得光鲜(名牌)、拿手机甩脸色",
+    "common_scenes": "餐厅刁难外卖员、给差评要求赔偿→被反杀"
+  },
+  {
+    "archetype_id": "ROLE-127",
+    "category": "都市脑洞/系统流",
+    "role_name": "差评顾客(反派)",
+    "visual_traits": "尖酸刻薄面容、投诉时理直气壮",
+    "outfit": "居家休闲装(在家点外卖的样子)",
+    "common_scenes": "拒收外卖/故意差评→被系统惩罚"
+  },
+  {
+    "archetype_id": "ROLE-128",
+    "category": "都市脑洞/系统流",
+    "role_name": "直播网红",
+    "visual_traits": "精致妆容(镜头内)、滤镜感重、卸妆后判若两人",
+    "outfit": "直播时：精致小裙子+灯光美颜；日常：松垮居家服",
+    "common_scenes": "手机前直播带货/卖惨、在外装大款、被拆穿的社死现场"
+  },
+  {
+    "archetype_id": "ROLE-129",
+    "category": "都市脑洞/系统流",
+    "role_name": "鉴宝大师",
+    "visual_traits": "中年儒雅、戴老花镜、手持放大镜、气定神闲",
+    "outfit": "中式立领衫/唐装、手串、布鞋",
+    "common_scenes": "古玩市场看货、拍卖行鉴定、男主拿宝贝来震惊他"
+  },
+  {
+    "archetype_id": "ROLE-130",
+    "category": "都市脑洞/系统流",
+    "role_name": "赌石高手",
+    "visual_traits": "眼神毒辣(看石头时)、手感石头时专注到忘我",
+    "outfit": "休闲装/夏威夷衫(缅甸/云南赌石场)、戴行内帽",
+    "common_scenes": "赌石市场开石、一刀涨一刀跌的紧张时刻、暴富场面"
+  },
+  {
+    "archetype_id": "ROLE-131",
+    "category": "都市玄幻",
+    "role_name": "下山高手",
+    "visual_traits": "仙风道骨+面容年轻但眼神古朴、身形修长飘逸、白净出尘",
+    "outfit": "初期：道袍/对襟衫+布鞋+包袱；融入：中式改良立领衬衫；标志：玉佩手串",
+    "common_scenes": "云雾山顶(回忆)、第一次进城被车流吓到、高楼天台俯瞰若有所思"
+  },
+  {
+    "archetype_id": "ROLE-132",
+    "category": "都市玄幻",
+    "role_name": "玄学大师",
+    "visual_traits": "①年轻帅气+神秘感 或 ②中年蓄须+目光如炬、看人像看透灵魂",
+    "outfit": "中式唐装(深色)、手持罗盘/念珠、可能戴墨镜遮'天眼'、暗纹八卦衣",
+    "common_scenes": "风水局现场(豪宅/墓地)、暗室作法(蜡烛/符纸)、茶室给富豪看相"
+  },
+  {
+    "archetype_id": "ROLE-133",
+    "category": "都市玄幻",
+    "role_name": "隐世修仙者",
+    "visual_traits": "容貌不老(百岁仍年轻)、气质超凡脱俗、周身若有若无灵气",
+    "outfit": "宽松素色道袍(白/灰/青)、草鞋、葫芦/拂尘",
+    "common_scenes": "深山老林中闭关、尘世间偶尔救人后消失、城市顶楼夜观天象"
+  },
+  {
+    "archetype_id": "ROLE-134",
+    "category": "都市玄幻",
+    "role_name": "风水师",
+    "visual_traits": "目光锐利善读地理、手指常掐算、额头有隐纹(开天眼)",
+    "outfit": "改良中山装/唐装+布鞋、随身罗盘+铜钱+黄符",
+    "common_scenes": "豪宅/写字楼看风水、墓地选址、镇邪布阵的施工现场"
+  },
+  {
+    "archetype_id": "ROLE-135",
+    "category": "都市玄幻",
+    "role_name": "捉鬼道士",
+    "visual_traits": "不修边幅但法力高深(邋遢仙人)or正经道士模样",
+    "outfit": "道袍(可能脏兮兮)+桃木剑+黄符贴满身+铃铛",
+    "common_scenes": "凶宅现场、夜半三更的古宅、贴符施法的十字路口"
+  },
+  {
+    "archetype_id": "ROLE-136",
+    "category": "都市玄幻",
+    "role_name": "医术圣手",
+    "visual_traits": "双手如玉(针灸手法)、面容从容淡定、带着医家的仁心气质",
+    "outfit": "白大褂(现代)或中式衫(传统中医)、随身针包/药箱",
+    "common_scenes": "中医诊所/药房、路边救人(针灸一出手全场震惊)、深山采药"
+  },
+  {
+    "archetype_id": "ROLE-137",
+    "category": "都市玄幻",
+    "role_name": "武林隐士",
+    "visual_traits": "中年硬汉面容、身上有旧伤、眼神淡泊但动起来虎虎生风",
+    "outfit": "布衣短打/灰色练功服、布鞋、可能在路边摆个小摊(伪装)",
+    "common_scenes": "街头面摊(隐居)→突遇歹徒出手→身手惊世骇俗"
+  },
+  {
+    "archetype_id": "ROLE-138",
+    "category": "都市玄幻",
+    "role_name": "邪修/暗势力头目(反派)",
+    "visual_traits": "伪装：儒雅成功人士；真身：面容阴鸷+半脸黑气+瞳色异变",
+    "outfit": "伪装：高级灰西装；真身：黑袍/暗色法衣+诡异饰品",
+    "common_scenes": "地下密室暗堂、深夜祭坛血月、都市高楼顶层(双面人)"
+  },
+  {
+    "archetype_id": "ROLE-139",
+    "category": "都市玄幻",
+    "role_name": "富豪客户",
+    "visual_traits": "中年成功人士面容、微胖(有福相)、眼神中带着焦虑(有难言之隐)",
+    "outfit": "名牌西装+金表+貔貅摆件、豪车出行",
+    "common_scenes": "找玄学大师看风水/化煞、出高价求破局"
+  },
+  {
+    "archetype_id": "ROLE-140",
+    "category": "都市玄幻",
+    "role_name": "被附身者",
+    "visual_traits": "正常时和常人无异→被附身后表情/眼神/声音骤变诡异",
+    "outfit": "正常穿着→被附身后衣衫凌乱、指甲变黑/变长",
+    "common_scenes": "家中突然行为异常、深夜对墙说话、被驱邪时挣扎"
+  },
+  {
+    "archetype_id": "ROLE-141",
+    "category": "都市玄幻",
+    "role_name": "妖怪伪装者",
+    "visual_traits": "人形极美(过于完美的不真实感)、偶尔流露非人习性",
+    "outfit": "刻意学人穿搭但细节有误(衣服反穿/颜色搭配诡异)",
+    "common_scenes": "深夜出没、面对食物/月亮时异常反应、被识破一瞬间原形微露"
+  },
+  {
+    "archetype_id": "ROLE-142",
+    "category": "都市玄幻",
+    "role_name": "美女妖精",
+    "visual_traits": "绝美容颜+冷艳/妖媚气质、皮肤过于光洁、瞳孔竖瞳(特写)",
+    "outfit": "华丽旗袍/红裙、薄纱质感衣物、玉簪/蛇形手镯",
+    "common_scenes": "月夜林间现身、酒吧魅惑凡人、暴露真身(半人半妖)时刻"
+  },
+  {
+    "archetype_id": "ROLE-143",
+    "category": "都市玄幻",
+    "role_name": "蛇妖/狐妖",
+    "visual_traits": "蛇妖：冷艳+S型身姿；狐妖：妩媚+毛茸茸耳朵尾巴(原形)",
+    "outfit": "蛇：绿色/黑色紧身+蛇纹元素；狐：白色/红色飘逸裙+毛领",
+    "common_scenes": "深山古洞(修炼)、化为人形混入人间、与人类产生感情"
+  },
+  {
+    "archetype_id": "ROLE-144",
+    "category": "都市玄幻",
+    "role_name": "鬼差/阎王",
+    "visual_traits": "面容威严(阎王)or面无表情(鬼差)、肤色偏青白",
+    "outfit": "黑色/深蓝官服、手持生死簿/锁链/阴司令牌",
+    "common_scenes": "冥界大殿(殿堂)、半夜索命的阴风走廊、奈何桥"
+  },
+  {
+    "archetype_id": "ROLE-145",
+    "category": "都市玄幻",
+    "role_name": "正义警察",
+    "visual_traits": "面容正气、身材健壮、穿制服时英姿飒爽",
+    "outfit": "警服制服/便衣(黑夹克+牛仔裤)、配枪、警徽",
+    "common_scenes": "案发现场(不信邪)→目睹超自然后震惊→配合主角破案"
+  },
+  {
+    "archetype_id": "ROLE-146",
+    "category": "都市玄幻",
+    "role_name": "不信邪的记者",
+    "visual_traits": "好奇心旺盛的面容、总在追问、拿着录音笔/相机",
+    "outfit": "休闲装+记者马甲/双肩包、随身小本子",
+    "common_scenes": "灵异现场采访、深入调查(越来越害怕)、最终亲历超自然"
+  },
+  {
+    "archetype_id": "ROLE-147",
+    "category": "都市玄幻",
+    "role_name": "古董商人",
+    "visual_traits": "精明但不失儒雅、手指修长(常触摸古玩)、戴老花镜(鉴定时)",
+    "outfit": "中式立领衫/西装背心、手串、布袋装宝贝",
+    "common_scenes": "古玩店/拍卖行、鉴宝现场目光如炬、暗市交易"
+  },
+  {
+    "archetype_id": "ROLE-148",
+    "category": "都市玄幻",
+    "role_name": "盗墓者",
+    "visual_traits": "精瘦灵活(常钻洞)、面色蜡黄(见不到阳光)、身上有土",
+    "outfit": "工兵铲+头灯+绳索+背包、黑色紧身作业服",
+    "common_scenes": "墓穴深处(火把照亮壁画)、触发机关的紧张时刻、带宝贝出墓"
+  },
+  {
+    "archetype_id": "ROLE-149",
+    "category": "都市玄幻",
+    "role_name": "黑道老大",
+    "visual_traits": "面容威严阴沉、伤疤(脸/手)、不怒自威",
+    "outfit": "黑色西装(扣子松)、粗金链或低调名表、深色衬衫不系领口",
+    "common_scenes": "暗色调地下会所、酒吧VIP包间、指挥手下的幽暗办公室"
+  },
+  {
+    "archetype_id": "ROLE-150",
+    "category": "都市玄幻",
+    "role_name": "风水局受害者",
+    "visual_traits": "面色发灰(被煞气缠身)、眼圈发黑、精神恍惚",
+    "outfit": "穿着越来越邋遢(被运势影响)、可能佩戴各种辟邪物(无用)",
+    "common_scenes": "不断出事的家宅/公司、求助各种大师、被解救后气色恢复"
+  },
+  {
+    "archetype_id": "ROLE-151",
+    "category": "都市玄幻",
+    "role_name": "灵异事件目击者",
+    "visual_traits": "惊恐万状的普通人脸、瞳孔放大、表情夸张害怕",
+    "outfit": "普通睡衣(夜间目击)/休闲装(白天)",
+    "common_scenes": "目击灵异的现场(废楼/夜路/电梯)、之后战战兢兢复述经历"
+  },
+  {
+    "archetype_id": "ROLE-152",
+    "category": "宫斗宅斗",
+    "role_name": "重生复仇女主",
+    "visual_traits": "前世惨死面容不甘→重生后眼神深沉阴鸷、嘴角冷笑、妆容凌厉",
+    "outfit": "前世：浅色系清淡；重生后：正红/墨紫/玄黑华贵衣料",
+    "common_scenes": "重生瞬间(毒酒/冷宫)、宴会揭穿仇人、手刃仇人的高潮"
+  },
+  {
+    "archetype_id": "ROLE-153",
+    "category": "宫斗宅斗",
+    "role_name": "侧妃/妾室",
+    "visual_traits": "容貌艳丽带攻击性、柳眉凤眼、妆容浓艳、人前温柔人后阴狠",
+    "outfit": "大红大紫金色刺绣宫装、头饰繁复(步摇凤钗珠花)、护甲染红",
+    "common_scenes": "王爷面前撒娇邀宠、暗中下毒的偏僻角落、冷宫(最终)"
+  },
+  {
+    "archetype_id": "ROLE-154",
+    "category": "宫斗宅斗",
+    "role_name": "穿越主母",
+    "visual_traits": "端庄中带利落、面容大气周正、眼神清明有主见",
+    "outfit": "正色系(靛蓝/墨绿/绛紫)宽袖长裙、简约金钗玉簪、腰间挂钥匙串",
+    "common_scenes": "正厅坐主位管家理事、账房查账、婆婆面前立规矩"
+  },
+  {
+    "archetype_id": "ROLE-155",
+    "category": "宫斗宅斗",
+    "role_name": "嫡女/庶女",
+    "visual_traits": "嫡女：端庄高傲/庶女：卑微低眉或不甘心",
+    "outfit": "嫡女：华贵小姐装+全套首饰/庶女：素色简单裙装+少首饰",
+    "common_scenes": "嫡女：正院大小姐闺房/庶女：偏院冷清小屋→逆袭后对调"
+  },
+  {
+    "archetype_id": "ROLE-156",
+    "category": "宫斗宅斗",
+    "role_name": "正妻/主母",
+    "visual_traits": "端庄大气(好的)or面容威严阴沉(恶的)",
+    "outfit": "正色华服+全套头面+管家钥匙串、举止合规不失端方",
+    "common_scenes": "后宅正厅坐镇、处理妾室纠纷、维护正妻权威"
+  },
+  {
+    "archetype_id": "ROLE-157",
+    "category": "宫斗宅斗",
+    "role_name": "替嫁新娘",
+    "visual_traits": "红盖头遮面→掀开或绝美或'丑'(后洗去露真容)、怯懦单薄",
+    "outfit": "大红嫁衣(可能料子粗糙)→婚后粗布衣(被苛待)→最终正妻华服",
+    "common_scenes": "花轿忐忑、掀盖头紧张、被送入冷清偏院→最终被认可"
+  },
+  {
+    "archetype_id": "ROLE-158",
+    "category": "宫斗宅斗",
+    "role_name": "恶毒太后/婆母(反派)",
+    "visual_traits": "正妻：端庄下暗藏狠厉/太后：威严+法令纹深、人前微笑人后阴狠",
+    "outfit": "正色华贵宫装(正红/墨紫)、凤钗金簪、护甲尖锐如爪",
+    "common_scenes": "正殿高座俯视、暗室密谋、佛堂假礼佛实施压"
+  },
+  {
+    "archetype_id": "ROLE-159",
+    "category": "宫斗宅斗",
+    "role_name": "心机侧妃/白莲花妾室(反派)",
+    "visual_traits": "容貌妖艳+柳眉凤眼、装可怜时梨花带雨",
+    "outfit": "华丽宫装(大红大紫)+头饰夸张+浓妆+花钿+染红指甲",
+    "common_scenes": "男主面前撒娇邀宠、暗处下毒指使心腹→被揭穿后妆容凌乱"
+  },
+  {
+    "archetype_id": "ROLE-160",
+    "category": "宫斗宅斗",
+    "role_name": "王爷",
+    "visual_traits": "五官深邃立体、冷面寡言、身形高大、长发半束",
+    "outfit": "玄色/墨色华贵王爷袍+暗纹(龙/云)、腰束玉带+佩剑+黑色大氅",
+    "common_scenes": "王府书房、校场骑马、雪中独行的孤傲背影"
+  },
+  {
+    "archetype_id": "ROLE-161",
+    "category": "宫斗宅斗",
+    "role_name": "太子",
+    "visual_traits": "俊美但城府深沉、笑容可有可无间切换、举止皇家风范",
+    "outfit": "明黄/玄色太子冠服、金冠+玉带、手持折扇(儒雅型)",
+    "common_scenes": "东宫议事、朝堂旁听、暗中部署(书房棋盘)"
+  },
+  {
+    "archetype_id": "ROLE-162",
+    "category": "宫斗宅斗",
+    "role_name": "皇帝(工具人)",
+    "visual_traits": "威严但常被妃子/权臣左右、面容中年+龙袍加身",
+    "outfit": "明黄龙袍、冕旒(正式)、便服(后宫时)、龙纹一切",
+    "common_scenes": "金殿上朝、后宫翻牌、被蒙蔽后怒拍龙案"
+  },
+  {
+    "archetype_id": "ROLE-163",
+    "category": "宫斗宅斗",
+    "role_name": "忠心丫鬟",
+    "visual_traits": "清秀灵动、善于察言观色、忠诚写在脸上",
+    "outfit": "整洁丫鬟服(颜色随主子身份)、扎发干练、随身托盘/手帕",
+    "common_scenes": "主子身旁寸步不离、传递消息、关键时刻挡在前面"
+  },
+  {
+    "archetype_id": "ROLE-164",
+    "category": "宫斗宅斗",
+    "role_name": "背叛丫鬟(反派)",
+    "visual_traits": "面容伶俐但眼神闪躲(被收买后)、做贼心虚的小动作",
+    "outfit": "与忠心丫鬟着装一致(难以辨别)、暗中藏毒/信",
+    "common_scenes": "偷听主子对话、趁夜送密信给敌人、被发现时跪地求饶"
+  },
+  {
+    "archetype_id": "ROLE-165",
+    "category": "宫斗宅斗",
+    "role_name": "管家嬷嬷",
+    "visual_traits": "面容严肃精明(好嬷嬷)or刻薄阴险(坏嬷嬷)、年纪偏大",
+    "outfit": "深色管家服+钥匙串(好)；华丽得不像下人(坏/太后心腹)",
+    "common_scenes": "管理内务指挥下人、替主子传话办事、惩罚犯错的丫鬟"
+  },
+  {
+    "archetype_id": "ROLE-166",
+    "category": "宫斗宅斗",
+    "role_name": "太医",
+    "visual_traits": "面容从容(见多识广)、胡须斑白(年长)、手持药箱",
+    "outfit": "深色对襟医服、随身药箱+脉枕、低调不敢多言",
+    "common_scenes": "请脉(关键剧情)、药房配药(可能被威胁下毒)、太医院"
+  },
+  {
+    "archetype_id": "ROLE-167",
+    "category": "宫斗宅斗",
+    "role_name": "大将军",
+    "visual_traits": "面容威猛刚毅、身材魁梧、战场老兵的沧桑",
+    "outfit": "银甲/黑甲+红色战袍+头盔(战时)；朝服+佩剑(上朝)",
+    "common_scenes": "战场厮杀、凯旋回朝、卷入宫斗被牵连"
+  },
+  {
+    "archetype_id": "ROLE-168",
+    "category": "宫斗宅斗",
+    "role_name": "权臣(幕后)",
+    "visual_traits": "面容阴沉+鹰钩鼻/三角眼、蓄须、笑不达眼",
+    "outfit": "深色朝服+暗金蟒纹(暗示野心)、宽袖(城府深)",
+    "common_scenes": "朝堂只手遮天、密室与党羽密谋→最终逼宫"
+  },
+  {
+    "archetype_id": "ROLE-169",
+    "category": "宫斗宅斗",
+    "role_name": "嫡母/继母(反派)",
+    "visual_traits": "面容威严但对庶子女冷漠、表情双标(对亲生暖/对继子女冷)",
+    "outfit": "主母正装华服、首饰齐全(维持体面)",
+    "common_scenes": "区别对待嫡庶的日常、暗中打压庶子女前途"
+  },
+  {
+    "archetype_id": "ROLE-170",
+    "category": "宫斗宅斗",
+    "role_name": "通房丫头",
+    "visual_traits": "姿色中上(被选中)、表情卑微或有野心(两种)",
+    "outfit": "比普通丫鬟稍好但不及妾室的穿搭",
+    "common_scenes": "伺候主子夜间→心生野心想上位→或被主母利用当棋子"
+  },
+  {
+    "archetype_id": "ROLE-171",
+    "category": "宫斗宅斗",
+    "role_name": "姨娘",
+    "visual_traits": "容貌不错但地位尴尬(高不成低不就)、或楚楚可怜或咄咄逼人",
+    "outfit": "比丫鬟好但比正妻差的穿搭、色系偏素/鲜(不同性格)",
+    "common_scenes": "偏院中自怨自艾、争宠、教唆子女争家产"
+  },
+  {
+    "archetype_id": "ROLE-172",
+    "category": "宫斗宅斗",
+    "role_name": "世家老太君",
+    "visual_traits": "白发苍苍但精神矍铄、威严+慈祥(好的)or阴沉(坏的)",
+    "outfit": "深色系华贵老太太装、手持佛珠/拐杖、满头银簪",
+    "common_scenes": "正厅太师椅坐镇、一锤定音(家族决策)、庇护/打压后辈"
+  },
+  {
+    "archetype_id": "ROLE-173",
+    "category": "宫斗宅斗",
+    "role_name": "纨绔世子",
+    "visual_traits": "面容俊美但轻浮、油嘴滑舌、不学无术的闲散样",
+    "outfit": "华丽但花哨(暴发户式堆砌)、扇子不离手、斗鸡走马装束",
+    "common_scenes": "青楼/赌坊厮混、街头调戏民女→关键时刻被教训"
+  },
+  {
+    "archetype_id": "ROLE-174",
+    "category": "古风爱情",
+    "role_name": "冷面王爷",
+    "visual_traits": "五官如刀刻、剑眉凤眼、冷白肤、身高挺拔、长发半束高冠",
+    "outfit": "玄色/墨色华贵袍服+暗纹刺绣+腰束玉带+佩长剑+黑色大氅",
+    "common_scenes": "王府书房、校场骑马练武、雪中独行、月下屋顶俯瞰"
+  },
+  {
+    "archetype_id": "ROLE-175",
+    "category": "古风爱情",
+    "role_name": "深情太子",
+    "visual_traits": "俊美温润+身份矜贵、唇边常带温柔浅笑、面容明亮贵气",
+    "outfit": "明亮色系(白/金/浅蓝)太子服+金冠+折扇+玉佩",
+    "common_scenes": "东宫花园读书、月下为心上人抚琴、朝堂与父王博弈"
+  },
+  {
+    "archetype_id": "ROLE-176",
+    "category": "古风爱情",
+    "role_name": "风流世子",
+    "visual_traits": "面如冠玉+桃花眼、嘴角含笑像谁都撩、气质风流不羁",
+    "outfit": "华丽但不拘束的公子袍(白/浅紫)+折扇+腰间挂酒壶+发带飘逸",
+    "common_scenes": "青楼/酒肆买醉、花丛中嬉戏、遇到女主后收心"
+  },
+  {
+    "archetype_id": "ROLE-177",
+    "category": "古风爱情",
+    "role_name": "将军",
+    "visual_traits": "面容刚毅+战场风霜、身材魁梧、眼神坚定如铁、可能有战伤",
+    "outfit": "银甲/黑甲+战袍(战场)；便服时宽袖武将袍+腰别佩剑",
+    "common_scenes": "战场策马杀敌、凯旋归来城门、卸甲后温柔对待女主"
+  },
+  {
+    "archetype_id": "ROLE-178",
+    "category": "古风爱情",
+    "role_name": "摄政王",
+    "visual_traits": "阴鸷帅气+让人琢磨不透、面容深沉、气场极强近帝王",
+    "outfit": "深色(黑/深紫)华贵亲王服+暗纹蟒袍+黑色长氅+面具(可选)",
+    "common_scenes": "朝堂上力压群臣、密室中运筹帷幄、深夜独酌的孤独"
+  },
+  {
+    "archetype_id": "ROLE-179",
+    "category": "古风爱情",
+    "role_name": "穿越咸鱼女主",
+    "visual_traits": "圆脸杏眼讨喜、表情丰富夸张、可能微胖、好吃懒做可爱",
+    "outfit": "古装穿得松垮(衣带半系+发髻歪+筷子当簪)、颜色偏活泼(鹅黄/桃粉)",
+    "common_scenes": "赖床闺房(被丫鬟拖起)、厨房偷吃、院子里晒太阳摸鱼"
+  },
+  {
+    "archetype_id": "ROLE-180",
+    "category": "古风爱情",
+    "role_name": "替嫁新娘",
+    "visual_traits": "红盖头遮面→掀开绝美or'丑女'(后期洗去真容)、气质怯懦单薄",
+    "outfit": "大红嫁衣(可能粗糙/不合身)→粗布衣(被苛待)→正妻华服(最终)",
+    "common_scenes": "花轿中忐忑、掀盖头紧张瞬间、被送入冷清偏院"
+  },
+  {
+    "archetype_id": "ROLE-181",
+    "category": "古风爱情",
+    "role_name": "刺客/女侠",
+    "visual_traits": "身形矫健灵活、五官英气、眼神锐利冷峻、轻功好(飘逸感)",
+    "outfit": "黑色/深色紧身劲装+面纱/面罩+短刃别腰+发束高",
+    "common_scenes": "夜间飞檐走壁、暗杀目标(屋顶/树上)、与男主打斗相识"
+  },
+  {
+    "archetype_id": "ROLE-182",
+    "category": "古风爱情",
+    "role_name": "公主",
+    "visual_traits": "雍容贵气+天真烂漫(前期)or高傲不可一世、容貌出众",
+    "outfit": "华丽公主服(粉/紫/红)+全套头面+丫鬟随行、规格仅次于皇后",
+    "common_scenes": "宫中花园嬉戏、下嫁时的十里红妆、政治联姻的无奈"
+  },
+  {
+    "archetype_id": "ROLE-183",
+    "category": "古风爱情",
+    "role_name": "大家闺秀",
+    "visual_traits": "面容端正秀丽、举止合规得体、低眉顺眼中带书卷气",
+    "outfit": "规矩的小姐装+简约发饰+绣帕不离手+脂粉淡雅",
+    "common_scenes": "闺阁中刺绣/读书、宴会上规矩行礼、父母之命相亲"
+  },
+  {
+    "archetype_id": "ROLE-184",
+    "category": "古风爱情",
+    "role_name": "正牌未婚妻/嫡女情敌(反派)",
+    "visual_traits": "容貌精致但气质高傲、下巴微抬/眼尾上挑",
+    "outfit": "华贵小姐装(名贵布料)+全套头面+偏冷色系(宝蓝/紫)",
+    "common_scenes": "宴会当众挑衅女主、男主面前装无辜→被退婚时崩溃"
+  },
+  {
+    "archetype_id": "ROLE-185",
+    "category": "古风爱情",
+    "role_name": "恶毒嫡姐(反派)",
+    "visual_traits": "容貌与女主相似但多份狠厉、善于伪装的两面表情",
+    "outfit": "华贵得体(嫡女排场)+色系偏深暗(暗示心机)",
+    "common_scenes": "陷害妹妹/庶妹、夺取妹妹的姻缘/功劳→被拆穿时歇斯底里"
+  },
+  {
+    "archetype_id": "ROLE-186",
+    "category": "古风爱情",
+    "role_name": "痴心侍卫",
+    "visual_traits": "面容俊朗刚毅、身材挺拔(武将身材)、眼神深情但克制",
+    "outfit": "侍卫甲胄/护卫服+佩刀、颜色比主子低一档(体现身份差)",
+    "common_scenes": "主子身旁沉默守护、战斗时以身挡剑、远处深情注视"
+  },
+  {
+    "archetype_id": "ROLE-187",
+    "category": "古风爱情",
+    "role_name": "忠仆小厮",
+    "visual_traits": "灵动活泼或沉稳老成(两种)、面容清秀或忠厚",
+    "outfit": "小厮服(随主子品阶变化)、随身带主子要的物件",
+    "common_scenes": "传话跑腿、打探消息、搞笑担当、关键时刻报信"
+  },
+  {
+    "archetype_id": "ROLE-188",
+    "category": "古风爱情",
+    "role_name": "江湖侠客",
+    "visual_traits": "不羁放荡or正气凛然、衣着随意、佩剑/刀、可能蒙面",
+    "outfit": "粗布便衣/破旧武林装、斗笠+面巾(遮面)、背剑行走",
+    "common_scenes": "酒馆独饮、荒野打斗、路见不平拔刀相助、江湖传说"
+  },
+  {
+    "archetype_id": "ROLE-189",
+    "category": "古风爱情",
+    "role_name": "青梅竹马",
+    "visual_traits": "温润如玉的少年郎、面容清秀+笑容温暖、气质干净",
+    "outfit": "素色/浅色书生袍+发带+腰间挂玉佩、文质彬彬",
+    "common_scenes": "童年一起玩的后院、长大后隔窗默默看女主、最终退出成全"
+  },
+  {
+    "archetype_id": "ROLE-190",
+    "category": "古风爱情",
+    "role_name": "花楼女子",
+    "visual_traits": "妖艳美丽但眼底带忧伤、妆容浓艳(职业需要)、身姿妩媚",
+    "outfit": "华丽但暴露的舞衣/薄纱、繁复头饰+大耳坠、浓妆",
+    "common_scenes": "花楼弹琴/跳舞、阁楼凭栏远眺(向往自由)、被恩客纠缠"
+  },
+  {
+    "archetype_id": "ROLE-191",
+    "category": "古风爱情",
+    "role_name": "书生/探花",
+    "visual_traits": "面容白净文弱、手无缚鸡之力但才华横溢、温文尔雅",
+    "outfit": "浅色书生袍+纶巾+书箱/书笈、手持折扇/书卷",
+    "common_scenes": "书院苦读、赶考路上、金榜题名时刻、吟诗对月"
+  },
+  {
+    "archetype_id": "ROLE-192",
+    "category": "古风爱情",
+    "role_name": "媒婆",
+    "visual_traits": "面容喜庆圆润、嘴巧能说、表情夸张热情",
+    "outfit": "大红色/花色媒婆装+头上插花+脂粉抹厚",
+    "common_scenes": "上门说媒口若悬河、撮合CP的各种牵线、喜宴上热闹张罗"
+  },
+  {
+    "archetype_id": "ROLE-193",
+    "category": "古风爱情",
+    "role_name": "义兄/义父",
+    "visual_traits": "面容或刚正(好义父)or阴沉(坏义父)、年长有威严",
+    "outfit": "随身份变化(将军/商人/官员)、气质上位者",
+    "common_scenes": "关键时刻出手相救、庇护主角成长→或最终反目"
+  },
+  {
+    "archetype_id": "ROLE-194",
+    "category": "古风爱情",
+    "role_name": "毒师/药师",
+    "visual_traits": "面容清瘦(常接触毒物)、手指细长(配毒)、气质阴冷or温和",
+    "outfit": "深色衫+围裙(配毒时)、随身药葫芦/毒瓶",
+    "common_scenes": "暗室配毒(各色瓶瓶罐罐)、深山采集毒草、关键时刻解毒/下毒"
+  },
+  {
+    "archetype_id": "ROLE-195",
+    "category": "古风权谋",
+    "role_name": "傀儡太子",
+    "visual_traits": "前期：苍白病弱+眼神空洞/装痴傻；后期：眼神深邃可怖+帝王威压",
+    "outfit": "傀儡期：太子冠服松垮偏素淡；夺权后：明黄龙袍+冕旒",
+    "common_scenes": "朝堂被大臣无视、东宫书房独自下棋→登基大典金殿"
+  },
+  {
+    "archetype_id": "ROLE-196",
+    "category": "古风权谋",
+    "role_name": "重生女帝",
+    "visual_traits": "凤眼威严+凌厉的美+王者睥睨、体态端如松",
+    "outfit": "前世凤袍(金红)→重生素衣→崛起逐渐华贵→再穿龙/凤袍",
+    "common_scenes": "前世退位大殿→重生低微起点→最终再坐龙椅"
+  },
+  {
+    "archetype_id": "ROLE-197",
+    "category": "古风权谋",
+    "role_name": "落难世子",
+    "visual_traits": "前期：衣衫褴褛但遮不住贵气、面容坚毅隐忍；后期：霸气外露",
+    "outfit": "前：粗布衣/囚服+蓬头垢面；后：华贵世子服→称王服饰",
+    "common_scenes": "逃亡荒野、被追杀的惊险时刻、隐姓埋名成长→回归夺位"
+  },
+  {
+    "archetype_id": "ROLE-198",
+    "category": "古风权谋",
+    "role_name": "摄政太后",
+    "visual_traits": "中年但保养极好、威严+妩媚并存、城府极深的眼神",
+    "outfit": "太后正装(深色+金线刺绣)+凤冠+佛珠、妆容精致威严",
+    "common_scenes": "垂帘听政、后宫弄权、扶持幼帝→被反噬"
+  },
+  {
+    "archetype_id": "ROLE-199",
+    "category": "古风权谋",
+    "role_name": "废柴皇子",
+    "visual_traits": "不学无术纨绔形象(伪装)or真的平庸→突变",
+    "outfit": "华丽但花哨(纨绔)→穿越/觉醒后气质大变→规整皇子服",
+    "common_scenes": "斗鸡走马混日子→意外获得机缘→一路逆袭夺嫡"
+  },
+  {
+    "archetype_id": "ROLE-200",
+    "category": "古风权谋",
+    "role_name": "穿越者(带现代知识)",
+    "visual_traits": "眼神通透(知晓历史走向)、气质与古人不同的从容",
+    "outfit": "古装但穿法随性(现代人习惯)→逐渐适应正装",
+    "common_scenes": "用现代知识改变历史走向、预言式的精准布局"
+  },
+  {
+    "archetype_id": "ROLE-201",
+    "category": "古风权谋",
+    "role_name": "权臣/丞相(反派)",
+    "visual_traits": "面容阴沉深不可测、鹰钩鼻/三角眼、蓄须阴险、假笑标配",
+    "outfit": "深色朝服(黑/深紫)+暗金蟒纹+宽袖大袍(城府深)",
+    "common_scenes": "朝堂只手遮天、密室党羽密谋、府中养死士→最终逼宫"
+  },
+  {
+    "archetype_id": "ROLE-202",
+    "category": "古风权谋",
+    "role_name": "谋反王爷(反派)",
+    "visual_traits": "面容阴鸷+带野心的凌厉眼神、气场与太子对标",
+    "outfit": "亲王服但暗中备有龙袍(野心)、铠甲(兵变时)、尊贵逼人",
+    "common_scenes": "藩地练兵、暗中结党、最终起兵逼宫→成or败"
+  },
+  {
+    "archetype_id": "ROLE-203",
+    "category": "古风权谋",
+    "role_name": "毒后/妖妃(反派)",
+    "visual_traits": "绝美+邪魅气质、媚眼如丝+唇角微勾",
+    "outfit": "妖艳华贵(正红/金色)、凤冠华服逾制+蛇形/蝎形饰品",
+    "common_scenes": "帝王身侧吹枕边风、暗室炼毒/养蛊→被赐白绫/鸩酒"
+  },
+  {
+    "archetype_id": "ROLE-204",
+    "category": "古风权谋",
+    "role_name": "忠心谋士",
+    "visual_traits": "面容清瘦+智者光芒、羽扇纶巾or病弱书生",
+    "outfit": "文士袍(素雅)+折扇/棋子/书卷、布鞋",
+    "common_scenes": "军帐中献策、棋盘前与主公对弈论道、以身涉险刺探情报"
+  },
+  {
+    "archetype_id": "ROLE-205",
+    "category": "古风权谋",
+    "role_name": "暗卫/死士",
+    "visual_traits": "面容被面具遮挡(只露眼睛)+身形矫健如影、沉默寡言",
+    "outfit": "黑色紧身夜行衣+面具/面巾+短刃暗器、轻便利索",
+    "common_scenes": "暗处跟随主子、刺杀任务的夜晚、挡在主子面前的一瞬间"
+  },
+  {
+    "archetype_id": "ROLE-206",
+    "category": "古风权谋",
+    "role_name": "将军元帅",
+    "visual_traits": "身材魁梧+满面风霜(战场老兵)、威严+忠义面容",
+    "outfit": "战场：金/银甲+战袍+头盔+佩剑；朝堂：武将朝服",
+    "common_scenes": "沙场点兵、城头指挥、凯旋回朝→可能卷入夺嫡"
+  },
+  {
+    "archetype_id": "ROLE-207",
+    "category": "古风权谋",
+    "role_name": "锦衣卫/刺客",
+    "visual_traits": "面容冷峻+眼神如刀、身形精悍灵活、可能有刀疤",
+    "outfit": "飞鱼服+绣春刀(锦衣卫)or黑色夜行衣+短刃(刺客)",
+    "common_scenes": "暗巷跟踪、屋顶奔跑、一击致命的暗杀瞬间"
+  },
+  {
+    "archetype_id": "ROLE-208",
+    "category": "古风权谋",
+    "role_name": "大太监",
+    "visual_traits": "面白无须+嗓音尖细、表情阴柔or忠厚(两种)、行动轻无声",
+    "outfit": "太监服(根据品阶高低不同华丽程度)、拂尘(高阶)",
+    "common_scenes": "皇帝身旁传话、宫中传旨、可能暗中操控(权宦)"
+  },
+  {
+    "archetype_id": "ROLE-209",
+    "category": "古风权谋",
+    "role_name": "奸臣党羽(反派)",
+    "visual_traits": "面容谄媚(对上)凶狠(对下)、见风使舵的嘴脸",
+    "outfit": "官服(品阶不高但狐假虎威)",
+    "common_scenes": "朝堂附和权臣、执行坏事的打手、墙倒众人推时第一个叛变"
+  },
+  {
+    "archetype_id": "ROLE-210",
+    "category": "古风权谋",
+    "role_name": "正义御史",
+    "visual_traits": "面容正气+不畏强权、清瘦(两袖清风)、胡须规整",
+    "outfit": "朴素官服(清官)、手持奏折/笏板",
+    "common_scenes": "朝堂直谏(冒死弹劾)、监察使命、最终被陷害or伸张正义"
+  },
+  {
+    "archetype_id": "ROLE-211",
+    "category": "古风权谋",
+    "role_name": "边疆异族首领",
+    "visual_traits": "异域面容(深目高鼻/肤色偏黑)、身材壮硕、佩异域饰品",
+    "outfit": "皮甲/兽皮+异域纹饰、骨饰/宝石、弯刀/长弓",
+    "common_scenes": "草原/大漠骑马、帐篷中设宴、边境谈判/战争"
+  },
+  {
+    "archetype_id": "ROLE-212",
+    "category": "古风权谋",
+    "role_name": "皇子兄弟(争位)",
+    "visual_traits": "各有特点(文的武的阴的阳的)、眼神中暗藏对皇位的渴望",
+    "outfit": "各自品阶的皇子服、不同色系代表不同性格(如冷色阴沉/暖色温和)",
+    "common_scenes": "朝堂暗中较劲、各自势力密室聚会、对峙/最终决战"
+  },
+  {
+    "archetype_id": "ROLE-213",
+    "category": "古风权谋",
+    "role_name": "质子/人质",
+    "visual_traits": "面容隐忍+骨子里的倔强(异国质子)、单薄身形(被虐待)",
+    "outfit": "异国服饰(前期)→穿上所在国衣服(适应/伪装)→归国时换回本国装",
+    "common_scenes": "异国宫廷小心翼翼、被欺辱的屈辱时刻→最终归国或在异国崛起"
+  },
+  {
+    "archetype_id": "ROLE-214",
+    "category": "古风权谋",
+    "role_name": "联姻公主",
+    "visual_traits": "美丽但眼中含泪(不甘)or淡然(有大智慧)、皇家气度",
+    "outfit": "盛装出嫁(十里红妆)、异国装扮(嫁后)、首饰代表故国",
+    "common_scenes": "离别故国的城门、异国后宫生存、利用联姻身份谋划"
+  },
+  {
+    "archetype_id": "ROLE-215",
+    "category": "民国爱情/谍战",
+    "role_name": "少帅/军阀",
+    "visual_traits": "英俊刚毅、浓眉大眼、身材高大军姿笔挺、偏分背头、古铜肤色",
+    "outfit": "立领军服(卡其/墨绿)+肩章+武装带+枪套+军靴；便装：中山装/长衫",
+    "common_scenes": "军营指挥部、上海滩舞厅/百乐门、军阀公馆、老式黑色轿车旁"
+  },
+  {
+    "archetype_id": "ROLE-216",
+    "category": "民国爱情/谍战",
+    "role_name": "女狙击手",
+    "visual_traits": "英气逼人、五官明艳不柔弱、短发/利落麻花辫、眼神坚定如炬",
+    "outfit": "军装改良版(收腰)+灰蓝学生装+红围巾/八角帽+绑腿军靴",
+    "common_scenes": "钟楼狙击点、地下党秘密据点、学生游行最前方"
+  },
+  {
+    "archetype_id": "ROLE-217",
+    "category": "民国爱情/谍战",
+    "role_name": "卧底特工",
+    "visual_traits": "五官深邃+忧郁气质、面容可正可邪、隐忍克制的眼神",
+    "outfit": "西装三件套(上层伪装)+黑色风衣+礼帽(暗夜行动)+袖中藏枪",
+    "common_scenes": "舞厅暗角观察、暗巷接头、电报房发密电"
+  },
+  {
+    "archetype_id": "ROLE-218",
+    "category": "民国爱情/谍战",
+    "role_name": "进步女学生",
+    "visual_traits": "面容清秀+眼中有光(理想主义)、短发齐耳/双麻花辫",
+    "outfit": "蓝/白学生装(上衣+长裙)+布鞋+书本+报纸",
+    "common_scenes": "学堂课室、街头散发传单、演讲台慷慨激昂"
+  },
+  {
+    "archetype_id": "ROLE-219",
+    "category": "民国爱情/谍战",
+    "role_name": "大家闺秀(民国)",
+    "visual_traits": "端庄美丽+大家风范、盘发/手推波纹、肤白唇红",
+    "outfit": "精致旗袍(各色)+珍珠耳坠+手套+坤包+高跟鞋",
+    "common_scenes": "公馆客厅弹钢琴、花园赏花、舞厅翩翩起舞"
+  },
+  {
+    "archetype_id": "ROLE-220",
+    "category": "民国爱情/谍战",
+    "role_name": "军阀太太",
+    "visual_traits": "保养好但表情骄横或隐忍、端着架子、旗袍映衬身段",
+    "outfit": "华丽旗袍+貂皮大衣+翡翠首饰全套+烫发",
+    "common_scenes": "公馆内宅管家、麻将桌上显摆、被丈夫冷落的深闺"
+  },
+  {
+    "archetype_id": "ROLE-221",
+    "category": "民国爱情/谍战",
+    "role_name": "军阀恶霸(反派)",
+    "visual_traits": "大腹便便/面相凶悍、獐头鼠目(汉奸)、冷酷(特务)",
+    "outfit": "将军服+大盖帽(不整)/日式军装/黑色皮夹克+礼帽+佩枪皮鞭",
+    "common_scenes": "司令部太师椅、审讯室(刑具)、鸦片馆/舞厅作乐"
+  },
+  {
+    "archetype_id": "ROLE-222",
+    "category": "民国爱情/谍战",
+    "role_name": "汉奸特务(反派)",
+    "visual_traits": "贼眉鼠眼、弓腰驼背(对日本人卑躬屈膝)、阴险表情",
+    "outfit": "西装马甲+皮鞋(假装体面)+暗中藏枪/毒药",
+    "common_scenes": "日本人面前点头哈腰、出卖情报的暗角、最终被制裁"
+  },
+  {
+    "archetype_id": "ROLE-223",
+    "category": "民国爱情/谍战",
+    "role_name": "日本军官(反派)",
+    "visual_traits": "面容冷峻/阴狠、军姿标准、表情傲慢",
+    "outfit": "日军军装+军刀+军帽+白手套",
+    "common_scenes": "审讯室、占领区巡视、与地下党交锋"
+  },
+  {
+    "archetype_id": "ROLE-224",
+    "category": "民国爱情/谍战",
+    "role_name": "地下党员",
+    "visual_traits": "面容平凡(便于隐藏)+眼神坚毅、可能伪装多重身份",
+    "outfit": "各种伪装：工人装/学生装/商人装/车夫装",
+    "common_scenes": "秘密据点(阁楼/地下室)、接头暗号、关键时刻牺牲"
+  },
+  {
+    "archetype_id": "ROLE-225",
+    "category": "民国爱情/谍战",
+    "role_name": "报社记者",
+    "visual_traits": "戴眼镜(文化人)+好奇心写在脸上、手不离笔和本子",
+    "outfit": "灰色/棕色西装(旧)+鸭舌帽+相机+记者证",
+    "common_scenes": "案发现场采访、印刷厂排版、暗中调查真相"
+  },
+  {
+    "archetype_id": "ROLE-226",
+    "category": "民国爱情/谍战",
+    "role_name": "舞女/歌女",
+    "visual_traits": "浓妆艳抹+身段妖娆、面容美丽但眼底带愁/坚韧",
+    "outfit": "亮片旗袍/舞裙+高跟鞋+羽毛头饰+长手套",
+    "common_scenes": "百乐门舞台、灯红酒绿中周旋各方势力、卸妆后的朴素真容"
+  },
+  {
+    "archetype_id": "ROLE-227",
+    "category": "民国爱情/谍战",
+    "role_name": "上海滩大佬",
+    "visual_traits": "面容威严+城府深沉、穿着考究、手持文明杖",
+    "outfit": "三件套西装(顶级)+毛呢大衣+礼帽+文明杖+怀表",
+    "common_scenes": "租界洋房内会客、黄浦江边远眺、赌场/舞厅坐镇"
+  },
+  {
+    "archetype_id": "ROLE-228",
+    "category": "民国爱情/谍战",
+    "role_name": "黄包车夫",
+    "visual_traits": "皮肤黝黑+肌肉有力(拉车)、面容朴实善良",
+    "outfit": "粗布短褂+草帽+布鞋/赤脚、腰间搭毛巾擦汗",
+    "common_scenes": "弄堂穿梭、雨天拉车、偶然听到/见到关键情报"
+  },
+  {
+    "archetype_id": "ROLE-229",
+    "category": "民国爱情/谍战",
+    "role_name": "长工/佣人",
+    "visual_traits": "身形瘦小or壮实(不同岗位)、面容卑微",
+    "outfit": "粗布衣服/佣人装+围裙(厨房)、低头干活",
+    "common_scenes": "大宅后厨/打扫、偷听到秘密、帮助/背叛主人"
+  },
+  {
+    "archetype_id": "ROLE-230",
+    "category": "民国爱情/谍战",
+    "role_name": "外国商人",
+    "visual_traits": "高鼻深目(西方面孔)、自信+傲慢的气质",
+    "outfit": "三件套西装(英式/法式)+怀表+手杖+礼帽",
+    "common_scenes": "租界洋行、谈判桌前态度强硬、洋行办公室"
+  },
+  {
+    "archetype_id": "ROLE-231",
+    "category": "民国爱情/谍战",
+    "role_name": "教会人士",
+    "visual_traits": "面容慈祥or严肃(不同)、外国面孔or中国教徒",
+    "outfit": "黑色神父袍/修女装+十字架+圣经",
+    "common_scenes": "教堂内庇护难民、医院/孤儿院救治、暗中传递情报"
+  },
+  {
+    "archetype_id": "ROLE-232",
+    "category": "民国爱情/谍战",
+    "role_name": "戏班名角",
+    "visual_traits": "台上妆容惊艳(生旦净末丑)+台下清秀or沧桑",
+    "outfit": "台上：华丽戏服+头面全套；台下：素色长衫+文气",
+    "common_scenes": "戏台唱念做打、后台卸妆的孤独、乱世中以戏为生"
+  },
+  {
+    "archetype_id": "ROLE-233",
+    "category": "民国爱情/谍战",
+    "role_name": "药铺掌柜",
+    "visual_traits": "面容慈和or精明(正邪不定)、手指常搓药材(习惯)",
+    "outfit": "中式立领褂子+围裙+老花镜(抓药时)",
+    "common_scenes": "药铺柜台(百子柜)、暗中给地下党藏药/传信"
+  },
+  {
+    "archetype_id": "ROLE-234",
+    "category": "民国爱情/谍战",
+    "role_name": "码头工人",
+    "visual_traits": "身材壮实黝黑+肌肉贲张(扛包)、面容朴实或凶悍(帮派)",
+    "outfit": "赤膊/粗布背心+短裤+草鞋、头上搭毛巾",
+    "common_scenes": "码头扛货(汗如雨下)、罢工游行、帮派争地盘"
+  },
+  {
+    "archetype_id": "ROLE-235",
+    "category": "年代/种田",
+    "role_name": "硬汉男主",
+    "visual_traits": "国字脸浓眉刚毅朴实、身材壮实黝黑有茧、眼神坚定温暖",
+    "outfit": "军绿旧军装/蓝灰工装+补丁+解放鞋+雷锋帽(冬)",
+    "common_scenes": "工厂/农田劳动、土坯房/筒子楼、供销社排队"
+  },
+  {
+    "archetype_id": "ROLE-236",
+    "category": "年代/种田",
+    "role_name": "穿越到年代女主",
+    "visual_traits": "面容清秀干净、比同龄人更有灵气、表情与环境略违和",
+    "outfit": "碎花棉布衫/军绿外套+麻花辫+布鞋(但比别人更整洁搭配)",
+    "common_scenes": "知青下乡/嫁到农村、自留地种植、集市摆摊卖货"
+  },
+  {
+    "archetype_id": "ROLE-237",
+    "category": "年代/种田",
+    "role_name": "知青",
+    "visual_traits": "面容白净文气(城里来的)、手无缚鸡之力(初期)→逐渐变壮实",
+    "outfit": "白衬衫/格子衬衫+军绿裤子+布鞋、胸前别毛主席像章",
+    "common_scenes": "下乡火车站离别、田间劳动笨手笨脚、夜晚偷偷看书"
+  },
+  {
+    "archetype_id": "ROLE-238",
+    "category": "年代/种田",
+    "role_name": "村支书",
+    "visual_traits": "面容正气朴实、中年国字脸、嗓门大、黑红脸庞(日晒)",
+    "outfit": "蓝灰中山装+解放帽+布鞋、胸前别钢笔/笔记本",
+    "common_scenes": "大队部开会(黑板前)、田头指导劳动、调解村民矛盾"
+  },
+  {
+    "archetype_id": "ROLE-239",
+    "category": "年代/种田",
+    "role_name": "生产队长",
+    "visual_traits": "精明能干面容、壮实有力、皮肤黝黑(常年下���)",
+    "outfit": "旧军装/工装+草帽+解放鞋+旱烟",
+    "common_scenes": "田头分配工分、敲钟集合社员、仓库管粮食"
+  },
+  {
+    "archetype_id": "ROLE-240",
+    "category": "年代/种田",
+    "role_name": "媒婆(年代)",
+    "visual_traits": "面容圆润喜庆嘴巧、热情过度、八卦劲十足",
+    "outfit": "花棉袄/碎花衫+红头巾/头花+搪瓷缸子(喝水)",
+    "common_scenes": "走家串户说媒、村头大树下嚼舌根、婚礼上张罗"
+  },
+  {
+    "archetype_id": "ROLE-241",
+    "category": "年代/种田",
+    "role_name": "地主婆/富农(反派)",
+    "visual_traits": "面容刻薄(地主婆)or精明(富农)、保留旧时代习气",
+    "outfit": "暗色旧式衣服(低调藏富)+暗中藏金银首饰",
+    "common_scenes": "被批斗台上(背景)、暗中使坏/藏东西、与主角家结梁子"
+  },
+  {
+    "archetype_id": "ROLE-242",
+    "category": "年代/种田",
+    "role_name": "军嫂",
+    "visual_traits": "面容坚毅+温柔并存、独自撑家的倔强",
+    "outfit": "朴素但整洁的蓝灰系衣服、围裙(操持家务)、发扎利落",
+    "common_scenes": "独自务农带孩子、等丈夫来信的邮局门口、军属光荣牌前"
+  },
+  {
+    "archetype_id": "ROLE-243",
+    "category": "年代/种田",
+    "role_name": "退伍军人",
+    "visual_traits": "身形挺拔(军人习惯)、面容刚毅有旧伤、站如松",
+    "outfit": "退役后穿旧军装(舍不得脱)、胸前可能别奖章、布鞋但步伐整齐",
+    "common_scenes": "回乡务农/进工厂、关键时刻挺身而出(退伍不退色)"
+  },
+  {
+    "archetype_id": "ROLE-244",
+    "category": "年代/种田",
+    "role_name": "供销社售货员",
+    "visual_traits": "面容普通(铁饭碗的安逸)、态度高傲(计划经济时代)",
+    "outfit": "蓝色/灰色工作服+袖套+算盘+称杆",
+    "common_scenes": "柜台内盘点货物、对顾客爱答不理(稀缺品)→遇到主角后态度转变"
+  },
+  {
+    "archetype_id": "ROLE-245",
+    "category": "年代/种田",
+    "role_name": "赤脚医生",
+    "visual_traits": "年轻面容+认真眼神(刚学成)、背着药箱跑村里",
+    "outfit": "白色短褂(简易白大褂)+布鞋/赤脚+药箱(红十字)",
+    "common_scenes": "走村串户给人看病、田间地头急救、夜晚对着煤油灯学医书"
+  },
+  {
+    "archetype_id": "ROLE-246",
+    "category": "年代/种田",
+    "role_name": "民办教师",
+    "visual_traits": "清瘦文气(营养不足的年代)、戴旧框眼镜、温和面容",
+    "outfit": "蓝灰色中山装/白衬衫(洗得发白)+布鞋+随身粉笔",
+    "common_scenes": "简陋教室(破黑板)前讲课、夜晚煤油灯下备课、家访泥路上"
+  },
+  {
+    "archetype_id": "ROLE-247",
+    "category": "年代/种田",
+    "role_name": "拖拉机手",
+    "visual_traits": "面容年轻阳光(当年算体面工作)、皮肤偏黑、手上有机油",
+    "outfit": "工装/旧军装+棉手套+挡风镜(开拖拉机)、胶鞋",
+    "common_scenes": "开拖拉机耕地(全村骄傲)、修理机器的棚子、运东西进城"
+  },
+  {
+    "archetype_id": "ROLE-248",
+    "category": "年代/种田",
+    "role_name": "铁匠/木匠",
+    "visual_traits": "身材壮实(打铁)/精瘦有力(木匠)、手粗糙有力",
+    "outfit": "粗布背心/短褂+围裙(防火/防木屑)+布鞋、满头汗",
+    "common_scenes": "铺子里叮叮当当打铁/锯木头、给村民做家具/农具"
+  },
+  {
+    "archetype_id": "ROLE-249",
+    "category": "年代/种田",
+    "role_name": "恶毒妯娌(反派)",
+    "visual_traits": "面相精明刻薄+嘴角常带嘲讽、见不得别人好",
+    "outfit": "比主角穿得好(占了便宜)的花衫",
+    "common_scenes": "在婆婆面前搬弄是非、偷拿东西赖给别人、争工分/争口粮"
+  },
+  {
+    "archetype_id": "ROLE-250",
+    "category": "年代/种田",
+    "role_name": "偏心婆婆(反派)",
+    "visual_traits": "面容刻薄严厉(对不喜欢的)、慈祥温和(对偏爱的)",
+    "outfit": "深色棉袄/旧式对襟褂+围裙",
+    "common_scenes": "饭桌上给偏爱的儿媳夹肉、对不喜欢的使唤干活+冷言冷语"
+  },
+  {
+    "archetype_id": "ROLE-251",
+    "category": "年代/种田",
+    "role_name": "二流子/混混(反派)",
+    "visual_traits": "吊儿郎当表情+贼眉鼠眼、不务正业的松垮姿态",
+    "outfit": "松垮衣服(不干活)、嘴里叼烟/嚼草根、手里转东西",
+    "common_scenes": "村头墙根下晒太阳偷懒、偷鸡摸狗、调戏妇女被教训"
+  },
+  {
+    "archetype_id": "ROLE-252",
+    "category": "年代/种田",
+    "role_name": "老实庄稼汉",
+    "visual_traits": "面容憨厚老实、皮肤黝黑(长年务农)、身材壮实",
+    "outfit": "粗布衣+草帽+解放鞋、身上总有泥土味",
+    "common_scenes": "田间埋头干活、不善言辞但干活靠谱、默默喜欢某人"
+  },
+  {
+    "archetype_id": "ROLE-253",
+    "category": "年代/种田",
+    "role_name": "城里来的知识分子",
+    "visual_traits": "白净斯文、戴眼镜、手指修长(没干过粗活)、气质不同",
+    "outfit": "白衬衫/格子衬衫+干净裤子(在农村显眼)、随身带书",
+    "common_scenes": "下放农村(不适应)、教村民知识、与村民从隔阂到融入"
+  },
+  {
+    "archetype_id": "ROLE-254",
+    "category": "年代/种田",
+    "role_name": "公社干部",
+    "visual_traits": "面容严肃or和蔼(正反面)、背着手走路(官架子)",
+    "outfit": "灰蓝中山装+皮鞋(比村民好)+公文包/笔记本",
+    "common_scenes": "下来检查工作、坐在主席台讲话、走村入户"
+  },
+  {
+    "archetype_id": "ROLE-255",
+    "category": "年代/种田",
+    "role_name": "邮递员",
+    "visual_traits": "面容年轻晒黑、骑自行车满头汗、乐观开朗",
+    "outfit": "绿色邮政工作服+帽子+绿色邮包(自行车上)",
+    "common_scenes": "骑车穿梭村与村之间、送来远方的信(重要剧情推动)、吹哨子报到"
+  },
+  {
+    "archetype_id": "ROLE-256",
+    "category": "玄幻仙侠",
+    "role_name": "废材逆袭男主",
+    "visual_traits": "初始：清秀气色差瘦弱→逆袭后：气质天翻地覆+眼中星辰+灵气流转",
+    "outfit": "废材：灰/褐粗布弟子服+补丁→逆袭：白/浅蓝道袍→巅峰：华贵仙袍+仙剑+发带",
+    "common_scenes": "外门破旧茅屋、被欺负的演武场→秘境奇幻空间→渡劫雷云天空"
+  },
+  {
+    "archetype_id": "ROLE-257",
+    "category": "玄幻仙侠",
+    "role_name": "师尊/院长",
+    "visual_traits": "仙风道骨+淡然微笑or威严深沉、白发(仙人)or黑发(年轻)",
+    "outfit": "白色/金色掌门袍+拂尘/玉如意+头冠",
+    "common_scenes": "仙山宗门大殿、悬崖边品茶、弟子们震惊跪地"
+  },
+  {
+    "archetype_id": "ROLE-258",
+    "category": "玄幻仙侠",
+    "role_name": "清冷仙女(师姐)",
+    "visual_traits": "绝世容颜白到发光、长发如瀑(黑/银)、体态轻盈、周身仙气微发光",
+    "outfit": "白/浅蓝/银色飘逸仙裙+广袖+白玉簪/银发冠+脚踩莲花(飞行)",
+    "common_scenes": "云雾仙山之巅、月下莲花池、桃花漫天仙境、飞剑御空"
+  },
+  {
+    "archetype_id": "ROLE-259",
+    "category": "玄幻仙侠",
+    "role_name": "活泼灵动女配",
+    "visual_traits": "大眼俏皮+天真烂漫、身量小巧灵活、表情生动可爱",
+    "outfit": "彩色仙裙(活泼色)+丸子头+灵兽陪伴+小巧法器",
+    "common_scenes": "花丛蝴蝶间嬉戏、修炼闯祸的现场、追着师兄跑"
+  },
+  {
+    "archetype_id": "ROLE-260",
+    "category": "玄幻仙侠",
+    "role_name": "妖女(亦正亦邪)",
+    "visual_traits": "媚眼如丝但不俗+邪魅气质、容颜绝丽带危险感",
+    "outfit": "红/黑色紧身劲装+高开叉+暗色纱衣+妖族特征饰品",
+    "common_scenes": "月下妖域现身、魅惑一笑花瓣飞舞、亦敌亦友的暧昧关系"
+  },
+  {
+    "archetype_id": "ROLE-261",
+    "category": "玄幻仙侠",
+    "role_name": "天才大师兄(反派)",
+    "visual_traits": "容貌俊美但目中无人、前期光辉→黑化后阴沉、气质从仙变魔",
+    "outfit": "前：华贵内门弟子服(金边白袍)+名剑；黑化：黑红邪气道袍+面具",
+    "common_scenes": "演武场居高临下、师尊身旁→秘境暗算男主→魔窟修炼"
+  },
+  {
+    "archetype_id": "ROLE-262",
+    "category": "玄幻仙侠",
+    "role_name": "魔尊/上古邪神(反派)",
+    "visual_traits": "绝美但邪魅(红瞳/银发)+周身暗黑气场",
+    "outfit": "黑金色魔尊袍+暗红纹路+角/翼/尾等非人特征+王座+黑色披风",
+    "common_scenes": "魔域深渊/血色天空、被封印禁地苏醒→最终对决"
+  },
+  {
+    "archetype_id": "ROLE-263",
+    "category": "玄幻仙侠",
+    "role_name": "宗门长老",
+    "visual_traits": "白发苍苍but眼神锐利如电、仙风道骨、可能悬浮端坐",
+    "outfit": "长老袍(比弟子华贵比掌门略素)+配拂尘/法杖",
+    "common_scenes": "宗门议事大殿、闭关洞府、传道解惑"
+  },
+  {
+    "archetype_id": "ROLE-264",
+    "category": "玄幻仙侠",
+    "role_name": "外门弟子(炮灰)",
+    "visual_traits": "面容普通+瑟缩怯懦(大部分)or不甘心(少数)",
+    "outfit": "灰色/土色粗布外门弟子服、无法器佩戴",
+    "common_scenes": "干杂活的宗门后山、被内门弟子欺负的角落"
+  },
+  {
+    "archetype_id": "ROLE-265",
+    "category": "玄幻仙侠",
+    "role_name": "忠犬师弟",
+    "visual_traits": "面容清秀忠厚+对师兄/师姐死心塌地、笑容老实",
+    "outfit": "整洁内门弟子服+随身携带师兄交代的物品",
+    "common_scenes": "师兄身旁跟随、替师兄跑腿传话、关键时刻拼命保护"
+  },
+  {
+    "archetype_id": "ROLE-266",
+    "category": "玄幻仙侠",
+    "role_name": "傲娇公主(仙界)",
+    "visual_traits": "绝美+高傲不可一世、下巴永远微抬、表情不屑→心口不一",
+    "outfit": "华丽公主仙裙(粉/紫/金)+全套仙家首饰+灵兽随行",
+    "common_scenes": "仙宫游玩、看不上男主→被吸引→口嫌体正直"
+  },
+  {
+    "archetype_id": "ROLE-267",
+    "category": "玄幻仙侠",
+    "role_name": "灵兽/神兽",
+    "visual_traits": "可萌可猛(两种形态)、幼年：毛茸茸小团子；成年：威严庞大",
+    "outfit": "自身毛发/鳞片即是装饰、可能有项圈/铃铛(与主人契约)",
+    "common_scenes": "蛋中孵化初见主人、战斗时化为巨大真身、日常黏着主人撒娇"
+  },
+  {
+    "archetype_id": "ROLE-268",
+    "category": "玄幻仙侠",
+    "role_name": "剑灵/器灵",
+    "visual_traits": "半透明/发光的人形(灵体)、容貌绝美but飘渺不实",
+    "outfit": "与所属法器风格一致(剑灵白色/火属性红色)、时隐时现",
+    "common_scenes": "主人意识空间中对话、关键时刻现身指导、与主人斗嘴日常"
+  },
+  {
+    "archetype_id": "ROLE-269",
+    "category": "玄幻仙侠",
+    "role_name": "散修独行侠",
+    "visual_traits": "面容沧桑or洒脱(两种)、独来独往的气质、身上有旧伤",
+    "outfit": "破旧道袍(不属于任何宗门)、背一把老剑/残剑、酒葫芦",
+    "common_scenes": "荒野独行、客栈独酌、偶然相助主角后消失"
+  },
+  {
+    "archetype_id": "ROLE-270",
+    "category": "玄幻仙侠",
+    "role_name": "拍卖行掌柜",
+    "visual_traits": "面容精明圆滑+生意人的笑(见人说人话)、保养好",
+    "outfit": "华丽仙界商人装(偏富贵)+手持扇子/账本+储物戒指",
+    "common_scenes": "拍卖大厅主持(高台)、后台与VIP私下交易"
+  },
+  {
+    "archetype_id": "ROLE-271",
+    "category": "玄幻仙侠",
+    "role_name": "丹药师/炼器师",
+    "visual_traits": "面色发红(常年对炉火)、手指有灼伤/茧、专注的眼神",
+    "outfit": "炼丹：防火围裙+灰袍+随身丹炉(缩小版)；炼器：厚手套+铁锤",
+    "common_scenes": "丹房/锻造室中忙碌(炉火映面)、拍卖会上鉴定宝物"
+  },
+  {
+    "archetype_id": "ROLE-272",
+    "category": "玄幻仙侠",
+    "role_name": "阵法师",
+    "visual_traits": "面容冷静+计算力强的眼神(脑中在布阵)、手指常在空中比划",
+    "outfit": "道袍+地上画满阵图+浮空阵盘(法器)",
+    "common_scenes": "布阵现场(地面光纹闪烁)、破阵关键时刻、宗门防御阵启动"
+  },
+  {
+    "archetype_id": "ROLE-273",
+    "category": "玄幻仙侠",
+    "role_name": "天道/系统(拟人化)",
+    "visual_traits": "无固定面容or完美对称脸(超越凡人的存在)、周身光芒",
+    "outfit": "纯白/金色光芒化成的衣袍、无实体感",
+    "common_scenes": "主角意识深处对话、天劫降临时的天空、操控命运的上帝视角"
+  },
+  {
+    "archetype_id": "ROLE-274",
+    "category": "玄幻仙侠",
+    "role_name": "邪教教主(反派)",
+    "visual_traits": "面容诡异+狂热眼神(信仰疯狂)、可能半人半魔的异变",
+    "outfit": "暗红/暗紫邪教袍+诡异面具/文身+血色法器",
+    "common_scenes": "邪教地下大殿(教众跪拜)、血祭仪式、最终走火入魔"
+  },
+  {
+    "archetype_id": "ROLE-275",
+    "category": "玄幻仙侠",
+    "role_name": "域外天魔(反派)",
+    "visual_traits": "超越常规审美的异形(非人造型)+压迫感极强、体型可变巨大",
+    "outfit": "黑色/暗紫质感铠甲+异界元素(触手/多眼/扭曲)",
+    "common_scenes": "次元裂缝入侵仙界、毁天灭地的大场面、被封印前的最终一击"
+  },
+  {
+    "archetype_id": "ROLE-276",
+    "category": "甜宠题材",
+    "role_name": "邻家小妹",
+    "visual_traits": "清纯可爱、圆脸+酒窝+大眼睛、笑容甜美无公害",
+    "outfit": "碎花裙/T恤牛仔裤+帆布鞋+双马尾or丸子头+小背包",
+    "common_scenes": "隔壁阳台/楼道偶遇、便利店门口、校园林荫道"
+  },
+  {
+    "archetype_id": "ROLE-277",
+    "category": "甜宠题材",
+    "role_name": "大学生(甜宠女主)",
+    "visual_traits": "素颜好看+青春气息、马尾辫/微卷中长发、学生气满满",
+    "outfit": "卫衣+牛仔裤/格子裙+帆布鞋+双肩包+耳机",
+    "common_scenes": "图书馆、食堂、宿舍、社团活动室、校门口奶茶店"
+  },
+  {
+    "archetype_id": "ROLE-278",
+    "category": "甜宠题材",
+    "role_name": "职场菜鸟女主",
+    "visual_traits": "刚毕业的青涩+努力认真的表情、略显紧张但眼神有光",
+    "outfit": "新手OL装(基础款西装+衬衫)、低跟鞋(还不敢穿高跟)、tote包装满文件",
+    "common_scenes": "公司第一天报到、工位前加班、走廊里撞到总裁洒咖啡"
+  },
+  {
+    "archetype_id": "ROLE-279",
+    "category": "甜宠题材",
+    "role_name": "御姐",
+    "visual_traits": "五官明艳大气+姐姐气质、眼尾上挑、身材高挑有曲线",
+    "outfit": "吊带/V领+阔腿裤or裙装+高跟鞋+墨镜+大耳环",
+    "common_scenes": "酒吧独自喝酒的背影、公司高管办公室、机场帅气走过"
+  },
+  {
+    "archetype_id": "ROLE-280",
+    "category": "甜宠题材",
+    "role_name": "霸道总裁(甜宠版)",
+    "visual_traits": "帅+高+强势但对女主有反差萌、耳朵红(害羞细节)",
+    "outfit": "西装(严肃)+居家卫衣短裤(反差萌)+运动装(约会)",
+    "common_scenes": "办公室严肃→家里围裙做饭→公园遛狗像大男孩"
+  },
+  {
+    "archetype_id": "ROLE-281",
+    "category": "甜宠题材",
+    "role_name": "小奶狗",
+    "visual_traits": "脸嫩+大眼+婴儿肥、笑起来像金毛、黏人表情",
+    "outfit": "卫衣/棒球服+牛仔裤+运动鞋+棒球帽+双肩包",
+    "common_scenes": "在女主公司楼下等人+手举咖啡、发消息秒回、撒娇不让走"
+  },
+  {
+    "archetype_id": "ROLE-282",
+    "category": "甜宠题材",
+    "role_name": "邻家弟弟(年下)",
+    "visual_traits": "清秀少年感+比女主矮or刚超过、眼神纯净执着",
+    "outfit": "校服/简单T恤牛仔+运动鞋、书包里有给姐姐的零食",
+    "common_scenes": "放学路上并肩走、阳台上偷看姐姐、长大后突然表白"
+  },
+  {
+    "archetype_id": "ROLE-283",
+    "category": "甜宠题材",
+    "role_name": "恶毒婆婆(反派)",
+    "visual_traits": "面容刻薄+嘴角下撇、审视的目光",
+    "outfit": "暗色旗袍/套装+金饰+珍珠项链",
+    "common_scenes": "第一次见面就挑剔、饭桌上阴阳怪气、暗中拆散"
+  },
+  {
+    "archetype_id": "ROLE-284",
+    "category": "甜宠题材",
+    "role_name": "心机女配(反派)",
+    "visual_traits": "容貌不输女主+笑面虎、表面亲切内心嫉妒",
+    "outfit": "紧跟时尚的穿搭、比女主更用心打扮",
+    "common_scenes": "在男主面前装好姐妹、背后说坏话、关键时刻坑女主"
+  },
+  {
+    "archetype_id": "ROLE-285",
+    "category": "甜宠题材",
+    "role_name": "绿茶(反派)",
+    "visual_traits": "无辜大眼+楚楚可怜+随时能哭、白皮肤+柔弱样",
+    "outfit": "白色/浅粉/碎花(清纯系)、纤细感穿搭",
+    "common_scenes": "男主面前装可怜→背后冷笑→被拆穿后原形毕露"
+  },
+  {
+    "archetype_id": "ROLE-286",
+    "category": "甜宠题材",
+    "role_name": "备胎(反派or可怜)",
+    "visual_traits": "条件不差但存在感低、眼神中满是得不到的遗憾",
+    "outfit": "穿着得体但不出彩(映衬男主帅)",
+    "common_scenes": "默默为女主付出→被发现→成全or黑化"
+  },
+  {
+    "archetype_id": "ROLE-287",
+    "category": "甜宠题材",
+    "role_name": "富家长辈(反派)",
+    "visual_traits": "威严+高门大户的架子、面容保养好但表情冷淡",
+    "outfit": "高定旗袍/西装+名贵首饰、一看就是上流社会",
+    "common_scenes": "家族聚会审视女主、门当户对的压迫、最终被感动"
+  },
+  {
+    "archetype_id": "ROLE-288",
+    "category": "甜宠题材",
+    "role_name": "刁蛮千金(反派)",
+    "visual_traits": "容貌出众但表情跋扈、一言不合就发脾气",
+    "outfit": "全身名牌(炫富)、穿搭精致但过于张扬",
+    "common_scenes": "在男主面前耍小姐脾气→对女主找茬→被教训"
+  },
+  {
+    "archetype_id": "ROLE-289",
+    "category": "甜宠题材",
+    "role_name": "呆萌学妹",
+    "visual_traits": "圆脸+大眼+婴儿肥+微胖可爱、天然呆表情",
+    "outfit": "宽松卫衣/校服+小圆包+发箍/发卡+运动鞋",
+    "common_scenes": "食堂里占座打盹、迷路找学姐帮忙、无意中推进剧情"
+  },
+  {
+    "archetype_id": "ROLE-290",
+    "category": "甜宠题材",
+    "role_name": "傲娇校花",
+    "visual_traits": "五官精致+身材好+全校皆知、下巴微抬+嘴硬心软",
+    "outfit": "校服也能穿出时尚感、裙子+高袜+发箍or蝴蝶结+书包挂饰",
+    "common_scenes": "教学楼走廊引目光、口嫌体正直帮男主→害羞跑走"
+  },
+  {
+    "archetype_id": "ROLE-291",
+    "category": "甜宠题材",
+    "role_name": "腹黑学长",
+    "visual_traits": "戴眼镜or不戴都帅、嘴角含笑像在算计人(善意的)",
+    "outfit": "衬衫/针织衫+西裤(学长质感)+书本不离手",
+    "common_scenes": "图书馆对面默默看女主、学生会布置任务时使坏"
+  },
+  {
+    "archetype_id": "ROLE-292",
+    "category": "甜宠题材",
+    "role_name": "体育生",
+    "visual_traits": "阳光小麦肤色+肌肉线条+汗水晶莹、笑容爽朗",
+    "outfit": "运动背心/篮球服+运动短裤+球鞋+护腕/头带",
+    "common_scenes": "篮球场/操场奔跑、拉伸时被偷看、比赛获胜后欢呼"
+  },
+  {
+    "archetype_id": "ROLE-293",
+    "category": "甜宠题材",
+    "role_name": "文艺青年",
+    "visual_traits": "面容清瘦+忧郁气质、中长发微乱有型、手指修长",
+    "outfit": "亚麻衬衫/针织衫+帆布鞋+帆布包(装相机/吉他)",
+    "common_scenes": "咖啡厅角落写东西、屋顶弹吉他、街头摄影"
+  },
+  {
+    "archetype_id": "ROLE-294",
+    "category": "甜宠题材",
+    "role_name": "闷骚理工男",
+    "visual_traits": "戴黑框眼镜+面容端正but不会表情管理、耳朵容易红",
+    "outfit": "格子衬衫/polo衫+牛仔裤+运动鞋(典型理工男)、双肩包",
+    "common_scenes": "实验室/机房、帮女主修电脑时近距离→害羞、用代码表白"
+  },
+  {
+    "archetype_id": "ROLE-295",
+    "category": "甜宠题材",
+    "role_name": "青梅竹马",
+    "visual_traits": "从小帅到大的邻家型、面容温润干净、对女主格外温柔的表情",
+    "outfit": "干净简约(白T+牛仔)、随身带女主爱吃的零食",
+    "common_scenes": "从小一起长大的走廊/阳台、接送上下学→长大后追不追得上"
+  },
+  {
+    "archetype_id": "ROLE-296",
+    "category": "甜宠题材",
+    "role_name": "追妻火葬场男主",
+    "visual_traits": "帅but前期冷漠/渣→后期追妻时卑微可怜、黑眼圈(没睡好)",
+    "outfit": "前：精英高冷穿搭→后：淋着雨/等门口的狼狈样",
+    "common_scenes": "前期对女主冷淡的各种场合→后期蹲女主楼下/送早餐/追到公司"
+  },
+  {
+    "archetype_id": "ROLE-297",
+    "category": "甜宠题材",
+    "role_name": "双胞胎(替身梗)",
+    "visual_traits": "一模一样的脸but性格相反(一温柔一冷酷/一外向一内向)",
+    "outfit": "略有区别(发型/配饰/穿搭风格)便于观众区分",
+    "common_scenes": "替身出场骗人→身份曝光→到底爱的是谁的纠结"
+  },
+  {
+    "archetype_id": "ROLE-298",
+    "category": "甜宠题材",
+    "role_name": "明星/偶像",
+    "visual_traits": "颜值顶配+镜头感+舞台光环、私下可能有反差(邋遢/吃货)",
+    "outfit": "舞台：华丽演出服+妆容；私下：帽子口罩墨镜(隐藏)→居家随意",
+    "common_scenes": "演唱会舞台、化妆间、私下逛超市被认出、与素人女主的反差生活"
+  },
+  {
+    "archetype_id": "ROLE-299",
+    "category": "甜宠题材",
+    "role_name": "经纪人",
+    "visual_traits": "精明干练+随时在线的焦虑感、手机不离手",
+    "outfit": "职业装(西装/黑色系)+永远带着笔记本+咖啡",
+    "common_scenes": "艺人身旁安排行程、处理危机公关、阻止恋情曝光"
+  },
+  {
+    "archetype_id": "ROLE-300",
+    "category": "悬疑推理",
+    "role_name": "天才侦探",
+    "visual_traits": "五官深邃+眼神锐利(观察力)、面容清瘦+思考时习惯性动作(摸下巴)",
+    "outfit": "风衣/西装(不修边幅)+乱发+黑眼圈(熬夜破案)",
+    "common_scenes": "案发现场蹲地观察、凌乱的侦探事务所、白板前连线索"
+  },
+  {
+    "archetype_id": "ROLE-301",
+    "category": "悬疑推理",
+    "role_name": "法医",
+    "visual_traits": "面容冷静(见惯生死)+手指灵活、戴手套+护目镜(工作时)",
+    "outfit": "白大褂/蓝色手术服+口罩+手套+解剖刀(工具)、生活中反差的休闲装",
+    "common_scenes": "解剖室(冷光)、案发现场检验遗体、法庭上作证"
+  },
+  {
+    "archetype_id": "ROLE-302",
+    "category": "悬疑推理",
+    "role_name": "刑警队长",
+    "visual_traits": "面容刚毅正直+眼神坚定、身形健壮(常追嫌犯)、可能有伤疤",
+    "outfit": "便衣(黑色夹克/牛仔)+配枪(腰间)+证件+防弹衣(行动时)",
+    "common_scenes": "审讯室、案发现场指挥、深夜加班的刑警队办公室"
+  },
+  {
+    "archetype_id": "ROLE-303",
+    "category": "悬疑推理",
+    "role_name": "律师(悬疑版)",
+    "visual_traits": "面容睿智从容+表情控制力强、庭上气场强大",
+    "outfit": "深色修身西装+白衬衫+公文包+金属框眼镜(可选)",
+    "common_scenes": "法庭激辩、监狱探视嫌疑人、深夜翻阅卷宗寻找漏洞"
+  },
+  {
+    "archetype_id": "ROLE-304",
+    "category": "悬疑推理",
+    "role_name": "检察官",
+    "visual_traits": "面容正气+不苟言笑、举止规范端正",
+    "outfit": "检察制服/深色西装、随身厚厚的案件档案",
+    "common_scenes": "检察院办公室、法庭上公诉、案发现场监督勘验"
+  },
+  {
+    "archetype_id": "ROLE-305",
+    "category": "悬疑推理",
+    "role_name": "连环杀手(反派)",
+    "visual_traits": "①表面无害型(邻居叔叔)→暴露后阴森 ②一开始就阴鸷型",
+    "outfit": "日常伪装正常穿搭→作案时可能戴手套/面具/特殊服装",
+    "common_scenes": "伪装成普通人的日常→暗室中的收藏品(证据)→被包围的最终对峙"
+  },
+  {
+    "archetype_id": "ROLE-306",
+    "category": "悬疑推理",
+    "role_name": "嫌疑人A/B/C",
+    "visual_traits": "各有特点(有的紧张有的镇定有的愤怒)、表情是线索",
+    "outfit": "符合各自身份的日常穿搭(便于误导观众)",
+    "common_scenes": "审讯室(不同反应)、案发时间段的各自场景、被揭穿的瞬间"
+  },
+  {
+    "archetype_id": "ROLE-307",
+    "category": "悬疑推理",
+    "role_name": "受害者家属",
+    "visual_traits": "悲痛+愤怒混合、眼眶红肿、面容憔悴",
+    "outfit": "穿着凌乱(无心打扮)or黑色丧服",
+    "common_scenes": "殡仪馆/灵堂、警察面前哭诉/要求真相、法庭上看到凶手时情绪崩溃"
+  },
+  {
+    "archetype_id": "ROLE-308",
+    "category": "悬疑推理",
+    "role_name": "线人/卧底",
+    "visual_traits": "面容紧张(随时担心暴露)+眼神闪躲、时常回头看",
+    "outfit": "融入犯罪圈子的打扮(黑色/皮夹克/tattoo)、暗中藏窃听器",
+    "common_scenes": "暗巷传递情报、犯罪团伙内部(如履薄冰)、身份即将暴露的紧张时刻"
+  },
+  {
+    "archetype_id": "ROLE-309",
+    "category": "悬疑推理",
+    "role_name": "精神病患者(嫌疑人)",
+    "visual_traits": "面容可能正常(高功能)or明显异常(蓬头垢面)、眼神空洞或狂热",
+    "outfit": "病号服(住院)/日常但不整洁(社区)",
+    "common_scenes": "精神病院(访谈)、独自在角落的异常行为、作案时的失控状态"
+  },
+  {
+    "archetype_id": "ROLE-310",
+    "category": "悬疑推理",
+    "role_name": "心理医生",
+    "visual_traits": "面容温和(倾听者)+善于观察微表情、穿着舒适专业",
+    "outfit": "商务休闲(不过分正式)、柔和色系+质感好的衣物",
+    "common_scenes": "诊室沙发椅对面、犯罪现场做画像分析、与嫌犯的心理对峙"
+  },
+  {
+    "archetype_id": "ROLE-311",
+    "category": "悬疑推理",
+    "role_name": "记者(调查型)",
+    "visual_traits": "面容执着+不畏危险的眼神、可能显得疲惫(跟踪多日)",
+    "outfit": "休闲装+记者马甲/双肩包+相机/录音笔、帽子墨镜(跟踪时)",
+    "common_scenes": "案发现场蹲守、暗中跟踪嫌犯、深夜在家整理线索(墙上满是照片红线)"
+  },
+  {
+    "archetype_id": "ROLE-312",
+    "category": "悬疑推理",
+    "role_name": "富豪(被害)",
+    "visual_traits": "生前：面容富态/精明+名贵穿着；死后：现场遗体",
+    "outfit": "名牌定制西装/华丽礼服(被害时穿着)、身上有关键证据(遗物)",
+    "common_scenes": "豪宅书房(案发现场)、遗产分配引发的动机分析"
+  },
+  {
+    "archetype_id": "ROLE-313",
+    "category": "悬疑推理",
+    "role_name": "管家/仆人(知情者)",
+    "visual_traits": "面容沉稳克制(职业习惯)、眼神中可能藏着秘密",
+    "outfit": "黑色管家服/女仆装+白手套(传统)+随身钥匙",
+    "common_scenes": "大宅各处走动(了解一切)、被问询时的谨慎回答、最终交出关键证词"
+  },
+  {
+    "archetype_id": "ROLE-314",
+    "category": "悬疑推理",
+    "role_name": "邻居(目击者)",
+    "visual_traits": "普通人面容+好奇or害怕的表情",
+    "outfit": "日常家居服/睡衣(夜间目击)",
+    "common_scenes": "阳台/窗户目击到异常、犹豫是否报警、最终配合调查"
+  },
+  {
+    "archetype_id": "ROLE-315",
+    "category": "悬疑推理",
+    "role_name": "前任(有动机)",
+    "visual_traits": "面容或怨恨或痛苦、与受害者有牵扯的复杂表情",
+    "outfit": "正常穿搭(但可能有情绪波动的细节：咬指甲/衣服凌乱)",
+    "common_scenes": "被审讯时情绪激动、回忆与受害者的过往、证明不在场证据"
+  },
+  {
+    "archetype_id": "ROLE-316",
+    "category": "悬疑推理",
+    "role_name": "遗产继承人(嫌疑)",
+    "visual_traits": "面容贪婪(真凶)or无辜(被冤枉)、听到遗嘱时的表情分化",
+    "outfit": "穿着体面(有钱人)、丧礼黑色正装",
+    "common_scenes": "律师宣读遗嘱的书房、遗产分配的争吵现场、被调查时的律师会面"
+  },
+  {
+    "archetype_id": "ROLE-317",
+    "category": "悬疑推理",
+    "role_name": "保险受益人(嫌疑)",
+    "visual_traits": "面容或平静(心理素质好)or紧张(被怀疑时)",
+    "outfit": "日常穿搭、可能有近期消费升级的细节(新买的东西)",
+    "common_scenes": "保险公司被调查、被问及与受害者关系时的闪烁其词"
+  },
+  {
+    "archetype_id": "ROLE-318",
+    "category": "悬疑推理",
+    "role_name": "神秘证人",
+    "visual_traits": "面容隐藏在帽子/口罩后、出场自带悬疑感",
+    "outfit": "低调穿搭(不想被认出)+帽子+墨镜/口罩",
+    "common_scenes": "深夜主动联系侦探、提供关键线索后消失、真实身份揭露"
+  },
+  {
+    "archetype_id": "ROLE-319",
+    "category": "悬疑推理",
+    "role_name": "幕后黑手(反派)",
+    "visual_traits": "表面受人尊敬(社会地位高)→真面目阴险",
+    "outfit": "体面穿搭(社会精英)+可能在暗室有另一副面孔",
+    "common_scenes": "日常正常社交(无人怀疑)→最终被揭露的惊天反转"
+  },
+  {
+    "archetype_id": "ROLE-320",
+    "category": "校园青春",
+    "role_name": "学霸男神",
+    "visual_traits": "面容清秀or帅气+戴/不戴眼镜、安静专注的侧脸、万年第一的自信",
+    "outfit": "校服也能穿出质感/干净衬衫+西裤+帆布鞋、随身书本和笔",
+    "common_scenes": "教室窗边阳光下做题、图书馆固定位置、年级成绩榜第一位"
+  },
+  {
+    "archetype_id": "ROLE-321",
+    "category": "校园青春",
+    "role_name": "校霸(外冷内热)",
+    "visual_traits": "面容帅气但表情凶/冷、可能有耳钉/打过架的痕迹、身高腿长",
+    "outfit": "校服外套不扣+内搭酷、运动鞋/板鞋、头发略长(不太守规矩)",
+    "common_scenes": "天台/后门抽烟(不良印象)→意外暴露善良→对女主特别"
+  },
+  {
+    "archetype_id": "ROLE-322",
+    "category": "校园青春",
+    "role_name": "校花女神",
+    "visual_traits": "五官精致+皮肤好+长发飘飘、全校男生暗恋对象",
+    "outfit": "校服也好看/清纯连衣裙+白鞋+淡妆+发带or蝴蝶结",
+    "common_scenes": "走廊经过引注目、艺术节舞台上发光、被表白的树下"
+  },
+  {
+    "archetype_id": "ROLE-323",
+    "category": "校园青春",
+    "role_name": "丑小鸭女主",
+    "visual_traits": "前期：眼镜+雀斑(化妆)+土土的造型→蜕变后：摘镜美女",
+    "outfit": "前：宽大校服+老式眼镜+丑发型；后：变美后清新穿搭",
+    "common_scenes": "教室角落被无视→蜕变后全校震惊→男主后悔/追妻"
+  },
+  {
+    "archetype_id": "ROLE-324",
+    "category": "校园青春",
+    "role_name": "转学生(神秘)",
+    "visual_traits": "颜值在线+自带神秘光环、独来独往的气质",
+    "outfit": "新校服还是笔挺的+可能有前学校物品(暗示背景)",
+    "common_scenes": "学期中突然出现在班里、自我介绍时全班震惊、引发各种猜测"
+  },
+  {
+    "archetype_id": "ROLE-325",
+    "category": "校园青春",
+    "role_name": "体育特长生",
+    "visual_traits": "阳光健康+肌肉匀称(不过度)、满头汗+运动后红扑扑",
+    "outfit": "运动服/队服+运动鞋+护腕/头带、上课时也穿运动装",
+    "common_scenes": "操场训练、比赛现场、更衣室门口、被低年级喊加油"
+  },
+  {
+    "archetype_id": "ROLE-326",
+    "category": "校园青春",
+    "role_name": "文艺社长",
+    "visual_traits": "气质文艺(略忧郁or温柔)、瘦削白净、手指修长(弹琴/画画)",
+    "outfit": "白衬衫/格纹外套+围巾+帆布鞋+画具/乐器",
+    "common_scenes": "美术教室/音乐室、社团招新摊位、文艺演出后台"
+  },
+  {
+    "archetype_id": "ROLE-327",
+    "category": "校园青春",
+    "role_name": "学生会主席",
+    "visual_traits": "面容端正严肃(但可能有隐藏的可爱面)、戴眼镜or不戴、气质学长/学姐",
+    "outfit": "校服穿得最规范+学生会臂章/胸牌",
+    "common_scenes": "学生会办公室开会、升旗仪式讲话、监督纪律巡走廊"
+  },
+  {
+    "archetype_id": "ROLE-328",
+    "category": "校园青春",
+    "role_name": "富家千金(反派/可转正)",
+    "visual_traits": "漂亮+傲气、穿着比普通学生好、自带优越感",
+    "outfit": "校服也要改得好看/放学后名牌加身+接送的豪车",
+    "common_scenes": "在女主面前炫富/挑衅→逐渐看到女主优点→可能洗白"
+  },
+  {
+    "archetype_id": "ROLE-329",
+    "category": "校园青春",
+    "role_name": "穷学生(逆袭)",
+    "visual_traits": "面容普通但眼神有光(不屈)、穿着朴素but精神面貌好",
+    "outfit": "旧校服+破旧书包+省吃俭用的痕迹",
+    "common_scenes": "放学后打工(快餐店/超市)、奖学金公示栏前、最终考上好大学"
+  },
+  {
+    "archetype_id": "ROLE-330",
+    "category": "校园青春",
+    "role_name": "暗恋对象",
+    "visual_traits": "在暗恋者眼中自带光(柔焦特效)、笑容温暖到心化",
+    "outfit": "任何穿搭在暗恋者眼里都好看、最平常的衣服也被注意细节",
+    "common_scenes": "操场上被远远看着、图书馆擦肩(暗恋者心跳加速)、毕业时遗憾"
+  },
+  {
+    "archetype_id": "ROLE-331",
+    "category": "校园青春",
+    "role_name": "班主任/教导主任",
+    "visual_traits": "严厉(教导主任)or温和(班主任)、中年面容+威严/亲切",
+    "outfit": "教导主任：西装+严肃脸/班主任：休闲正装+和蔼笑容",
+    "common_scenes": "办公室谈话、课堂上讲课/训话、家长会"
+  },
+  {
+    "archetype_id": "ROLE-332",
+    "category": "校园青春",
+    "role_name": "同桌CP",
+    "visual_traits": "两人坐一起视觉搭(一高一矮/一冷一暖)、互相传纸条的侧脸",
+    "outfit": "同款校服但细节有各自风格",
+    "common_scenes": "课桌上的三八线、一起做作业、毕业季分离"
+  },
+  {
+    "archetype_id": "ROLE-333",
+    "category": "校园青春",
+    "role_name": "闺蜜团",
+    "visual_traits": "2-3人性格各异(可爱型+御姐型+搞怪型)、总是成群出现",
+    "outfit": "各自风格但有默契的小配饰(闺蜜手链)",
+    "common_scenes": "一起上厕所/食堂、帮女主出主意、帮忙传话/创造偶遇机会"
+  },
+  {
+    "archetype_id": "ROLE-334",
+    "category": "校园青春",
+    "role_name": "兄弟团",
+    "visual_traits": "3-5人各有特点(搞笑担当/暴力担当/军师/吃货)、围着男主",
+    "outfit": "风格各异的校服穿法(各自个性)",
+    "common_scenes": "篮球场打球、食堂占座、帮男主打探女主消息"
+  },
+  {
+    "archetype_id": "ROLE-335",
+    "category": "校园青春",
+    "role_name": "初恋白月光",
+    "visual_traits": "完美but带遗憾感的面容、出现在回忆中总有柔光滤镜",
+    "outfit": "白色系为主(纯洁回忆感)+那个年代的校服/裙子",
+    "common_scenes": "回忆中的校园、分离的车站、多年后重逢(可能已变了)"
+  },
+  {
+    "archetype_id": "ROLE-336",
+    "category": "校园青春",
+    "role_name": "网络暴力者(反派)",
+    "visual_traits": "面容可能匿名(键盘后面)or面对面的霸凌者、表情冷漠or兴奋",
+    "outfit": "普通穿搭(任何人都可能是)",
+    "common_scenes": "网络上发恶意评论/P图传播、现实中指指点点、被揭露后的无措"
+  },
+  {
+    "archetype_id": "ROLE-337",
+    "category": "校园青春",
+    "role_name": "校园霸凌者(反派)",
+    "visual_traits": "表情嚣张/阴狠+身边总有跟班、体格优势or人数优势",
+    "outfit": "校服穿得松垮+可能有不良改装(短裙/敞领口)",
+    "common_scenes": "无人角落围堵受害者、教室内孤立排挤、厕所/走廊的恶意行为"
+  },
+  {
+    "archetype_id": "ROLE-338",
+    "category": "校园青春",
+    "role_name": "温柔学姐",
+    "visual_traits": "面容温婉大方+成熟感(比同龄人)、长发微卷+温暖笑容",
+    "outfit": "校服穿出学姐质感/简约裙装+薄开衫+低跟鞋",
+    "common_scenes": "社团活动带新生、图书馆帮助学弟妹、毕业前的话别"
+  },
+  {
+    "archetype_id": "ROLE-339",
+    "category": "校园青春",
+    "role_name": "毒舌损友",
+    "visual_traits": "表情欠揍but真心好+嘴角带坏笑、面容机灵",
+    "outfit": "穿搭随性(不太在意外表)、可能戴帽子/耳机",
+    "common_scenes": "嘴上损人心里最关心、关键时刻第一个冲出来帮忙"
+  },
+  {
+    "archetype_id": "ROLE-340",
+    "category": "萌宝/亲子",
+    "role_name": "天才萌宝",
+    "visual_traits": "大眼睛+婴儿肥+奶声奶气、智商超高但外表纯真可爱",
+    "outfit": "可爱童装(卡通元素)+小书包+可能戴小眼镜(天才感)",
+    "common_scenes": "幼儿园惊呆老师、自己找爸爸/妈妈(行动力超强)、说出惊人言论"
+  },
+  {
+    "archetype_id": "ROLE-341",
+    "category": "萌宝/亲子",
+    "role_name": "双胞胎萌宝",
+    "visual_traits": "一模一样but性格相反(一个活泼一个内向/一个像爸一个像妈)",
+    "outfit": "同款不同色(便于区分)+各自性格的小细节(发箍/帽子)",
+    "common_scenes": "一个去找爸爸一个留守妈妈→最终团聚、配合演戏骗大人"
+  },
+  {
+    "archetype_id": "ROLE-342",
+    "category": "萌宝/亲子",
+    "role_name": "高冷总裁爸爸",
+    "visual_traits": "帅+有钱+不知道有孩子→发现后手足无措的反差萌",
+    "outfit": "西装(工作)→笨拙地穿围裙(带娃日常)+袖子卷起",
+    "common_scenes": "第一次换尿布崩溃、公司开会被孩子电话打断→逐渐变奶爸"
+  },
+  {
+    "archetype_id": "ROLE-343",
+    "category": "萌宝/亲子",
+    "role_name": "单亲妈妈",
+    "visual_traits": "疲惫but坚强美丽、眼角有浅纹(操劳)but笑容温暖",
+    "outfit": "朴素但整洁的妈妈装(便于活动)+平底鞋+妈咪包",
+    "common_scenes": "一边工作一边带娃、送孩子上学后赶去公司、深夜等孩子退烧"
+  },
+  {
+    "archetype_id": "ROLE-344",
+    "category": "萌宝/亲子",
+    "role_name": "前妻(隐瞒孩子)",
+    "visual_traits": "独自抚养孩子的坚强+对前夫复杂情感写在眼里",
+    "outfit": "独立女性穿搭(既是妈妈也不放弃自己)+随时可切换工作/带娃模式",
+    "common_scenes": "偶然重逢的尴尬、孩子面前圆谎、最终真相曝光的对峙"
+  },
+  {
+    "archetype_id": "ROLE-345",
+    "category": "萌宝/亲子",
+    "role_name": "恶毒继母(反派)",
+    "visual_traits": "表面温柔(在丈夫面前)→对孩子时冷漠/刻薄",
+    "outfit": "光鲜亮丽(图丈夫的钱)→在家对孩子时随意",
+    "common_scenes": "丈夫在时假笑→不在时给孩子甩脸色/克扣→最终被揭穿"
+  },
+  {
+    "archetype_id": "ROLE-346",
+    "category": "萌宝/亲子",
+    "role_name": "争夺抚养权的前夫(反派)",
+    "visual_traits": "面容可能体面(有钱)or落魄(不同剧设)、态度强硬or卑鄙",
+    "outfit": "西装(出庭争抚养权)+可能带新女友刺激前妻",
+    "common_scenes": "法庭争夺战、暗中找孩子的麻烦、利用孩子威胁前妻"
+  },
+  {
+    "archetype_id": "ROLE-347",
+    "category": "萌宝/亲子",
+    "role_name": "溺爱爷爷奶奶",
+    "visual_traits": "慈祥+银发+对孙子百依百顺、掏零食的颤巍巍的手",
+    "outfit": "老年家居装/唐装(爷爷)/碎花(奶奶)+老花镜",
+    "common_scenes": "给孙子塞钱偷买零食、跟媳妇教育理念冲突、护短到极致"
+  },
+  {
+    "archetype_id": "ROLE-348",
+    "category": "萌宝/亲子",
+    "role_name": "严厉外公外婆",
+    "visual_traits": "面容严肃(外公)or挑剔(外婆)、门第观念重的架子",
+    "outfit": "整洁讲究的老年装(体现家教严格)",
+    "common_scenes": "第一次见女婿/孙子的考核、立规矩的饭桌、最终被孙子感化"
+  },
+  {
+    "archetype_id": "ROLE-349",
+    "category": "萌宝/亲子",
+    "role_name": "幼儿园老师",
+    "visual_traits": "面容温和亲切+年轻有活力、蹲下来跟孩子说话的高度",
+    "outfit": "舒适活泼穿搭(便于带孩子)+围裙(画画课)/运动装(户外)",
+    "common_scenes": "教室带孩子做游戏、发现孩子异常后关心询问、与家长沟通"
+  },
+  {
+    "archetype_id": "ROLE-350",
+    "category": "萌宝/亲子",
+    "role_name": "小伙伴(萌宝朋友)",
+    "visual_traits": "同龄可爱小朋友、各种性格(调皮鬼/害羞鬼/小大人)",
+    "outfit": "各色可爱童装",
+    "common_scenes": "幼儿园一起玩耍、小朋友之间的幼稚对话推进剧情"
+  },
+  {
+    "archetype_id": "ROLE-351",
+    "category": "萌宝/亲子",
+    "role_name": "亲子鉴定医生",
+    "visual_traits": "面容严肃专业+白大褂、递出报告时面无表情",
+    "outfit": "白大褂+手持检验报告",
+    "common_scenes": "出结果的紧张时刻、被各方追问/贿赂、最终正义出报告"
+  },
+  {
+    "archetype_id": "ROLE-352",
+    "category": "萌宝/亲子",
+    "role_name": "保姆/月嫂",
+    "visual_traits": "面容和蔼(好保姆)or精明(坏保姆/间谍)、中年女性",
+    "outfit": "朴素家居装+围裙、抱着宝宝的姿势专业",
+    "common_scenes": "照顾宝宝日常、可能暗中给对家传消息(反派)or忠心保护(正面)"
+  },
+  {
+    "archetype_id": "ROLE-353",
+    "category": "萌宝/亲子",
+    "role_name": "隔壁叔叔(新恋情)",
+    "visual_traits": "帅气+有亲和力+对孩子好(加分项)、阳光暖男or成熟型",
+    "outfit": "休闲居家装(邻居日常)、周末带孩子玩时运动装",
+    "common_scenes": "搬家时帮忙、帮忙接孩子放学、三人逐渐像一家人"
+  },
+  {
+    "archetype_id": "ROLE-354",
+    "category": "萌宝/亲子",
+    "role_name": "抢孩子的豪门家族(反派)",
+    "visual_traits": "一家子有钱人(威严老太太+精明儿子/律师)、面容冷硬",
+    "outfit": "全套高定(壕)+黑色保姆车+律师随行",
+    "common_scenes": "派人跟踪孩子、法庭上用金钱/权势施压、直接抢走孩子的狗血场面"
+  },
+  {
+    "archetype_id": "ROLE-355",
+    "category": "穿越千禧年",
+    "role_name": "重生千禧女主",
+    "visual_traits": "清纯灵动大眼、皮肤白净有少女气、眼神比同龄人成熟通透",
+    "outfit": "低腰牛仔裤+紧身彩色短T+发夹刘海+帆布鞋+水钻手机挂绳",
+    "common_scenes": "老式教室、网吧、街边奶茶店、家属院筒子楼"
+  },
+  {
+    "archetype_id": "ROLE-356",
+    "category": "穿越千禧年",
+    "role_name": "重生千禧男主",
+    "visual_traits": "清爽短碎发、五官干净帅气、眼神野心勃勃带痞气",
+    "outfit": "宽松运动夹克/格子衬衫+直筒牛仔裤+白球鞋+翻盖手机",
+    "common_scenes": "老式网吧、台球厅、批发市场���城中村出租屋"
+  },
+  {
+    "archetype_id": "ROLE-357",
+    "category": "穿越千禧年",
+    "role_name": "千禧辣妹",
+    "visual_traits": "浓妆细眉、染色挑染发、媚眼如丝、时髦张扬",
+    "outfit": "露脐吊带+超短裙+厚底鞋+大耳环+水钻甲片+非主流妆",
+    "common_scenes": "迪厅蹦迪、KTV包房、商场扶梯、街头摆拍"
+  },
+  {
+    "archetype_id": "ROLE-358",
+    "category": "穿越千禧年",
+    "role_name": "非主流杀马特",
+    "visual_traits": "夸张爆炸彩色发型、烟熏妆、忧郁文艺感、QQ头像风",
+    "outfit": "黑色铆钉皮衣+破洞裤+十字架项链+黑色美瞳+厚刘海",
+    "common_scenes": "网吧通宵、街头广场、照相馆大头贴、台球室"
+  },
+  {
+    "archetype_id": "ROLE-359",
+    "category": "穿越千禧年",
+    "role_name": "千禧富二代",
+    "visual_traits": "白净养尊处优、眉眼精致带傲气、油头时髦",
+    "outfit": "名牌运动套装+金链子+诺基亚直板机+限量球鞋",
+    "common_scenes": "私人会所、改装车展、夜总会、豪华别墅"
+  },
+  {
+    "archetype_id": "ROLE-360",
+    "category": "穿越千禧年",
+    "role_name": "下岗工人父亲",
+    "visual_traits": "国字脸沧桑、眼角皱纹深、皮肤黝黑粗糙、神情坚毅疲惫",
+    "outfit": "旧蓝灰工装/夹克+老式自行车+搪瓷缸+解放鞋",
+    "common_scenes": "国企工厂大门、家属院、菜市场摆摊、筒子楼"
+  },
+  {
+    "archetype_id": "ROLE-361",
+    "category": "穿越千禧年",
+    "role_name": "市井市场大妈",
+    "visual_traits": "圆脸富态、烫卷短发、笑容市侩精明、皮肤偏黄有斑",
+    "outfit": "碎花衬衫+针织开衫+老花布围裙+塑料拖鞋",
+    "common_scenes": "农贸市场、街边小吃摊、菜场、家属院晾衣场"
+  },
+  {
+    "archetype_id": "ROLE-362",
+    "category": "穿越千禧年",
+    "role_name": "千禧学霸",
+    "visual_traits": "斯文清秀、戴老式黑框眼镜、皮肤白书卷气、表情认真",
+    "outfit": "白衬衫校服/蓝白运动校服+背双肩书包+电子表",
+    "common_scenes": "老式教室、图书馆、宿舍、操场升旗"
+  },
+  {
+    "archetype_id": "ROLE-363",
+    "category": "穿越千禧年",
+    "role_name": "网吧老板",
+    "visual_traits": "精明圆滑、油光满面、笑容市侩、皮肤偏油",
+    "outfit": "花衬衫+大金表+人字拖+腰间挂BB机/手机",
+    "common_scenes": "老式网吧前台、烟雾缭绕机房、街边大排档"
+  },
+  {
+    "archetype_id": "ROLE-364",
+    "category": "穿越千禧年",
+    "role_name": "千禧初恋校花",
+    "visual_traits": "清纯白净、黑长直发、笑起来有梨涡、皮肤透亮自然",
+    "outfit": "蓝白校服/碎花连衣裙+白球鞋+发箍+透明文具",
+    "common_scenes": "教室窗边、林荫操场、文具店、放学路口"
+  },
+  {
+    "archetype_id": "ROLE-365",
+    "category": "穿越千禧年",
+    "role_name": "街头小混混",
+    "visual_traits": "染黄毛、痞气十足、嘴角叼烟、皮肤偏黑有疤",
+    "outfit": "花衬衫敞怀+大裤衩+人字拖+金属链子+台球杆",
+    "common_scenes": "台球厅、街头巷战、录像厅、夜市大排档"
+  },
+  {
+    "archetype_id": "ROLE-366",
+    "category": "穿越千禧年",
+    "role_name": "千禧创业青年",
+    "visual_traits": "精神干练、眼神有冲劲、清爽短发、皮肤健康有光泽",
+    "outfit": "白衬衫卷袖+西裤+公文包+大哥大/翻盖机+BP机",
+    "common_scenes": "批发市场、出租屋办公、街边谈生意、绿皮火车"
+  }
+]
