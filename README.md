@@ -21,6 +21,7 @@
 |---|-------|--------|------|
 | 🎭 | **character-library-generator** | 千人千面角色库 — 366 原型 × 14 维 Face DNA，29.7 亿种面孔 | [→ 仓库](https://github.com/patrickqing20-cell/character-library-generator) |
 | 🗣️ | **character-talking-video-prompt-builder** | 视频台词 Prompt — Voice DNA 8 维 + 12 种情绪 + 8 种方言 | [→ 仓库](https://github.com/patrickqing20-cell/character-talking-video-prompt-builder) |
+| 📸 | **realistic-cast-generator** | 真实感角色选角 — 三段式×双链路，14维五官词池，96套服装词池，210+组验证 | [→ 仓库](https://github.com/patrickqing20-cell/realistic-cast-generator) |
 
 ---
 
