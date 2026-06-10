@@ -1,0 +1,19 @@
+{
+  "replacements": [
+    {"trigger": "brocade", "replace_with": "subtle woven pattern", "reason": "触发3D织锦材质渲染"},
+    {"trigger": "gold dragon embroidery", "replace_with": "subtle woven dragon scale pattern", "reason": "触发金色CG光效"},
+    {"trigger": "gold embroidery", "replace_with": "subtle woven pattern along hem", "reason": "金绣触发CG"},
+    {"trigger": "gold crown", "replace_with": "simple dark metal hair crown", "reason": "金冠最强CG触发"},
+    {"trigger": "phoenix embroidery", "replace_with": "subtle woven phoenix pattern", "reason": "凤纹触发华丽渲染"},
+    {"trigger": "sequin", "replace_with": "", "reason": "亮片必触发CG，直接删除"},
+    {"trigger": "beaded", "replace_with": "", "reason": "珠饰必触发CG，直接删除"},
+    {"trigger": "iridescent", "replace_with": "", "reason": "虹彩光泽触发CG"},
+    {"trigger": "glossy silk", "replace_with": "", "reason": "光泽丝绸触发CG"}
+  ],
+  "safe_alternatives": {
+    "fabric_pattern": ["subtle woven pattern", "delicate embroidery", "woven floral pattern along hem"],
+    "crown_headpiece": ["simple dark metal hair crown", "dark wood hair crown", "simple gold hairpin"],
+    "belt": ["cloth sash belt", "leather belt", "wide dark gold cloth sash"],
+    "jewelry": ["jade drop earrings", "pearl drop earrings", "simple jade bangle", "thin gold chain"]
+  }
+}

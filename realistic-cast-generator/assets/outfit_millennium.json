@@ -1,0 +1,266 @@
+[
+  {
+    "id": "M001",
+    "category": "碎花衬衫",
+    "desc": "blue-and-white floral print button-up shirt, high-waisted straight-leg jeans, black leather belt",
+    "route": "A"
+  },
+  {
+    "id": "M002",
+    "category": "格纹衬衫",
+    "desc": "red-and-white checkered shirt under blue denim pinafore dress, twin braids",
+    "route": "A"
+  },
+  {
+    "id": "M003",
+    "category": "波点衬衫",
+    "desc": "white blouse with black polka dots and ruffled collar, high-waisted jeans",
+    "route": "A"
+  },
+  {
+    "id": "M004",
+    "category": "格纹大衣",
+    "desc": "camel-colored plaid wool overcoat over cream turtleneck sweater, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M005",
+    "category": "碎花衬衫",
+    "desc": "white floral print blouse under green knitted vest, dark skirt",
+    "route": "A"
+  },
+  {
+    "id": "M006",
+    "category": "格纹衬衫",
+    "desc": "red-and-blue plaid button-up shirt, high-waisted dark trousers, black belt",
+    "route": "A"
+  },
+  {
+    "id": "M007",
+    "category": "碎花背带裤",
+    "desc": "white blouse with blue floral print, blue denim overalls",
+    "route": "A"
+  },
+  {
+    "id": "M008",
+    "category": "针织开衫",
+    "desc": "blue chunky knit cardigan over floral print dress, simple flat shoes",
+    "route": "A"
+  },
+  {
+    "id": "M009",
+    "category": "碎花衬衫",
+    "desc": "pink floral print button-up shirt, high-waisted jeans, twin braids",
+    "route": "A"
+  },
+  {
+    "id": "M010",
+    "category": "白衬衫套装",
+    "desc": "white button-up shirt, blue plaid midi skirt, knitted vest",
+    "route": "A"
+  },
+  {
+    "id": "M011",
+    "category": "毛衣",
+    "desc": "oversized pink knit sweater, dark midi skirt",
+    "route": "A"
+  },
+  {
+    "id": "M012",
+    "category": "波点衬衫",
+    "desc": "cream blouse with black polka dots, high-waisted dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M013",
+    "category": "工装外套",
+    "desc": "army-green utility jacket over white polka-dot blouse, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M014",
+    "category": "旗袍",
+    "desc": "blue-and-white cheongsam with mandarin collar and frog button closures, side slit",
+    "route": "A"
+  },
+  {
+    "id": "M015",
+    "category": "波点工装",
+    "desc": "white blouse with red polka dots, army-green wide-leg trousers",
+    "route": "A"
+  },
+  {
+    "id": "M016",
+    "category": "蕾丝衬衫",
+    "desc": "white blouse with lace collar, dark midi skirt",
+    "route": "A"
+  },
+  {
+    "id": "M017",
+    "category": "红毛衣",
+    "desc": "red knit sweater, red fringed scarf, blue jeans",
+    "route": "A"
+  },
+  {
+    "id": "M018",
+    "category": "酒红毛衣",
+    "desc": "burgundy knit sweater, dark grey midi skirt",
+    "route": "A"
+  },
+  {
+    "id": "M019",
+    "category": "碎花工装",
+    "desc": "white blouse with blue floral print, army-green wide-leg work pants",
+    "route": "A"
+  },
+  {
+    "id": "M020",
+    "category": "西装套装",
+    "desc": "grey tailored suit blazer, white shirt, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M021",
+    "category": "铁路制服女",
+    "desc": "blue railway uniform suit, white shirt, red necktie, gold badge pin, black heels",
+    "route": "A"
+  },
+  {
+    "id": "M022",
+    "category": "针织马甲",
+    "desc": "white button-up shirt under grey knitted vest, dark skirt",
+    "route": "A"
+  },
+  {
+    "id": "M023",
+    "category": "米色开衫",
+    "desc": "beige knit cardigan over floral dress, flat leather shoes",
+    "route": "A"
+  },
+  {
+    "id": "M024",
+    "category": "条纹毛衣",
+    "desc": "red-and-white striped knit sweater, blue jeans",
+    "route": "A"
+  },
+  {
+    "id": "M025",
+    "category": "格纹衬衫",
+    "desc": "red-and-white checkered button-up shirt, blue jeans, black belt",
+    "route": "A"
+  },
+  {
+    "id": "M026",
+    "category": "牛仔套装",
+    "desc": "blue denim jacket, matching blue jeans, white t-shirt underneath",
+    "route": "A"
+  },
+  {
+    "id": "M027",
+    "category": "毛衣叠穿",
+    "desc": "green knit sweater layered over polka-dot collared shirt, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M028",
+    "category": "红夹克",
+    "desc": "red cropped jacket, red plaid midi skirt, black ankle boots",
+    "route": "A"
+  },
+  {
+    "id": "M029",
+    "category": "红毛衣围巾",
+    "desc": "red knit sweater with red fringed scarf, blue jeans, ankle boots",
+    "route": "A"
+  },
+  {
+    "id": "M030",
+    "category": "深蓝毛衣",
+    "desc": "deep navy knit sweater, floral print midi skirt",
+    "route": "A"
+  },
+  {
+    "id": "M031",
+    "category": "中山装蓝",
+    "desc": "blue Mao-style zhongshan suit, four-button front, mandarin collar",
+    "route": "A"
+  },
+  {
+    "id": "M032",
+    "category": "翻领夹克",
+    "desc": "grey zip-front collared jacket over white shirt, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M033",
+    "category": "铁路制服男",
+    "desc": "dark blue railway uniform suit, white shirt, peaked cap with emblem",
+    "route": "A"
+  },
+  {
+    "id": "M034",
+    "category": "格子衬衫男",
+    "desc": "red-and-blue plaid flannel shirt, blue jeans, leather belt",
+    "route": "A"
+  },
+  {
+    "id": "M035",
+    "category": "中山装灰",
+    "desc": "grey Mao-style zhongshan suit, four-button front, mandarin collar",
+    "route": "A"
+  },
+  {
+    "id": "M036",
+    "category": "工装衬衫",
+    "desc": "khaki utility shirt with four chest pockets, dark trousers",
+    "route": "A"
+  },
+  {
+    "id": "M037",
+    "category": "工装套装",
+    "desc": "blue workwear jacket and trousers, leather belt, work boots",
+    "route": "A"
+  },
+  {
+    "id": "M038",
+    "category": "Polo工装",
+    "desc": "white polo shirt, army-green cargo trousers, black leather belt",
+    "route": "A"
+  },
+  {
+    "id": "M039",
+    "category": "蓝色工装",
+    "desc": "blue workwear shirt and matching trousers, dark belt",
+    "route": "A"
+  },
+  {
+    "id": "M040",
+    "category": "中山装藏青",
+    "desc": "navy blue zhongshan suit, four-button front, mandarin collar",
+    "route": "A"
+  },
+  {
+    "id": "M041",
+    "category": "红波点工装",
+    "desc": "red polka-dot blouse, army-green work pants, black belt",
+    "route": "A"
+  },
+  {
+    "id": "M042",
+    "category": "碎花阔腿裤",
+    "desc": "white floral print blouse, army-green wide-leg trousers",
+    "route": "A"
+  },
+  {
+    "id": "M043",
+    "category": "波点背带裤",
+    "desc": "white blouse with blue floral print, blue denim overalls",
+    "route": "A"
+  },
+  {
+    "id": "M044",
+    "category": "格纹半裙",
+    "desc": "white button-up shirt, blue plaid midi skirt, brown leather belt",
+    "route": "A"
+  }
+]

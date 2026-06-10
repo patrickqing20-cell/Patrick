@@ -1,0 +1,140 @@
+{
+  "face_shape": [
+    "round face with soft jawline",
+    "oval face with defined cheekbones",
+    "angular square jaw",
+    "heart-shaped face with pointed chin",
+    "diamond-shaped face with prominent cheekbones",
+    "long narrow face with sharp cheekbones",
+    "broad square face",
+    "small oval face with soft features",
+    "gaunt face with sunken cheeks",
+    "round fleshy face with double chin"
+  ],
+  "eyebrows": [
+    "thick straight dark eyebrows",
+    "thin gently arched eyebrows",
+    "natural straight eyebrows",
+    "sparse thin grey eyebrows",
+    "thick unruly eyebrows",
+    "soft curved eyebrows",
+    "sharp upward-slanting eyebrows",
+    "bushy greying eyebrows"
+  ],
+  "eyes": [
+    "large almond-shaped double eyelids",
+    "narrow single eyelids",
+    "deep-set double eyelids",
+    "small double eyelids",
+    "round double eyelids",
+    "hooded wrinkled eyelids",
+    "tired double eyelids with dark circles",
+    "bright clear double eyelids",
+    "fierce narrow single eyelids",
+    "calm composed double eyelids"
+  ],
+  "eye_color": [
+    "dark brown eyes",
+    "light brown eyes",
+    "dark brown eyes behind black-framed glasses",
+    "dark brown eyes behind thin silver-framed glasses"
+  ],
+  "nose": [
+    "high straight nose bridge with sharp tip",
+    "small button nose",
+    "wide flat nose with flared nostrils",
+    "straight nose with narrow bridge",
+    "small delicate nose",
+    "average nose with slightly round tip",
+    "bony prominent aquiline nose",
+    "crooked nose slightly deviated"
+  ],
+  "lips": [
+    "thin pressed lips",
+    "full lips with defined cupid's bow",
+    "medium lips with neutral expression",
+    "thick chapped lips",
+    "small pink pouty lips",
+    "thin dry lips",
+    "medium lips with slight upward curve",
+    "wide lips quick to smile"
+  ],
+  "ears": [
+    "ears slightly protruding",
+    "small flat ears",
+    "normal ears",
+    "large ears with thick lobes"
+  ],
+  "hair_male": [
+    "short side-parted black hair",
+    "short buzz cut black hair",
+    "slicked-back black hair",
+    "messy black hair pushed back",
+    "short cropped black hair with shaved sides",
+    "thinning black hair with bald spot",
+    "grey buzz cut hair",
+    "neat short black hair with natural texture",
+    "black hair in medium length pushed back",
+    "fully grey short hair neatly combed"
+  ],
+  "hair_female": [
+    "long black straight hair center-parted",
+    "black hair in sleek high bun",
+    "dark brown shoulder-length hair in low ponytail",
+    "black straight hair with side bangs",
+    "short permed grey-streaked black hair",
+    "long wavy dark brown hair",
+    "black hair in two low pigtails",
+    "black hair in neat shoulder-length bob",
+    "long black hair in single thick braid",
+    "black hair in messy low bun with loose strands"
+  ],
+  "hair_color_modifier": [
+    "",
+    "with silver streaks at temples",
+    "with premature grey strands",
+    "with caramel highlights",
+    "fully grey",
+    "bleached yellow with dark roots"
+  ],
+  "skin_tone": [
+    "fair skin",
+    "naturally tanned skin",
+    "weathered dark tanned skin",
+    "pale skin"
+  ],
+  "body_type_male": [
+    "tall lean",
+    "muscular athletic",
+    "stocky",
+    "thin weak",
+    "average",
+    "wiry",
+    "beer belly",
+    "elderly stooped"
+  ],
+  "body_type_female": [
+    "slim elegant",
+    "petite",
+    "curvy",
+    "athletic lean",
+    "plump",
+    "thin frail",
+    "tall model",
+    "sturdy"
+  ],
+  "unique_mark": [
+    "small scar across left eyebrow",
+    "small dark mole on right cheekbone",
+    "beauty mark below left eye",
+    "slight dimple on left cheek",
+    "round stud earring on left ear",
+    "visible stubble on chin and jawline",
+    "light acne marks on forehead",
+    "chipped front tooth",
+    "slight gap between front teeth",
+    "tear mole below right eye",
+    "faint scar on right jawline",
+    "beauty mark above right lip"
+  ]
+}
