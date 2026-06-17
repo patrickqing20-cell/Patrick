@@ -824,6 +824,159 @@ function DashboardPage({ user, taskId, onBack }) {
           </div>
         </div>
 
+        {/* === Per-reviewer breakdown === */}
+        {users.length > 0 && (
+          <div className="dash-section">
+            <h2>👥 评审人明细</h2>
+            <div className="dash-reviewer-list">
+              {users.map(u => {
+                // Gather this user's picks + notes across all items
+                const userPicks = []
+                itemStats.forEach(({ item }) => {
+                  const s = summary[item.id] || { picks: {}, notes: [] }
+                  // Find what this user picked
+                  let userPick = null
+                  for (const [optId, voters] of Object.entries(s.picks || {})) {
+                    if (voters.includes(u.name)) { userPick = optId; break }
+                  }
+                  // Find this user's note
+                  const userNote = (s.notes || []).find(n => n.user === u.name)
+
+                  if (userPick || userNote) {
+                    // Get source for video tasks
+                    const videos = (item.assets || []).filter(a => a.type === 'video')
+                    let sourceFile = ''
+                    if (userPick && videos.length > 0) {
+                      const idx = userPick.charCodeAt(userPick.length - 1) - 65
+                      if (idx >= 0 && idx < videos.length) {
+                        sourceFile = videos[idx]._source || ''
+                      }
+                    }
+                    userPicks.push({
+                      itemId: item.id,
+                      itemTitle: item.title,
+                      pick: userPick,
+                      pickLabel: userPick ? vLabel(userPick) : '',
+                      sourceFile,
+                      note: userNote?.note || ''
+                    })
+                  }
+                })
+
+                return (
+                  <div key={u.name} className="dash-reviewer-card">
+                    <div className="dash-reviewer-header">
+                      <span className="user-badge" style={{ fontSize: 12, padding: '3px 12px' }}>👤 {u.name}</span>
+                      <span className="dash-reviewer-stat">{u.count} 票 / {items.length} 场景</span>
+                    </div>
+                    <table className="dash-reviewer-table">
+                      <thead>
+                        <tr>
+                          <th>场景</th>
+                          <th>选择</th>
+                          <th>模型</th>
+                          <th>评论</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {userPicks.map(p => (
+                          <tr key={p.itemId}>
+                            <td className="rv-scene">#{pad(parseInt(p.itemId) || 0)} {p.itemTitle}</td>
+                            <td className="rv-pick">{p.pickLabel || '—'}</td>
+                            <td className="rv-source">{p.sourceFile || '—'}</td>
+                            <td className="rv-note">{p.note || <span className="rv-empty">无评论</span>}</td>
+                          </tr>
+                        ))}
+                        {userPicks.length === 0 && (
+                          <tr><td colSpan={4} className="rv-empty">暂无投票</td></tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* === AI Analysis Summary === */}
+        {totalAllVotes > 0 && (() => {
+          // Auto-generate analysis text
+          const lines = []
+
+          // 1. Overall winner
+          if (modelRanking.length > 0 && modelRanking[0].wins > 0) {
+            const top = modelRanking[0]
+            lines.push(`🏆 模型 ${top.key} 综合表现最佳，在 ${top.scenes} 个场景中胜出 ${top.wins} 场（胜率 ${top.winRate.toFixed(0)}%），累计获得 ${top.totalVotes} 票。`)
+          }
+
+          // 2. Close competition
+          if (modelRanking.length >= 2) {
+            const [m1, m2] = modelRanking
+            if (m1.wins > 0 && m2.wins > 0 && m1.wins - m2.wins <= 1) {
+              lines.push(`⚔️ 模型 ${m1.key} 和模型 ${m2.key} 竞争激烈，胜场仅差 ${m1.wins - m2.wins} 场。`)
+            } else if (m1.wins > 0 && m2.wins === 0) {
+              lines.push(`📊 模型 ${m1.key} 呈碾压态势，其余模型均未胜出。`)
+            }
+          }
+
+          // 3. Consensus analysis
+          if (consensusItems > 0) {
+            lines.push(`✅ ${consensusItems}/${totalItems} 个场景评审高度一致（≥70% 选同一视频），评审结果可信度高。`)
+          }
+          if (splitItems > 0) {
+            lines.push(`⚠️ ${splitItems} 个场景意见分裂，建议增加评审人数或讨论后重评。`)
+          }
+
+          // 4. Per-scene highlights
+          itemStats.forEach(({ item, votes, totalVotes: tv, notes }) => {
+            if (tv === 0) return
+            let w = null, wv = 0
+            positiveOptions.forEach(o => { if (votes[o.id] > wv) { wv = votes[o.id]; w = o.id } })
+            if (w && wv > 0) {
+              const videos = (item.assets || []).filter(a => a.type === 'video')
+              const idx = w.charCodeAt(w.length - 1) - 65
+              const src = (idx >= 0 && idx < videos.length) ? videos[idx]._source || '' : ''
+              const pct = (wv / tv * 100).toFixed(0)
+              const unanimous = pct === '100'
+              if (unanimous && tv > 1) {
+                lines.push(`🎯 #${item.id} ${item.title}：全票通过 ${vLabel(w)}${src ? ` [${src}]` : ''}。`)
+              }
+            }
+            // Highlight items with interesting comments
+            if (notes.length > 0) {
+              const negNotes = notes.filter(n => n.note && (n.note.includes('差') || n.note.includes('不') || n.note.includes('问题') || n.note.includes('bug')))
+              if (negNotes.length > 0) {
+                lines.push(`💬 #${item.id} ${item.title}：${negNotes.length} 条评论提到负面反馈，需关注。`)
+              }
+            }
+          })
+
+          // 5. Participation
+          const avgVotesPerScene = totalItems > 0 ? (totalAllVotes / totalItems).toFixed(1) : 0
+          if (totalVoters < 3) {
+            lines.push(`📢 当前仅 ${totalVoters} 人参与评审，建议邀请更多人投票以提高结果可信度。`)
+          }
+
+          // 6. Comment coverage
+          const totalNotes = itemStats.reduce((s, x) => s + x.notes.length, 0)
+          const noteCoverage = totalAllVotes > 0 ? (totalNotes / totalAllVotes * 100).toFixed(0) : 0
+          lines.push(`📝 评论覆盖率 ${noteCoverage}%（${totalNotes}/${totalAllVotes}），` +
+            (parseInt(noteCoverage) >= 80 ? '评论充分。' : '建议提醒评审人补充评论。'))
+
+          if (lines.length === 0) return null
+          return (
+            <div className="dash-section dash-analysis">
+              <h2>🤖 分析总结</h2>
+              <div className="dash-analysis-lines">
+                {lines.map((line, i) => (
+                  <div key={i} className="dash-analysis-line">{line}</div>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
+
         {/* Per-item results */}
         {itemStats.map(({ item, votes, totalVotes, notes, picks }) => {
           const maxVote = Math.max(...Object.values(votes), 1)
