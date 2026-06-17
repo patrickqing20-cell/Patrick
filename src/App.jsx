@@ -913,9 +913,12 @@ function DashboardPage({ user, taskId, onBack }) {
             </div>
             {/* Radar chart: model performance by category/theme */}
             {(() => {
-              // Collect unique themes
-              const themes = [...new Set(items.map(i => i.meta?.theme || '未分类').filter(Boolean))]
-              if (themes.length < 2) return null // Need at least 2 dimensions for radar
+              // Fixed 10 category dimensions
+              const allDimensions = ['短剧', '漫剧', '动漫游戏', '广告', '影视风格', '视觉艺术', '短视频', '玩法类', '微表情', '音频']
+              // Collect themes that have data
+              const dataThemes = new Set(items.map(i => i.meta?.theme).filter(Boolean))
+              const themes = allDimensions // Always show all 10 axes
+              if (themes.length < 2) return null
 
               // Per model × theme: win rate (votes won / total votes in that theme)
               const modelKeys = modelRanking.map(m => m.key)
@@ -943,8 +946,8 @@ function DashboardPage({ user, taskId, onBack }) {
                 })
               })
 
-              // SVG radar
-              const radarSize = 300, cx = radarSize / 2, cy = radarSize / 2, maxR = 110
+              // SVG radar — larger for 10 dimensions
+              const radarSize = 400, cx = radarSize / 2, cy = radarSize / 2, maxR = 150
               const n = themes.length
               const angleStep = (2 * Math.PI) / n
               const getPoint = (i, r) => ({
@@ -965,6 +968,12 @@ function DashboardPage({ user, taskId, onBack }) {
                         const pts = themes.map((_, i) => getPoint(i, maxR * r / 100))
                         return <polygon key={r} points={pts.map(p => `${p.x},${p.y}`).join(' ')}
                           fill="none" stroke="var(--border)" strokeWidth="1" />
+                      })}
+                      {/* Scale labels on first axis */}
+                      {rings.map(r => {
+                        const p = getPoint(0, maxR * r / 100)
+                        return <text key={`sc${r}`} x={p.x + 6} y={p.y + 3}
+                          fontSize="9" fill="var(--dim)" textAnchor="start">{r}</text>
                       })}
                       {/* Axis lines */}
                       {themes.map((_, i) => {
@@ -1000,11 +1009,12 @@ function DashboardPage({ user, taskId, onBack }) {
                             fontSize="10" fontWeight="700" fill={color}>{score.toFixed(0)}%</text>
                         })
                       })()}
-                      {/* Axis labels */}
+                      {/* Axis labels — highlight dimensions with data */}
                       {themes.map((t, i) => {
-                        const p = getPoint(i, maxR + 22)
+                        const p = getPoint(i, maxR + 24)
+                        const hasData = dataThemes.has(t)
                         return <text key={i} x={p.x} y={p.y} textAnchor="middle" dominantBaseline="middle"
-                          fontSize="11" fontWeight="600" fill="var(--text)">{t}</text>
+                          fontSize="12" fontWeight={hasData ? '700' : '400'} fill={hasData ? 'var(--text)' : 'var(--dim)'}>{t}</text>
                       })}
                     </svg>
                     <div className="chart-radar-legend">

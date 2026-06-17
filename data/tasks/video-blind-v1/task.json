@@ -28,7 +28,7 @@
       "id": "1",
       "title": "场景 1",
       "meta": {
-        "theme": "人物特写"
+        "theme": "短剧"
       },
       "assets": [
         {
@@ -58,7 +58,7 @@
       "id": "2",
       "title": "场景 2",
       "meta": {
-        "theme": "风景运镜"
+        "theme": "漫剧"
       },
       "assets": [
         {
@@ -88,7 +88,7 @@
       "id": "3",
       "title": "场景 3 (cc)",
       "meta": {
-        "theme": "动作场景"
+        "theme": "动漫游戏"
       },
       "assets": [
         {
@@ -118,7 +118,7 @@
       "id": "4",
       "title": "场景 4 (ee)",
       "meta": {
-        "theme": "对话表演"
+        "theme": "广告"
       },
       "assets": [
         {
@@ -148,7 +148,7 @@
       "id": "5",
       "title": "场景 5 (rr)",
       "meta": {
-        "theme": "创意特效"
+        "theme": "影视风格"
       },
       "assets": [
         {
@@ -178,7 +178,7 @@
       "id": "6",
       "title": "场景 6 (w)",
       "meta": {
-        "theme": "人物特写"
+        "theme": "短视频"
       },
       "assets": [
         {
@@ -208,7 +208,7 @@
       "id": "7",
       "title": "场景 7 (y)",
       "meta": {
-        "theme": "风景运镜"
+        "theme": "玩法类"
       },
       "assets": [
         {
