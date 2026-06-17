@@ -949,196 +949,93 @@ function DashboardPage({ user, taskId, onBack }) {
           </div>
         )}
 
-        {/* === 4. Scene details (collapsible) === */}
-        {itemStats.length > 0 && totalAllVotes > 0 && (
-          <div className="dash-section dash-collapsible">
-            <h2 className="dash-collapse-toggle" onClick={() => toggleSection('scenes')}>
-              {expandedSections.scenes ? '▼' : '▶'} 📊 逐场景明细（{totalItems} 个场景）
-            </h2>
-          </div>
-        )}
+        {/* === 4. Scene results — video cards sorted by votes === */}
+        {totalAllVotes > 0 && (() => {
+          // Sort scenes: most consensus first (highest top-vote percentage)
+          const sortedStats = [...itemStats]
+            .filter(s => s.totalVotes > 0)
+            .sort((a, b) => {
+              const aMax = Math.max(...positiveOptions.map(o => a.votes[o.id] || 0))
+              const bMax = Math.max(...positiveOptions.map(o => b.votes[o.id] || 0))
+              return bMax - aMax
+            })
 
-        {/* REMOVE old AI Analysis - merged into narrative above */}
-        {false && totalAllVotes > 0 && (() => {
-          const lines = []
+          return sortedStats.map(({ item, votes, totalVotes: tv, notes, picks }) => {
+            const videos = (item.assets || []).filter(a => a.type === 'video')
+            // Build per-video data sorted by votes desc
+            const videoCards = videos.map((v, i) => {
+              const optId = `video_${String.fromCharCode(65 + i)}`
+              const count = votes[optId] || 0
+              const pct = tv > 0 ? (count / tv * 100) : 0
+              const source = v._source || v.url?.split('/').pop() || ''
+              const bare = source.replace(/\.(mp4|webm|mov|avi|mkv)$/i, '')
+              const numMatch = bare.match(/(\d+)$/)
+              const modelId = numMatch ? numMatch[1] : bare
+              const voters = picks[optId] || []
+              // Find comments from voters who picked this video
+              const voterNotes = (notes || []).filter(n => voters.includes(n.user) && n.note)
+              return { optId, label: v.label || `视频${String.fromCharCode(65 + i)}`, count, pct, source, modelId, voters, voterNotes, url: v.url }
+            }).sort((a, b) => b.count - a.count)
 
-          // 1. Overall winner
-          if (modelRanking.length > 0 && modelRanking[0].wins > 0) {
-            const top = modelRanking[0]
-            lines.push(`🏆 模型 ${top.key} 综合表现最佳，在 ${top.scenes} 个场景中胜出 ${top.wins} 场（胜率 ${top.winRate.toFixed(0)}%），累计获得 ${top.totalVotes} 票。`)
-          }
+            const winner = videoCards[0]?.count > 0 ? videoCards[0] : null
 
-          // 2. Close competition
-          if (modelRanking.length >= 2) {
-            const [m1, m2] = modelRanking
-            if (m1.wins > 0 && m2.wins > 0 && m1.wins - m2.wins <= 1) {
-              lines.push(`⚔️ 模型 ${m1.key} 和模型 ${m2.key} 竞争激烈，胜场仅差 ${m1.wins - m2.wins} 场。`)
-            } else if (m1.wins > 0 && m2.wins === 0) {
-              lines.push(`📊 模型 ${m1.key} 呈碾压态势，其余模型均未胜出。`)
-            }
-          }
-
-          // 3. Consensus analysis
-          if (consensusItems > 0) {
-            lines.push(`✅ ${consensusItems}/${totalItems} 个场景评审高度一致（≥70% 选同一视频），评审结果可信度高。`)
-          }
-          if (splitItems > 0) {
-            lines.push(`⚠️ ${splitItems} 个场景意见分裂，建议增加评审人数或讨论后重评。`)
-          }
-
-          // 4. Per-scene highlights
-          itemStats.forEach(({ item, votes, totalVotes: tv, notes }) => {
-            if (tv === 0) return
-            let w = null, wv = 0
-            positiveOptions.forEach(o => { if (votes[o.id] > wv) { wv = votes[o.id]; w = o.id } })
-            if (w && wv > 0) {
-              const videos = (item.assets || []).filter(a => a.type === 'video')
-              const idx = w.charCodeAt(w.length - 1) - 65
-              const src = (idx >= 0 && idx < videos.length) ? videos[idx]._source || '' : ''
-              const pct = (wv / tv * 100).toFixed(0)
-              const unanimous = pct === '100'
-              if (unanimous && tv > 1) {
-                lines.push(`🎯 #${item.id} ${item.title}：全票通过 ${vLabel(w)}${src ? ` [${src}]` : ''}。`)
-              }
-            }
-            // Highlight items with interesting comments
-            if (notes.length > 0) {
-              const negNotes = notes.filter(n => n.note && (n.note.includes('差') || n.note.includes('不') || n.note.includes('问题') || n.note.includes('bug')))
-              if (negNotes.length > 0) {
-                lines.push(`💬 #${item.id} ${item.title}：${negNotes.length} 条评论提到负面反馈，需关注。`)
-              }
-            }
-          })
-
-          // 5. Participation
-          const avgVotesPerScene = totalItems > 0 ? (totalAllVotes / totalItems).toFixed(1) : 0
-          if (totalVoters < 3) {
-            lines.push(`📢 当前仅 ${totalVoters} 人参与评审，建议邀请更多人投票以提高结果可信度。`)
-          }
-
-          // 6. Comment coverage
-          const totalNotes = itemStats.reduce((s, x) => s + x.notes.length, 0)
-          const noteCoverage = totalAllVotes > 0 ? (totalNotes / totalAllVotes * 100).toFixed(0) : 0
-          lines.push(`📝 评论覆盖率 ${noteCoverage}%（${totalNotes}/${totalAllVotes}），` +
-            (parseInt(noteCoverage) >= 80 ? '评论充分。' : '建议提醒评审人补充评论。'))
-
-          if (lines.length === 0) return null
-          return (
-            <div className="dash-section dash-analysis">
-              <h2>🤖 分析总结</h2>
-              <div className="dash-analysis-lines">
-                {lines.map((line, i) => (
-                  <div key={i} className="dash-analysis-line">{line}</div>
-                ))}
-              </div>
-            </div>
-          )
-        })()}
-
-        {/* Per-item results (shown when scenes expanded) */}
-        {expandedSections.scenes && itemStats.map(({ item, votes, totalVotes, notes, picks }) => {
-          const maxVote = Math.max(...Object.values(votes), 1)
-          let winner = null, winnerVotes = 0
-          positiveOptions.forEach(o => {
-            if (votes[o.id] > winnerVotes) { winnerVotes = votes[o.id]; winner = o.id }
-          })
-
-          // Build source map: video_A → filename
-          const videos = (item.assets || []).filter(a => a.type === 'video')
-          const sourceMap = {}
-          videos.forEach((v, i) => {
-            const optId = `video_${String.fromCharCode(65 + i)}`
-            sourceMap[optId] = v._source || v.url?.split('/').pop() || ''
-          })
-          const getSource = optId => sourceMap[optId] || ''
-          const winnerSource = winner ? getSource(winner) : ''
-
-          return (
-            <div key={item.id} className="dash-section dash-item-section">
-              <div className="dash-item-header">
-                <h2>#{pad(parseInt(item.id) || 0)} {item.title}</h2>
-                {winner && winnerVotes > 0 && (
-                  <span className="dash-winner">🏆 {vLabel(winner)}{winnerSource ? ` [${winnerSource}]` : ''} ({winnerVotes}票)</span>
+            return (
+              <div key={item.id} className="dash-scene-card">
+                <div className="dash-scene-header">
+                  <div className="dash-scene-title">#{pad(parseInt(item.id) || 0)} {item.title}</div>
+                  {winner && <span className="dash-winner">🏆 模型 {winner.modelId}（{winner.count}票 · {winner.pct.toFixed(0)}%）</span>}
+                  <span className="dash-scene-meta">{tv} 票</span>
+                </div>
+                {item.text?.prompt && item.text.prompt !== '（待填写 prompt）' && (
+                  <div className="dash-prompt">{item.text.prompt}</div>
                 )}
-              </div>
-              {item.text?.prompt && (
-                <div className="dash-prompt">{item.text.prompt}</div>
-              )}
-
-              {/* Source mapping table */}
-              {videos.length > 0 && (
-                <div className="dash-source-map">
-                  <div className="dash-source-title">🔍 模型溯源</div>
-                  <div className="dash-source-chips">
-                    {videos.map((v, i) => {
-                      const optId = `video_${String.fromCharCode(65 + i)}`
-                      const label = `视频${String.fromCharCode(65 + i)}`
-                      const source = v._source || v.url?.split('/').pop() || '?'
-                      const isW = optId === winner
-                      return (
-                        <div key={i} className={`dash-source-chip ${isW ? 'winner' : ''}`}>
-                          <span className="dash-source-label">{label}</span>
-                          <span className="dash-source-file">{source}</span>
+                <div className="dash-video-cards">
+                  {videoCards.map((vc, vi) => {
+                    const isWinner = vi === 0 && vc.count > 0
+                    return (
+                      <div key={vc.optId} className={`dash-vcard ${isWinner ? 'winner' : ''} ${vc.count === 0 ? 'zero' : ''}`}>
+                        {/* Rank badge */}
+                        <div className="dash-vcard-rank">
+                          {vi === 0 && vc.count > 0 ? '🥇' : vi === 1 ? '🥈' : vi === 2 ? '🥉' : ''}
                         </div>
-                      )
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Vote bar chart */}
-              <div className="dash-bars">
-                {options.map(o => {
-                  const count = votes[o.id] || 0
-                  const pct = totalVotes > 0 ? (count / totalVotes * 100) : 0
-                  const isWinner = o.id === winner && !o.negative && count > 0
-                  const isNeg = negativeOptions.includes(o.id)
-                  const source = getSource(o.id)
-                  return (
-                    <div key={o.id} className="dash-bar-row">
-                      <div className="dash-bar-label">
-                        {o.label}
-                        {source && <div className="dash-bar-source">{source}</div>}
+                        {/* Video player */}
+                        <video controls preload="metadata" playsInline className="dash-vcard-video">
+                          <source src={vc.url} type="video/mp4" />
+                        </video>
+                        {/* Model + votes */}
+                        <div className="dash-vcard-info">
+                          <div className="dash-vcard-model">模型 {vc.modelId}</div>
+                          <div className="dash-vcard-source">{vc.source}</div>
+                          <div className="dash-vcard-votes">
+                            <div className="dash-vcard-bar">
+                              <div className={`dash-vcard-fill ${isWinner ? 'winner' : ''}`} style={{ width: `${vc.pct}%` }} />
+                            </div>
+                            <span className="dash-vcard-count">{vc.count} 票（{vc.pct.toFixed(0)}%）</span>
+                          </div>
+                          {vc.voters.length > 0 && (
+                            <div className="dash-vcard-voters">
+                              {vc.voters.map(u => <span key={u} className="dash-voter-chip">{u}</span>)}
+                            </div>
+                          )}
+                        </div>
+                        {/* Comments from voters who picked this */}
+                        {vc.voterNotes.length > 0 && (
+                          <div className="dash-vcard-comments">
+                            {vc.voterNotes.map((n, ni) => (
+                              <div key={ni} className="dash-vcard-comment">
+                                <span className="dash-comment-user">{n.user}:</span> {n.note}
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
-                      <div className="dash-bar-track">
-                        <div
-                          className={`dash-bar-fill ${isWinner ? 'winner' : ''} ${isNeg ? 'negative' : ''}`}
-                          style={{ width: `${pct}%` }}
-                        />
-                      </div>
-                      <div className="dash-bar-count">{count} ({pct.toFixed(0)}%)</div>
-                    </div>
-                  )
-                })}
-              </div>
-
-              {/* Voter details */}
-              <div className="dash-voter-detail">
-                {options.filter(o => (picks[o.id] || []).length > 0).map(o => (
-                  <div key={o.id} className="dash-voter-group">
-                    <span className="dash-voter-opt">{o.label}:</span>
-                    {(picks[o.id] || []).map(u => (
-                      <span key={u} className="dash-voter-chip">{u}</span>
-                    ))}
-                  </div>
-                ))}
-              </div>
-
-              {/* Comments */}
-              {notes.length > 0 && (
-                <div className="dash-comments">
-                  <div className="dash-comments-title">💬 评论 ({notes.length})</div>
-                  {notes.map((n, i) => (
-                    <div key={i} className="dash-comment">
-                      <span className="dash-comment-user">{n.user}:</span>
-                      <span className="dash-comment-text">{n.note}</span>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
-              )}
-            </div>
-          )
-        })}
+              </div>
+            )
+          })
+        })()}
       </div>
     </>
   )
