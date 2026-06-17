@@ -910,6 +910,100 @@ function DashboardPage({ user, taskId, onBack }) {
                 )
               })}
             </div>
+            {/* Radar chart: model performance by category/theme */}
+            {(() => {
+              // Collect unique themes
+              const themes = [...new Set(items.map(i => i.meta?.theme || '未分类').filter(Boolean))]
+              if (themes.length < 2) return null // Need at least 2 dimensions for radar
+
+              // Per model × theme: win rate (votes won / total votes in that theme)
+              const modelKeys = modelRanking.map(m => m.key)
+              const radarData = {} // modelKey → { theme → score 0-100 }
+              modelKeys.forEach(mk => { radarData[mk] = {} })
+
+              themes.forEach(theme => {
+                const themeItems = itemStats.filter(({ item }) => (item.meta?.theme || '未分类') === theme)
+                modelKeys.forEach(mk => {
+                  let modelVotes = 0, themeTotal = 0
+                  themeItems.forEach(({ item, votes }) => {
+                    const videos = (item.assets || []).filter(a => a.type === 'video')
+                    videos.forEach((v, vi) => {
+                      const optId = `video_${String.fromCharCode(65 + vi)}`
+                      const src = v._source || ''
+                      const bare = src.replace(/\.(mp4|webm|mov|avi|mkv)$/i, '')
+                      const num = bare.match(/(\d+)$/)
+                      const mid = num ? num[1] : bare
+                      const voteCount = votes[optId] || 0
+                      themeTotal += voteCount
+                      if (mid === mk) modelVotes += voteCount
+                    })
+                  })
+                  radarData[mk][theme] = themeTotal > 0 ? (modelVotes / themeTotal * 100) : 0
+                })
+              })
+
+              // SVG radar
+              const radarSize = 300, cx = radarSize / 2, cy = radarSize / 2, maxR = 110
+              const n = themes.length
+              const angleStep = (2 * Math.PI) / n
+              const getPoint = (i, r) => ({
+                x: cx + r * Math.sin(i * angleStep),
+                y: cy - r * Math.cos(i * angleStep)
+              })
+
+              // Grid rings
+              const rings = [25, 50, 75, 100]
+
+              return (
+                <div className="chart-card" style={{ gridColumn: '1 / -1' }}>
+                  <h3>模型垂类表现雷达图</h3>
+                  <div className="chart-radar-wrap">
+                    <svg width={radarSize} height={radarSize} viewBox={`0 0 ${radarSize} ${radarSize}`}>
+                      {/* Grid rings */}
+                      {rings.map(r => {
+                        const pts = themes.map((_, i) => getPoint(i, maxR * r / 100))
+                        return <polygon key={r} points={pts.map(p => `${p.x},${p.y}`).join(' ')}
+                          fill="none" stroke="var(--border)" strokeWidth="1" />
+                      })}
+                      {/* Axis lines */}
+                      {themes.map((_, i) => {
+                        const p = getPoint(i, maxR)
+                        return <line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke="var(--border)" strokeWidth="1" />
+                      })}
+                      {/* Model polygons */}
+                      {modelKeys.map((mk, mi) => {
+                        const pts = themes.map((t, i) => getPoint(i, maxR * (radarData[mk][t] || 0) / 100))
+                        const color = chartColors[mi % chartColors.length]
+                        return (
+                          <g key={mk}>
+                            <polygon points={pts.map(p => `${p.x},${p.y}`).join(' ')}
+                              fill={color} fillOpacity="0.15" stroke={color} strokeWidth="2.5" />
+                            {pts.map((p, pi) => (
+                              <circle key={pi} cx={p.x} cy={p.y} r="4" fill={color} />
+                            ))}
+                          </g>
+                        )
+                      })}
+                      {/* Labels */}
+                      {themes.map((t, i) => {
+                        const p = getPoint(i, maxR + 22)
+                        return <text key={i} x={p.x} y={p.y} textAnchor="middle" dominantBaseline="middle"
+                          fontSize="11" fontWeight="600" fill="var(--text)">{t}</text>
+                      })}
+                    </svg>
+                    <div className="chart-radar-legend">
+                      {modelKeys.map((mk, mi) => (
+                        <div key={mk} className="chart-legend-item">
+                          <span className="chart-legend-dot" style={{ background: chartColors[mi % chartColors.length] }} />
+                          <span>模型 {mk}</span>
+                        </div>
+                      ))}
+                      <div className="chart-radar-hint">各维度为该垂类下的得票占比</div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })()}
           </>
           )
         })()}
