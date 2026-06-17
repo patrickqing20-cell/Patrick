@@ -1,6 +1,6 @@
 {
   "id": "video-blind-v1",
-  "title": "视频生成盲审评测",
+  "title": "视频生成盲审评测 [Demo]",
   "description": "7组 × 3视频 · 同Prompt盲审 · 强制评论",
   "mode": "video_blind",
   "meta": {
