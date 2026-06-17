@@ -1,0 +1,1969 @@
+{
+  "id": "portrait-v4",
+  "title": "616 古装人像 v4（100组·全链路B·白底·痘减轻）",
+  "description": "100组古装短剧角色 · 全链路B · 词库底座+LLM变体 · 白底强约束 · Gemini 3 Pro",
+  "mode": "triage",
+  "meta": {
+    "version": "v4",
+    "created": "2026-06-16",
+    "methodology": "链路B(wardrobe fitting photo) + 质感前置 + 词库底座 + 白底强约束 + 痘减轻",
+    "category": "image"
+  },
+  "options": [
+    {
+      "id": "ok",
+      "label": "✅ OK"
+    },
+    {
+      "id": "retry",
+      "label": "🔄 重新抽卡"
+    },
+    {
+      "id": "not_ok",
+      "label": "❌ 不OK",
+      "negative": true
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "重生复仇女主",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "26",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/001.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 26-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Pear-shaped face wider at the jaw, straight flat brows with medium thickness"
+      }
+    },
+    {
+      "id": "2",
+      "title": "侧妃/妾室",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "28",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/002.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 28-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Round face with soft contours, tapered brows thicker at inner corners, singl"
+      }
+    },
+    {
+      "id": "3",
+      "title": "穿越主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/003.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Oblong face with even width throughout, high-arched brows with thin line, ta"
+      }
+    },
+    {
+      "id": "4",
+      "title": "嫡女/庶女",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "20",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/004.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 20-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Rectangular face with long proportions, thin arched brows with sparse tails, m"
+      }
+    },
+    {
+      "id": "5",
+      "title": "正妻/主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "33",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/005.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 33-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Diamond face with wide cheekbones and narrow forehead, low-set straight brow"
+      }
+    },
+    {
+      "id": "6",
+      "title": "替嫁新娘",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "16",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/006.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 16-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Oval face with balanced proportions, rounded brows with even density, close-se"
+      }
+    },
+    {
+      "id": "7",
+      "title": "恶毒太后/婆母(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "49",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/007.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 49-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Heart-shaped face tapering at the chin, bushy natural brows with minimal "
+      }
+    },
+    {
+      "id": "8",
+      "title": "心机侧妃/白莲花妾室(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "24",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/008.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 24-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Inverted triangle face with broad forehead, thick natural brows with slight "
+      }
+    },
+    {
+      "id": "9",
+      "title": "王爷",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "29",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/009.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 29-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Triangular face with broad jaw tapering upward, thick straigh"
+      }
+    },
+    {
+      "id": "10",
+      "title": "太子",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/010.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Oblong face with even proportions, broad flat brows set close"
+      }
+    },
+    {
+      "id": "11",
+      "title": "皇帝(工具人)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "49",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/011.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 49-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Round face with solid jaw, thin brows with sparse outer ha"
+      }
+    },
+    {
+      "id": "12",
+      "title": "忠心丫鬟",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "15",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/012.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 15-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Square face with defined angles at the jaw, angled brows with sharp peak, roun"
+      }
+    },
+    {
+      "id": "13",
+      "title": "背叛丫鬟(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/013.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Long face with high cheekbones, gently curved brows with soft arch, hooded eye"
+      }
+    },
+    {
+      "id": "14",
+      "title": "管家嬷嬷",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "57",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/014.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 57-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Round face with soft contours, low-set straight brows close to the eyes, "
+      }
+    },
+    {
+      "id": "15",
+      "title": "太医",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "44",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/015.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 44-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Long face with broad forehead, heavy brows with low inner "
+      }
+    },
+    {
+      "id": "16",
+      "title": "大将军",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "43",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/016.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 43-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Rectangular face with angular jaw, bushy ungroomed brows w"
+      }
+    },
+    {
+      "id": "17",
+      "title": "权臣(幕后)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "53",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/017.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 53-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Oval face with defined cheekbones, tapered brows thick at "
+      }
+    },
+    {
+      "id": "18",
+      "title": "嫡母/继母(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "44",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/018.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 44-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Long face with high cheekbones, gently curved brows with soft arch, doubl"
+      }
+    },
+    {
+      "id": "19",
+      "title": "通房丫头",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "16",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/019.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 16-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Heart-shaped face tapering at the chin, straight flat brows with medium thickn"
+      }
+    },
+    {
+      "id": "20",
+      "title": "姨娘",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/020.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Oblong face with even width throughout, thin arched brows with sparse tails,"
+      }
+    },
+    {
+      "id": "21",
+      "title": "世家老太君",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "60",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/021.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 60-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Oval face with balanced proportions, bushy natural brows with minimal gro"
+      }
+    },
+    {
+      "id": "22",
+      "title": "纨绔世子",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/022.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Square face with strong bone structure, straight brows with p"
+      }
+    },
+    {
+      "id": "23",
+      "title": "重生复仇女主",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "28",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/023.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 28-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Inverted triangle face with broad forehead, high-arched brows with thin line"
+      }
+    },
+    {
+      "id": "24",
+      "title": "侧妃/妾室",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/024.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Rectangular face with long proportions, angled brows with sharp peak, close-"
+      }
+    },
+    {
+      "id": "25",
+      "title": "穿越主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/025.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Diamond face with wide cheekbones and narrow forehead, thick natural brows w"
+      }
+    },
+    {
+      "id": "26",
+      "title": "嫡女/庶女",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "16",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/026.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 16-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Square face with defined angles at the jaw, tapered brows thicker at inner cor"
+      }
+    },
+    {
+      "id": "27",
+      "title": "正妻/主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "36",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/027.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 36-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Pear-shaped face wider at the jaw, rounded brows with even density, downt"
+      }
+    },
+    {
+      "id": "28",
+      "title": "替嫁新娘",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/028.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Round face with soft contours, rounded brows with even density, deep-set eyes "
+      }
+    },
+    {
+      "id": "29",
+      "title": "恶毒太后/婆母(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "55",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/029.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 55-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Pear-shaped face wider at the jaw, bushy natural brows with minimal groom"
+      }
+    },
+    {
+      "id": "30",
+      "title": "心机侧妃/白莲花妾室(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/030.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Inverted triangle face with broad forehead, thin arched brows with sparse ta"
+      }
+    },
+    {
+      "id": "31",
+      "title": "王爷",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "34",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/031.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 34-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Hexagonal face with flat cheekbones, angular brows with sharp"
+      }
+    },
+    {
+      "id": "32",
+      "title": "太子",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "27",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/032.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 27-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Heart-shaped face with wide forehead and narrow chin, downtur"
+      }
+    },
+    {
+      "id": "33",
+      "title": "皇帝(工具人)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "35",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/033.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 35-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Diamond face with prominent cheekbones, slightly arched brows"
+      }
+    },
+    {
+      "id": "34",
+      "title": "忠心丫鬟",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "17",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/034.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 17-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Long face with high cheekbones, tapered brows thicker at inner corners, single"
+      }
+    },
+    {
+      "id": "35",
+      "title": "背叛丫鬟(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "16",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/035.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 16-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Diamond face with wide cheekbones and narrow forehead, straight flat brows wit"
+      }
+    },
+    {
+      "id": "36",
+      "title": "管家嬷嬷",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "46",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/036.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 46-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Heart-shaped face tapering at the chin, angled brows with sharp peak, hoo"
+      }
+    },
+    {
+      "id": "37",
+      "title": "太医",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "54",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/037.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 54-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Diamond face with prominent cheekbones, slightly arched br"
+      }
+    },
+    {
+      "id": "38",
+      "title": "大将军",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "34",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/038.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 34-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Hexagonal face with flat cheekbones, broad flat brows set clo"
+      }
+    },
+    {
+      "id": "39",
+      "title": "权臣(幕后)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "48",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/039.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 48-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Rectangular face with angular jaw, thick straight brows wi"
+      }
+    },
+    {
+      "id": "40",
+      "title": "嫡母/继母(反派)",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "39",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/040.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 39-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Oval face with balanced proportions, thick natural brows with slight curv"
+      }
+    },
+    {
+      "id": "41",
+      "title": "通房丫头",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "21",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/041.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 21-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Rectangular face with long proportions, high-arched brows with thin line, roun"
+      }
+    },
+    {
+      "id": "42",
+      "title": "姨娘",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "32",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/042.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 32-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Oblong face with even width throughout, low-set straight brows close to the "
+      }
+    },
+    {
+      "id": "43",
+      "title": "世家老太君",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "70",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/043.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 70-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots near temples. Square face with defined angles at the jaw, gently curved brows with soft"
+      }
+    },
+    {
+      "id": "44",
+      "title": "纨绔世子",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "男",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/044.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old male with clearly masculine features, strong jawline, broad shoulders, visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Triangular face with broad jaw tapering upward, thin brows wi"
+      }
+    },
+    {
+      "id": "45",
+      "title": "重生复仇女主",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "24",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/045.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 24-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Round face with soft contours, low-set straight brows close to the eyes, mon"
+      }
+    },
+    {
+      "id": "46",
+      "title": "侧妃/妾室",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/046.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Square face with defined angles at the jaw, thick natural brows with slight "
+      }
+    },
+    {
+      "id": "47",
+      "title": "穿越主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/047.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. Long face with high cheekbones, gently curved brows with soft arch, round ey"
+      }
+    },
+    {
+      "id": "48",
+      "title": "嫡女/庶女",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/048.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Pear-shaped face wider at the jaw, bushy natural brows with minimal grooming, "
+      }
+    },
+    {
+      "id": "49",
+      "title": "正妻/主母",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "37",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/049.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 37-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. Heart-shaped face tapering at the chin, angled brows with sharp peak, hoo"
+      }
+    },
+    {
+      "id": "50",
+      "title": "替嫁新娘",
+      "meta": {
+        "theme": "宫斗宅斗",
+        "gender": "女",
+        "age": "18",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/050.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 18-year-old female with clearly feminine features, soft jawline, delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. Rectangular face with long proportions, straight flat brows with medium thickn"
+      }
+    },
+    {
+      "id": "51",
+      "title": "傀儡太子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "18",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/051.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 18-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. narrow oval face with high cheekbones, thin straight brows set low over the eyes, "
+      }
+    },
+    {
+      "id": "52",
+      "title": "重生女帝",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/052.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sculpted oval face with prominent cheekbones, sharp straight brows angled slightly upward"
+      }
+    },
+    {
+      "id": "53",
+      "title": "落难世子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/053.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. angular diamond-shaped face with sharp cheekbones, thick dark brows with a natural"
+      }
+    },
+    {
+      "id": "54",
+      "title": "摄政太后",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "42",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/054.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 42-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. broad rectangular face with strong bone structure, thick dark brows with a commanding "
+      }
+    },
+    {
+      "id": "55",
+      "title": "废柴皇子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "21",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/055.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 21-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. soft round face with an undefined jawline, sparse light brows with uneven thicknes"
+      }
+    },
+    {
+      "id": "56",
+      "title": "穿越者(带现代知识)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "25",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/056.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 25-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. round face with a soft chin and gentle contours, natural feathered brows with a relaxed a"
+      }
+    },
+    {
+      "id": "57",
+      "title": "权臣/丞相(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "53",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/057.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 53-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots. elongated face with hollow cheeks and a pointed chin, thick greying brows angled downward "
+      }
+    },
+    {
+      "id": "58",
+      "title": "谋反王爷(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "39",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/058.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 39-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. square-set face with a strong wide jaw, thick bold brows slanting sharply upw"
+      }
+    },
+    {
+      "id": "59",
+      "title": "毒后/妖妃(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/059.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. heart-shaped face with a delicate pointed chin, thin arched brows tapering to sharp point"
+      }
+    },
+    {
+      "id": "60",
+      "title": "忠心谋士",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "37",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/060.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 37-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. narrow gaunt face with pronounced cheekbones, thin sparse brows with a gentle"
+      }
+    },
+    {
+      "id": "61",
+      "title": "暗卫/死士",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "28",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/061.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 28-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. lean angular face with a sharp jawline, straight dark brows set close together, "
+      }
+    },
+    {
+      "id": "62",
+      "title": "将军元帅",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "46",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/062.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 46-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. broad weathered face with a heavy square jaw, thick grey-flecked brows set in"
+      }
+    },
+    {
+      "id": "63",
+      "title": "锦衣卫/刺客",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "31",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/063.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 31-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. chiseled angular face with a defined jawline, thick straight brows with a slight"
+      }
+    },
+    {
+      "id": "64",
+      "title": "大太监",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "51",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/064.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 51-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots. smooth round face with soft undefined features, thin pencil-like brows with a gentle downw"
+      }
+    },
+    {
+      "id": "65",
+      "title": "奸臣党羽(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "49",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/065.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 49-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. fleshy round face with a receding hairline, uneven thin brows with one slight"
+      }
+    },
+    {
+      "id": "66",
+      "title": "正义御史",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "32",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/066.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 32-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. long thin face with high cheekbones and a sharp chin, straight dark brows with a"
+      }
+    },
+    {
+      "id": "67",
+      "title": "边疆异族首领",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "42",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/067.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 42-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. broad rugged face with a wide jaw and deep-set features, thick heavy brows wi"
+      }
+    },
+    {
+      "id": "68",
+      "title": "皇子兄弟(争位)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "20",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/068.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 20-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. handsome oval face with a defined jaw and balanced proportions, dark well-groomed "
+      }
+    },
+    {
+      "id": "69",
+      "title": "质子/人质",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/069.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. thin elongated face with sunken cheeks, sparse light brows with a slightly worried"
+      }
+    },
+    {
+      "id": "70",
+      "title": "联姻公主",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "19",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/070.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 19-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. delicate oval face with a small rounded chin, soft gently arched brows with natural thickne"
+      }
+    },
+    {
+      "id": "71",
+      "title": "傀儡太子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "18",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/071.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 18-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. pale square face with a slightly weak chin, flat sparse brows with minimal definit"
+      }
+    },
+    {
+      "id": "72",
+      "title": "重生女帝",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "27",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/072.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 27-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. angular heart-shaped face with high cheekbones, bold straight brows with a decisive upwar"
+      }
+    },
+    {
+      "id": "73",
+      "title": "落难世子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "20",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/073.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 20-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. strong rectangular face with a prominent brow ridge, thick straight brows with a d"
+      }
+    },
+    {
+      "id": "74",
+      "title": "摄政太后",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "42",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/074.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 42-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. oval face with strong defined bone structure and a firm jaw, dark arched brows with co"
+      }
+    },
+    {
+      "id": "75",
+      "title": "废柴皇子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "17",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/075.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 17-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. baby-faced round features with soft undefined contours, sparse thin brows with an "
+      }
+    },
+    {
+      "id": "76",
+      "title": "穿越者(带现代知识)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "27",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/076.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 27-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. soft square face with a gentle jawline, natural untrimmed brows with a casual relaxed sha"
+      }
+    },
+    {
+      "id": "77",
+      "title": "权臣/丞相(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "56",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/077.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 56-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and deep wrinkles and age spots. gaunt elongated face with deeply hollowed cheeks, heavy grey brows overhanging the eye soc"
+      }
+    },
+    {
+      "id": "78",
+      "title": "谋反王爷(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "35",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/078.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 35-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sharp diamond-shaped face with a prominent jaw, thick dark brows with an aggress"
+      }
+    },
+    {
+      "id": "79",
+      "title": "毒后/妖妃(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/079.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sharp heart-shaped face with a pointed chin and wide forehead, thin high-arched brows giv"
+      }
+    },
+    {
+      "id": "80",
+      "title": "忠心谋士",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "43",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/080.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 43-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. long thin face with a scholarly receding hairline, thin greying brows with a "
+      }
+    },
+    {
+      "id": "81",
+      "title": "暗卫/死士",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "29",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/081.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 29-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. hard angular face with a square jaw and flat cheekbones, dark heavy brows with a"
+      }
+    },
+    {
+      "id": "83",
+      "title": "锦衣卫/刺客",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "28",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/083.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 28-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. lean triangular face with a narrow chin and wide temples, sharp straight brows w"
+      }
+    },
+    {
+      "id": "84",
+      "title": "大太监",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "50",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/084.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 50-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. puffy oval face with sagging jowls and smooth beardless skin, thin arched bro"
+      }
+    },
+    {
+      "id": "85",
+      "title": "奸臣党羽(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "35",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/085.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 35-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sharp-featured narrow face with a receding chin, thin arched brows with an ingra"
+      }
+    },
+    {
+      "id": "86",
+      "title": "正义御史",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/086.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. lean angular face with a firm set jaw, dark straight brows with a righteous hori"
+      }
+    },
+    {
+      "id": "87",
+      "title": "边疆异族首领",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/087.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. broad heavy-boned face with a wide flat forehead, thick dark brows with a wild b"
+      }
+    },
+    {
+      "id": "89",
+      "title": "质子/人质",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/089.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. gaunt rectangular face with hollow cheeks and a tense jaw, straight dark brows d"
+      }
+    },
+    {
+      "id": "90",
+      "title": "联姻公主",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "17",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/090.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 17-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. small round face with youthful soft contours and a gentle chin, natural soft brows with a s"
+      }
+    },
+    {
+      "id": "91",
+      "title": "傀儡太子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/091.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sharp angular face with a strong jawline and high forehead, dark defined brows w"
+      }
+    },
+    {
+      "id": "92",
+      "title": "重生女帝",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "28",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/092.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 28-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. long elegant face with high cheekbones and a narrow chin, strong dark brows with a decisi"
+      }
+    },
+    {
+      "id": "93",
+      "title": "落难世子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "26",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/093.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 26-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. lean weathered face with a strong square jaw, thick dark brows with a determined"
+      }
+    },
+    {
+      "id": "94",
+      "title": "摄政太后",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "45",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/094.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 45-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. broad dignified face with a strong jaw and defined cheekbones, thick dark brows with a"
+      }
+    },
+    {
+      "id": "95",
+      "title": "废柴皇子",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "16",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/095.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 16-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and a few faint blemishes near the chin. soft youthful round face with chubby cheeks, faint wispy brows with barely visible"
+      }
+    },
+    {
+      "id": "96",
+      "title": "穿越者(带现代知识)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "23",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/096.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 23-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. oval face with a rounded chin and modern-looking proportions, natural thick brows with a "
+      }
+    },
+    {
+      "id": "97",
+      "title": "权臣/丞相(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "47",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/097.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 47-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and visible nasolabial folds and crow's feet. angular severe face with deep-set features and a sharp chin, thick dark brows"
+      }
+    },
+    {
+      "id": "99",
+      "title": "毒后/妖妃(反派)",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "女",
+        "age": "29",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/099.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 29-year-old female with a feminine soft jawline and delicate bone structure, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. sculpted diamond-shaped face with high cheekbones and a tapered chin, thin dramatically a"
+      }
+    },
+    {
+      "id": "100",
+      "title": "忠心谋士",
+      "meta": {
+        "theme": "古风权谋",
+        "gender": "男",
+        "age": "30",
+        "route": "B"
+      },
+      "assets": [
+        {
+          "type": "image",
+          "url": "../eval-v4-images/100.jpg",
+          "role": "main"
+        }
+      ],
+      "text": {
+        "prompt": "A 16:9 character wardrobe fitting photo for a Chinese period drama production. Left 1/3 is a face close-up showing full head to collar. Right 2/3 has three full-body standing views side by side: front, side, back.\n\nCharacter: East Asian, 30-year-old male with masculine jawline, broad shoulders, and a visible Adam's apple, hyper-realistic raw matte skin showing visible pores and scattered freckles across nose bridge. thin scholarly face with a narrow chin and high forehead, light sparse brows wit"
+      }
+    }
+  ]
+}

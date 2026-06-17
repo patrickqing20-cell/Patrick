@@ -1,0 +1,21 @@
+{
+  "taskId": "voice-v3-test-30",
+  "type": "voice_generation",
+  "title": "V3 扩大测试（30角色）",
+  "description": "30 角色（男15+女15）扩大测试",
+  "status": "completed",
+  "progress": {
+    "done": 30,
+    "total": 30,
+    "failed": 0
+  },
+  "created": "2026-06-11T14:00:00Z",
+  "resultFile": "/workspace/tmp/voice_v3_30_results.json",
+  "resultUrl": "/artifacts/voice-v3-compare-30.html",
+  "icon": "🧪",
+  "tags": [
+    "音色",
+    "V3",
+    "验证"
+  ]
+}

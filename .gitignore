@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Video assets (too large, upload separately)
+/workspace/public/video-assets/
+
+# OS files
+.DS_Store
+__MACOSX/
+*.local
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.sw?
+
+# Logs
+*.log
+npm-debug.log*

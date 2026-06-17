@@ -1,0 +1,22 @@
+{
+  "taskId": "voice-v2-115",
+  "type": "voice_generation",
+  "title": "V2 音色全量生成（旧版）",
+  "description": "115 角色 × 3 音色 = 345 条音频，V2 方法论",
+  "status": "completed",
+  "progress": {
+    "done": 115,
+    "total": 115,
+    "failed": 0
+  },
+  "created": "2026-06-10T17:00:00Z",
+  "completedAt": "2026-06-11T02:00:00Z",
+  "resultFile": "/workspace/tmp/voice_115_results.json",
+  "resultUrl": "/artifacts/voice-115-audition.html",
+  "icon": "🎙️",
+  "tags": [
+    "音色",
+    "V2",
+    "115角色"
+  ]
+}

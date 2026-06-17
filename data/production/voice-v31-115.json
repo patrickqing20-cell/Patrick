@@ -1,0 +1,23 @@
+{
+  "taskId": "voice-v31-115",
+  "type": "voice_generation",
+  "title": "V3.1 音色全量生成",
+  "description": "115 角色 × 3 音色 = 345 条音频，V3.1 方法论",
+  "status": "completed",
+  "progress": {
+    "done": 115,
+    "total": 115,
+    "failed": 0
+  },
+  "created": "2026-06-11T20:00:00Z",
+  "completedAt": "2026-06-11T21:10:00Z",
+  "duration": "约 70 分钟",
+  "resultFile": "/workspace/tmp/voice_v31_115_results.json",
+  "resultUrl": "/artifacts/voice-v31-review.html",
+  "icon": "🎙️",
+  "tags": [
+    "音色",
+    "V3.1",
+    "115角色"
+  ]
+}

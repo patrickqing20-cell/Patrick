@@ -1,0 +1,238 @@
+{
+  "id": "video-blind-v1",
+  "title": "视频生成盲审评测",
+  "description": "7组 × 3视频 · 同Prompt盲审 · 强制评论",
+  "mode": "video_blind",
+  "meta": {
+    "version": "v1",
+    "created": "2026-06-17",
+    "category": "video",
+    "methodology": "盲审模式：同 Prompt 不同模型生成，评审人不知来源"
+  },
+  "options": [
+    {
+      "id": "video_A",
+      "label": "视频A"
+    },
+    {
+      "id": "video_B",
+      "label": "视频B"
+    },
+    {
+      "id": "video_C",
+      "label": "视频C"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "场景 1",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/q1.mp4",
+          "label": "视频A",
+          "_source": "q1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/q2.mp4",
+          "label": "视频B",
+          "_source": "q2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/q3.mp4",
+          "label": "视频C",
+          "_source": "q3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "2",
+      "title": "场景 2",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/a1.mp4",
+          "label": "视频A",
+          "_source": "a1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/a2.mp4",
+          "label": "视频B",
+          "_source": "a2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/a3.mp4",
+          "label": "视频C",
+          "_source": "a3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "3",
+      "title": "场景 3 (cc)",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/cc1_1.mp4",
+          "label": "视频A",
+          "_source": "cc1_1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/cc1_2.mp4",
+          "label": "视频B",
+          "_source": "cc1_2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/cc1_3.mp4",
+          "label": "视频C",
+          "_source": "cc1_3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "4",
+      "title": "场景 4 (ee)",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/ee1_1.mp4",
+          "label": "视频A",
+          "_source": "ee1_1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/ee1_2.mp4",
+          "label": "视频B",
+          "_source": "ee1_2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/ee1_3.mp4",
+          "label": "视频C",
+          "_source": "ee1_3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "5",
+      "title": "场景 5 (rr)",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/rr1_1.mp4",
+          "label": "视频A",
+          "_source": "rr1_1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/rr1_2.mp4",
+          "label": "视频B",
+          "_source": "rr1_2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/rr1_3.mp4",
+          "label": "视频C",
+          "_source": "rr1_3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "6",
+      "title": "场景 6 (w)",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/w1_1.mp4",
+          "label": "视频A",
+          "_source": "w1_1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/w1_2.mp4",
+          "label": "视频B",
+          "_source": "w1_2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/w1_3.mp4",
+          "label": "视频C",
+          "_source": "w1_3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    },
+    {
+      "id": "7",
+      "title": "场景 7 (y)",
+      "meta": {
+        "theme": "对比评测"
+      },
+      "assets": [
+        {
+          "type": "video",
+          "url": "/video-assets/y_1.mp4",
+          "label": "视频A",
+          "_source": "y_1.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/y_2.mp4",
+          "label": "视频B",
+          "_source": "y_2.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/y_3.mp4",
+          "label": "视频C",
+          "_source": "y_3.mp4"
+        }
+      ],
+      "text": {
+        "prompt": "（待填写 prompt）"
+      }
+    }
+  ]
+}

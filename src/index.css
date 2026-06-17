@@ -1,0 +1,15 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Noto Sans SC', sans-serif;
+  background: #ede8e2;
+  color: #4a4340;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+button { cursor: pointer; font: inherit; }
+input, textarea { font: inherit; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }

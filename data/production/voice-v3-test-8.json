@@ -1,0 +1,21 @@
+{
+  "taskId": "voice-v3-test-8",
+  "type": "voice_generation",
+  "title": "V3 方法论验证（8角色）",
+  "description": "8 个差异化最大的角色 A/B 对比测试",
+  "status": "completed",
+  "progress": {
+    "done": 8,
+    "total": 8,
+    "failed": 0
+  },
+  "created": "2026-06-11T11:00:00Z",
+  "resultFile": "/workspace/tmp/voice_v3_results.json",
+  "resultUrl": "/artifacts/voice-v3-compare.html",
+  "icon": "🧪",
+  "tags": [
+    "音色",
+    "V3",
+    "验证"
+  ]
+}
