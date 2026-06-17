@@ -1266,19 +1266,16 @@ function DashboardPage({ user, taskId, onBack }) {
                   <div className="dash-prompt">{item.text.prompt}</div>
                 )}
                 <div className="dash-video-cards">
-                  {videoCards.map((vc, vi) => {
-                    const isWinner = vi === 0 && vc.count > 0
+                  {/* Winner: left 2/3 */}
+                  {videoCards.length > 0 && (() => {
+                    const vc = videoCards[0]
+                    const isWinner = vc.count > 0
                     return (
-                      <div key={vc.optId} className={`dash-vcard ${isWinner ? 'winner' : ''} ${vc.count === 0 ? 'zero' : ''}`}>
-                        {/* Rank badge */}
-                        <div className="dash-vcard-rank">
-                          {vi === 0 && vc.count > 0 ? '🥇' : vi === 1 ? '🥈' : vi === 2 ? '🥉' : ''}
-                        </div>
-                        {/* Video player */}
+                      <div className={`dash-vcard ${isWinner ? 'winner' : ''} ${vc.count === 0 ? 'zero' : ''}`}>
+                        <div className="dash-vcard-rank">🥇</div>
                         <video controls preload="metadata" playsInline className="dash-vcard-video">
                           <source src={vc.url} type="video/mp4" />
                         </video>
-                        {/* Model + votes */}
                         <div className="dash-vcard-info">
                           <div className="dash-vcard-model">模型 {vc.modelId}</div>
                           <div className="dash-vcard-source">{vc.source}</div>
@@ -1294,7 +1291,6 @@ function DashboardPage({ user, taskId, onBack }) {
                             </div>
                           )}
                         </div>
-                        {/* Comments from voters who picked this */}
                         {vc.voterNotes.length > 0 && (
                           <div className="dash-vcard-comments">
                             {vc.voterNotes.map((n, ni) => (
@@ -1306,7 +1302,46 @@ function DashboardPage({ user, taskId, onBack }) {
                         )}
                       </div>
                     )
-                  })}
+                  })()}
+                  {/* Rest: right 1/3, stacked vertically */}
+                  {videoCards.length > 1 && (
+                    <div className="dash-vcard-rest">
+                      {videoCards.slice(1).map((vc, vi) => (
+                        <div key={vc.optId} className={`dash-vcard ${vc.count === 0 ? 'zero' : ''}`}>
+                          <div className="dash-vcard-rank">
+                            {vi === 0 ? '🥈' : vi === 1 ? '🥉' : ''}
+                          </div>
+                          <video controls preload="metadata" playsInline className="dash-vcard-video">
+                            <source src={vc.url} type="video/mp4" />
+                          </video>
+                          <div className="dash-vcard-info">
+                            <div className="dash-vcard-model">模型 {vc.modelId}</div>
+                            <div className="dash-vcard-source">{vc.source}</div>
+                            <div className="dash-vcard-votes">
+                              <div className="dash-vcard-bar">
+                                <div className="dash-vcard-fill" style={{ width: `${vc.pct}%` }} />
+                              </div>
+                              <span className="dash-vcard-count">{vc.count} 票（{vc.pct.toFixed(0)}%）</span>
+                            </div>
+                            {vc.voters.length > 0 && (
+                              <div className="dash-vcard-voters">
+                                {vc.voters.map(u => <span key={u} className="dash-voter-chip">{u}</span>)}
+                              </div>
+                            )}
+                          </div>
+                          {vc.voterNotes.length > 0 && (
+                            <div className="dash-vcard-comments">
+                              {vc.voterNotes.map((n, ni) => (
+                                <div key={ni} className="dash-vcard-comment">
+                                  <span className="dash-comment-user">{n.user}:</span> {n.note}
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             )
