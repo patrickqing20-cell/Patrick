@@ -1043,6 +1043,107 @@ function DashboardPage({ user, taskId, onBack }) {
                 </div>
               )
             })()}
+            {/* Word cloud: per-model high-frequency comments */}
+            {(() => {
+              // Gather all comments per model
+              const modelComments = {} // modelKey → [comment strings]
+              const modelKeys = modelRanking.map(m => m.key)
+              modelKeys.forEach(mk => { modelComments[mk] = [] })
+
+              itemStats.forEach(({ item, picks, notes }) => {
+                const videos = (item.assets || []).filter(a => a.type === 'video')
+                videos.forEach((v, vi) => {
+                  const optId = `video_${String.fromCharCode(65 + vi)}`
+                  const src = v._source || ''
+                  const bare = src.replace(/\.(mp4|webm|mov|avi|mkv)$/i, '')
+                  const num = bare.match(/(\d+)$/)
+                  const mid = num ? num[1] : bare
+                  const voters = picks[optId] || []
+                  const voterNotes = (notes || []).filter(n => voters.includes(n.user) && n.note)
+                  voterNotes.forEach(n => {
+                    if (modelComments[mid]) modelComments[mid].push(n.note)
+                  })
+                })
+              })
+
+              // Chinese word frequency: split by common delimiters + extract 2-4 char segments
+              function getWordFreq(texts) {
+                const freq = {}
+                // Stop words
+                const stops = new Set(['的','了','是','在','和','有','不','这','那','也','就','都','要','会','能','可以','没有','什么','一个','还是','因为','所以','但是','如果','比较','可能','应该','觉得','感觉','已经','不过','然后','虽然','或者','而且','还有','这个','那个'])
+                texts.forEach(text => {
+                  // Split by punctuation and spaces
+                  const segs = text.replace(/[，。！？、；：""''（）【】《》\s,.\-!?;:()\[\]]/g, ' ').split(/\s+/).filter(Boolean)
+                  segs.forEach(seg => {
+                    if (seg.length < 2 || seg.length > 8) return
+                    if (stops.has(seg)) return
+                    if (/^\d+$/.test(seg)) return
+                    freq[seg] = (freq[seg] || 0) + 1
+                  })
+                  // Also extract 2-3 char grams for Chinese
+                  const clean = text.replace(/[，。！？、；：""''（）【】《》\s,.\-!?;:()\[\]]/g, '')
+                  for (let len = 2; len <= 4; len++) {
+                    for (let j = 0; j <= clean.length - len; j++) {
+                      const gram = clean.slice(j, j + len)
+                      if (stops.has(gram) || /^\d+$/.test(gram)) continue
+                      freq[gram] = (freq[gram] || 0) + 1
+                    }
+                  }
+                })
+                return Object.entries(freq)
+                  .filter(([_, c]) => c >= 1)
+                  .sort((a, b) => b[1] - a[1])
+                  .slice(0, 30)
+              }
+
+              // Check if we have any comments at all
+              const totalComments = Object.values(modelComments).reduce((s, arr) => s + arr.length, 0)
+              if (totalComments === 0) return null
+
+              return (
+                <div className="chart-card" style={{ gridColumn: '1 / -1' }}>
+                  <h3>💬 评论词云 · 各模型高频关键词</h3>
+                  <div className="wordcloud-grid">
+                    {modelKeys.map((mk, mi) => {
+                      const comments = modelComments[mk] || []
+                      if (comments.length === 0) return (
+                        <div key={mk} className="wordcloud-model">
+                          <div className="wordcloud-model-title" style={{ color: chartColors[mi % chartColors.length] }}>模型 {mk}</div>
+                          <div className="wordcloud-empty">暂无评论</div>
+                        </div>
+                      )
+                      const words = getWordFreq(comments)
+                      const maxFreq = words.length > 0 ? words[0][1] : 1
+                      return (
+                        <div key={mk} className="wordcloud-model">
+                          <div className="wordcloud-model-title" style={{ color: chartColors[mi % chartColors.length] }}>
+                            模型 {mk} <span className="wordcloud-count">({comments.length}条评论)</span>
+                          </div>
+                          <div className="wordcloud-cloud">
+                            {words.map(([word, count], wi) => {
+                              const ratio = count / maxFreq
+                              const size = 12 + ratio * 18
+                              const opacity = 0.4 + ratio * 0.6
+                              return (
+                                <span key={wi} className="wordcloud-word" style={{
+                                  fontSize: `${size}px`,
+                                  opacity,
+                                  color: chartColors[mi % chartColors.length],
+                                  fontWeight: ratio > 0.6 ? 700 : 400
+                                }} title={`${word} (${count}次)`}>
+                                  {word}
+                                </span>
+                              )
+                            })}
+                            {words.length === 0 && <span className="wordcloud-empty">词频不足</span>}
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+              )
+            })()}
           </>
           )
         })()}

@@ -239,6 +239,16 @@
 .chart-radar-btn{font-size:11px;color:var(--accent);cursor:pointer;text-decoration:underline;padding:2px 4px}
 .chart-radar-btn:hover{color:var(--accent-h)}
 
+/* Word cloud */
+.wordcloud-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px}
+.wordcloud-model{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:14px}
+.wordcloud-model-title{font-size:14px;font-weight:700;margin-bottom:10px}
+.wordcloud-count{font-size:11px;font-weight:400;color:var(--dim)}
+.wordcloud-cloud{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;line-height:1.8;min-height:60px}
+.wordcloud-word{cursor:default;transition:transform .15s;display:inline-block}
+.wordcloud-word:hover{transform:scale(1.2)}
+.wordcloud-empty{font-size:12px;color:var(--dim);font-style:italic;padding:16px;text-align:center}
+
 @media(max-width:768px){.chart-grid{grid-template-columns:1fr}}
 
 /* Narrative summary */
