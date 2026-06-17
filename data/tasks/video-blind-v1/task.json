@@ -33,21 +33,21 @@
       "assets": [
         {
           "type": "video",
-          "url": "/video-assets/q1.mp4",
+          "url": "/video-assets/q3.mp4",
           "label": "视频A",
+          "_source": "q3.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/q1.mp4",
+          "label": "视频B",
           "_source": "q1.mp4"
         },
         {
           "type": "video",
           "url": "/video-assets/q2.mp4",
-          "label": "视频B",
-          "_source": "q2.mp4"
-        },
-        {
-          "type": "video",
-          "url": "/video-assets/q3.mp4",
           "label": "视频C",
-          "_source": "q3.mp4"
+          "_source": "q2.mp4"
         }
       ],
       "text": {
@@ -63,21 +63,21 @@
       "assets": [
         {
           "type": "video",
-          "url": "/video-assets/a1.mp4",
-          "label": "视频A",
-          "_source": "a1.mp4"
-        },
-        {
-          "type": "video",
           "url": "/video-assets/a2.mp4",
-          "label": "视频B",
+          "label": "视频A",
           "_source": "a2.mp4"
         },
         {
           "type": "video",
           "url": "/video-assets/a3.mp4",
-          "label": "视频C",
+          "label": "视频B",
           "_source": "a3.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/a1.mp4",
+          "label": "视频C",
+          "_source": "a1.mp4"
         }
       ],
       "text": {
@@ -99,15 +99,15 @@
         },
         {
           "type": "video",
-          "url": "/video-assets/cc1_2.mp4",
+          "url": "/video-assets/cc1_3.mp4",
           "label": "视频B",
-          "_source": "cc1_2.mp4"
+          "_source": "cc1_3.mp4"
         },
         {
           "type": "video",
-          "url": "/video-assets/cc1_3.mp4",
+          "url": "/video-assets/cc1_2.mp4",
           "label": "视频C",
-          "_source": "cc1_3.mp4"
+          "_source": "cc1_2.mp4"
         }
       ],
       "text": {
@@ -153,15 +153,15 @@
       "assets": [
         {
           "type": "video",
-          "url": "/video-assets/rr1_1.mp4",
+          "url": "/video-assets/rr1_2.mp4",
           "label": "视频A",
-          "_source": "rr1_1.mp4"
+          "_source": "rr1_2.mp4"
         },
         {
           "type": "video",
-          "url": "/video-assets/rr1_2.mp4",
+          "url": "/video-assets/rr1_1.mp4",
           "label": "视频B",
-          "_source": "rr1_2.mp4"
+          "_source": "rr1_1.mp4"
         },
         {
           "type": "video",
@@ -183,9 +183,9 @@
       "assets": [
         {
           "type": "video",
-          "url": "/video-assets/w1_1.mp4",
+          "url": "/video-assets/w1_3.mp4",
           "label": "视频A",
-          "_source": "w1_1.mp4"
+          "_source": "w1_3.mp4"
         },
         {
           "type": "video",
@@ -195,9 +195,9 @@
         },
         {
           "type": "video",
-          "url": "/video-assets/w1_3.mp4",
+          "url": "/video-assets/w1_1.mp4",
           "label": "视频C",
-          "_source": "w1_3.mp4"
+          "_source": "w1_1.mp4"
         }
       ],
       "text": {
@@ -213,21 +213,21 @@
       "assets": [
         {
           "type": "video",
-          "url": "/video-assets/y_1.mp4",
-          "label": "视频A",
-          "_source": "y_1.mp4"
-        },
-        {
-          "type": "video",
           "url": "/video-assets/y_2.mp4",
-          "label": "视频B",
+          "label": "视频A",
           "_source": "y_2.mp4"
         },
         {
           "type": "video",
           "url": "/video-assets/y_3.mp4",
-          "label": "视频C",
+          "label": "视频B",
           "_source": "y_3.mp4"
+        },
+        {
+          "type": "video",
+          "url": "/video-assets/y_1.mp4",
+          "label": "视频C",
+          "_source": "y_1.mp4"
         }
       ],
       "text": {
