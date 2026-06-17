@@ -740,6 +740,58 @@ function DashboardPage({ user, taskId, onBack }) {
     return !positiveOptions.some(o => (s.votes[o.id] || 0) / s.totalVotes >= 0.5)
   }).length
 
+  // === Generate narrative summary ===
+  const narrative = []
+  // Status
+  if (totalAllVotes === 0) {
+    narrative.push({ type: 'status', text: `评审尚未开始，共 ${totalItems} 个场景待评审。` })
+  } else if (completedItems < totalItems) {
+    narrative.push({ type: 'status', text: `评审进行中：${totalVoters} 人参与，已完成 ${completedItems}/${totalItems} 个场景，累计 ${totalAllVotes} 票。` })
+  } else {
+    narrative.push({ type: 'status', text: `评审已完成：${totalVoters} 人参与，${totalItems} 个场景全部完成，累计 ${totalAllVotes} 票。` })
+  }
+  // Winner
+  if (modelRanking.length > 0 && modelRanking[0].wins > 0) {
+    const top = modelRanking[0]
+    const dominance = top.winRate >= 80 ? '表现碾压级领先' : top.winRate >= 60 ? '表现明显领先' : '表现略有优势'
+    narrative.push({ type: 'winner', text: `模型 ${top.key} ${dominance}，${top.scenes} 个场景中胜出 ${top.wins} 场（胜率 ${top.winRate.toFixed(0)}%），累计 ${top.totalVotes} 票。` })
+  }
+  // Competition
+  if (modelRanking.length >= 2 && modelRanking[0].wins > 0 && modelRanking[1].wins > 0) {
+    const [m1, m2] = modelRanking
+    if (m1.wins - m2.wins <= 1) {
+      narrative.push({ type: 'competition', text: `模型 ${m1.key} 与模型 ${m2.key} 竞争胶着，胜场仅差 ${m1.wins - m2.wins} 场，尚无法下定论。` })
+    }
+  }
+  // Consensus
+  if (consensusItems > 0 && totalAllVotes > 0) {
+    narrative.push({ type: 'consensus', text: `${consensusItems}/${totalItems} 个场景评审高度一致（≥70% 投同一选项），结果可信度高。` })
+  }
+  if (splitItems > 0) {
+    narrative.push({ type: 'split', text: `${splitItems} 个场景存在意见分歧（无选项过半），建议增加评审人数或讨论后重评。` })
+  }
+  // Unanimous scenes
+  const unanimousScenes = itemStats.filter(s => {
+    if (s.totalVotes < 2) return false
+    return positiveOptions.some(o => (s.votes[o.id] || 0) === s.totalVotes)
+  })
+  if (unanimousScenes.length > 0) {
+    narrative.push({ type: 'unanimous', text: `${unanimousScenes.length} 个场景全票通过（所有人选了同一个），信号强烈。` })
+  }
+  // Comments
+  const totalNotes = itemStats.reduce((s, x) => s + x.notes.length, 0)
+  const noteCoverage = totalAllVotes > 0 ? (totalNotes / totalAllVotes * 100) : 0
+  if (totalAllVotes > 0) {
+    narrative.push({ type: 'comments', text: `评论覆盖率 ${noteCoverage.toFixed(0)}%（${totalNotes}/${totalAllVotes} 票附带评论）。${noteCoverage >= 80 ? '评论充分，可支撑深度分析。' : '部分投票未附评论，建议提醒评审人补充。'}` })
+  }
+  // Participation
+  if (totalVoters > 0 && totalVoters < 3) {
+    narrative.push({ type: 'participation', text: `当前仅 ${totalVoters} 人参与，建议邀请更多评审人以提高结果可信度。` })
+  }
+
+  const [expandedSections, setExpandedSections] = useState({ scenes: false, reviewers: false })
+  const toggleSection = key => setExpandedSections(p => ({ ...p, [key]: !p[key] }))
+
   return (
     <>
       <div className="dash-header">
@@ -749,17 +801,37 @@ function DashboardPage({ user, taskId, onBack }) {
       </div>
 
       <div className="dash-container">
-        {/* === Executive Summary === */}
-        <div className="dash-summary">
-          <div className="dash-summary-header">
-            <h2>📋 评审概览</h2>
-            <div className="dash-summary-meta">
-              {totalVoters} 人参与 · {totalItems} 个场景 · {totalAllVotes} 票
-            </div>
+        {/* === 1. Narrative Summary (FIRST) === */}
+        <div className="dash-narrative">
+          <h2>📋 评审总结</h2>
+          <div className="dash-narrative-body">
+            {narrative.map((n, i) => (
+              <div key={i} className={`dash-narrative-line ${n.type}`}>
+                {n.type === 'status' && '📊 '}
+                {n.type === 'winner' && '🏆 '}
+                {n.type === 'competition' && '⚔️ '}
+                {n.type === 'consensus' && '✅ '}
+                {n.type === 'split' && '⚠️ '}
+                {n.type === 'unanimous' && '🎯 '}
+                {n.type === 'comments' && '💬 '}
+                {n.type === 'participation' && '📢 '}
+                {n.text}
+              </div>
+            ))}
           </div>
+          <div className="dash-participants-inline">
+            <span className="dash-p-label">评审人：</span>
+            {users.map(u => (
+              <span key={u.name} className="dash-p-tag">👤 {u.name} <b>{u.count}票</b></span>
+            ))}
+            {users.length === 0 && <span className="dash-p-tag">暂无</span>}
+          </div>
+        </div>
 
-          {/* Model ranking table */}
-          {modelRanking.length > 0 && (
+        {/* === 2. Model Ranking Table === */}
+        {modelRanking.length > 0 && totalAllVotes > 0 && (
+          <div className="dash-summary">
+            <h2>🏅 模型排名</h2>
             <div className="dash-model-table">
               <table>
                 <thead>
@@ -769,7 +841,7 @@ function DashboardPage({ user, taskId, onBack }) {
                     <th>胜场</th>
                     <th>胜率</th>
                     <th>总得票</th>
-                    <th>参与场景</th>
+                    <th>场景</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -796,39 +868,16 @@ function DashboardPage({ user, taskId, onBack }) {
                 </tbody>
               </table>
             </div>
-          )}
-
-          {/* Quick insights */}
-          <div className="dash-insights">
-            {consensusItems > 0 && (
-              <div className="dash-insight good">✅ {consensusItems} 个场景评审一致（≥70%同选）</div>
-            )}
-            {splitItems > 0 && (
-              <div className="dash-insight warn">⚠️ {splitItems} 个场景意见分裂（无选项过半）</div>
-            )}
-            {noneVotes > 0 && (
-              <div className="dash-insight bad">❌ {noneVotes} 票「都不行」</div>
-            )}
-            {completedItems < totalItems && (
-              <div className="dash-insight neutral">⏳ {totalItems - completedItems} 个场景暂无投票</div>
-            )}
           </div>
+        )}
 
-          {/* Participants inline */}
-          <div className="dash-participants-inline">
-            <span className="dash-p-label">评审人：</span>
-            {users.map(u => (
-              <span key={u.name} className="dash-p-tag">👤 {u.name} <b>{u.count}票</b></span>
-            ))}
-            {users.length === 0 && <span className="dash-p-tag">暂无</span>}
-          </div>
-        </div>
-
-        {/* === Per-reviewer breakdown === */}
+        {/* === 3. Per-reviewer breakdown (collapsible) === */}
         {users.length > 0 && (
-          <div className="dash-section">
-            <h2>👥 评审人明细</h2>
-            <div className="dash-reviewer-list">
+          <div className="dash-section dash-collapsible">
+            <h2 className="dash-collapse-toggle" onClick={() => toggleSection('reviewers')}>
+              {expandedSections.reviewers ? '▼' : '▶'} 👥 评审人明细（{users.length} 人）
+            </h2>
+            {expandedSections.reviewers && <div className="dash-reviewer-list">
               {users.map(u => {
                 // Gather this user's picks + notes across all items
                 const userPicks = []
@@ -895,13 +944,21 @@ function DashboardPage({ user, taskId, onBack }) {
                   </div>
                 )
               })}
-            </div>
+            </div>}
           </div>
         )}
 
-        {/* === AI Analysis Summary === */}
-        {totalAllVotes > 0 && (() => {
-          // Auto-generate analysis text
+        {/* === 4. Scene details (collapsible) === */}
+        {itemStats.length > 0 && totalAllVotes > 0 && (
+          <div className="dash-section dash-collapsible">
+            <h2 className="dash-collapse-toggle" onClick={() => toggleSection('scenes')}>
+              {expandedSections.scenes ? '▼' : '▶'} 📊 逐场景明细（{totalItems} 个场景）
+            </h2>
+          </div>
+        )}
+
+        {/* REMOVE old AI Analysis - merged into narrative above */}
+        {false && totalAllVotes > 0 && (() => {
           const lines = []
 
           // 1. Overall winner
@@ -977,8 +1034,8 @@ function DashboardPage({ user, taskId, onBack }) {
           )
         })()}
 
-        {/* Per-item results */}
-        {itemStats.map(({ item, votes, totalVotes, notes, picks }) => {
+        {/* Per-item results (shown when scenes expanded) */}
+        {expandedSections.scenes && itemStats.map(({ item, votes, totalVotes, notes, picks }) => {
           const maxVote = Math.max(...Object.values(votes), 1)
           let winner = null, winnerVotes = 0
           positiveOptions.forEach(o => {
