@@ -656,6 +656,7 @@ function DashboardPage({ user, taskId, onBack }) {
   const [summary, setSummary] = useState({})
   const [users, setUsers] = useState([])
   const [expandedSections, setExpandedSections] = useState({ scenes: false, reviewers: false })
+  const [radarVisible, setRadarVisible] = useState({}) // modelKey → boolean, default all visible
 
   useEffect(() => {
     async function load() {
@@ -970,8 +971,10 @@ function DashboardPage({ user, taskId, onBack }) {
                         const p = getPoint(i, maxR)
                         return <line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke="var(--border)" strokeWidth="1" />
                       })}
-                      {/* Model polygons */}
+                      {/* Model polygons — filtered by radarVisible */}
                       {modelKeys.map((mk, mi) => {
+                        const isVisible = radarVisible[mk] !== false // default visible
+                        if (!isVisible) return null
                         const pts = themes.map((t, i) => getPoint(i, maxR * (radarData[mk][t] || 0) / 100))
                         const color = chartColors[mi % chartColors.length]
                         return (
@@ -984,7 +987,20 @@ function DashboardPage({ user, taskId, onBack }) {
                           </g>
                         )
                       })}
-                      {/* Labels */}
+                      {/* Score labels on each axis for visible models */}
+                      {modelKeys.filter(mk => radarVisible[mk] !== false).length === 1 && (() => {
+                        const mk = modelKeys.find(k => radarVisible[k] !== false)
+                        const mi = modelKeys.indexOf(mk)
+                        const color = chartColors[mi % chartColors.length]
+                        return themes.map((t, i) => {
+                          const score = radarData[mk][t] || 0
+                          if (score === 0) return null
+                          const p = getPoint(i, maxR * score / 100)
+                          return <text key={`s${i}`} x={p.x} y={p.y - 10} textAnchor="middle"
+                            fontSize="10" fontWeight="700" fill={color}>{score.toFixed(0)}%</text>
+                        })
+                      })()}
+                      {/* Axis labels */}
                       {themes.map((t, i) => {
                         const p = getPoint(i, maxR + 22)
                         return <text key={i} x={p.x} y={p.y} textAnchor="middle" dominantBaseline="middle"
@@ -992,13 +1008,26 @@ function DashboardPage({ user, taskId, onBack }) {
                       })}
                     </svg>
                     <div className="chart-radar-legend">
-                      {modelKeys.map((mk, mi) => (
-                        <div key={mk} className="chart-legend-item">
-                          <span className="chart-legend-dot" style={{ background: chartColors[mi % chartColors.length] }} />
-                          <span>模型 {mk}</span>
-                        </div>
-                      ))}
-                      <div className="chart-radar-hint">各维度为该垂类下的得票占比</div>
+                      {modelKeys.map((mk, mi) => {
+                        const isVisible = radarVisible[mk] !== false
+                        return (
+                          <div key={mk}
+                            className={`chart-legend-item clickable ${isVisible ? '' : 'hidden'}`}
+                            onClick={() => setRadarVisible(p => ({ ...p, [mk]: !isVisible }))}>
+                            <span className="chart-legend-dot" style={{ background: isVisible ? chartColors[mi % chartColors.length] : 'var(--border)' }} />
+                            <span style={{ opacity: isVisible ? 1 : 0.4 }}>模型 {mk}</span>
+                          </div>
+                        )
+                      })}
+                      <div className="chart-radar-actions">
+                        <span className="chart-radar-btn" onClick={() => {
+                          const all = {}; modelKeys.forEach(k => { all[k] = true }); setRadarVisible(all)
+                        }}>全选</span>
+                        <span className="chart-radar-btn" onClick={() => {
+                          const none = {}; modelKeys.forEach(k => { none[k] = false }); setRadarVisible(none)
+                        }}>清空</span>
+                      </div>
+                      <div className="chart-radar-hint">点击模型名筛选 · 各维度为该垂类下的得票占比</div>
                     </div>
                   </div>
                 </div>

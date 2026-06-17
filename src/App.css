@@ -232,6 +232,12 @@
 .chart-radar-wrap{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap}
 .chart-radar-legend{display:flex;flex-direction:column;gap:8px}
 .chart-radar-hint{font-size:10px;color:var(--dim);margin-top:8px;font-style:italic}
+.chart-legend-item.clickable{cursor:pointer;padding:4px 8px;border-radius:6px;transition:.2s}
+.chart-legend-item.clickable:hover{background:var(--row)}
+.chart-legend-item.hidden{opacity:.5}
+.chart-radar-actions{display:flex;gap:8px;margin-top:6px}
+.chart-radar-btn{font-size:11px;color:var(--accent);cursor:pointer;text-decoration:underline;padding:2px 4px}
+.chart-radar-btn:hover{color:var(--accent-h)}
 
 @media(max-width:768px){.chart-grid{grid-template-columns:1fr}}
 
