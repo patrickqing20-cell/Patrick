@@ -829,48 +829,90 @@ function DashboardPage({ user, taskId, onBack }) {
           </div>
         </div>
 
-        {/* === 2. Model Ranking Table === */}
-        {modelRanking.length > 0 && totalAllVotes > 0 && (
-          <div className="dash-summary">
-            <h2>🏅 模型排名</h2>
-            <div className="dash-model-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>排名</th>
-                    <th>模型</th>
-                    <th>胜场</th>
-                    <th>胜率</th>
-                    <th>总得票</th>
-                    <th>场景</th>
-                  </tr>
-                </thead>
-                <tbody>
+        {/* === 2. Visual Charts === */}
+        {modelRanking.length > 0 && totalAllVotes > 0 && (() => {
+          const chartColors = ['#6b8f71', '#a8917a', '#c4877a', '#7a9cc4', '#c4b87a', '#8f6b8f']
+          const totalModelVotes = modelRanking.reduce((s, m) => s + m.totalVotes, 0)
+
+          // Donut chart SVG data
+          const donutSize = 180, donutR = 70, donutStroke = 28
+          let donutOffset = 0
+          const donutCirc = 2 * Math.PI * donutR
+          const donutSegments = modelRanking.map((m, i) => {
+            const pct = totalModelVotes > 0 ? m.totalVotes / totalModelVotes : 0
+            const dashLen = pct * donutCirc
+            const seg = { m, pct, dashLen, offset: donutOffset, color: chartColors[i % chartColors.length] }
+            donutOffset += dashLen
+            return seg
+          })
+
+          return (
+          <>
+            <div className="chart-grid">
+              {/* Bar chart: win rate */}
+              <div className="chart-card">
+                <h3>模型胜率排名</h3>
+                <div className="chart-bars">
                   {modelRanking.map((m, i) => (
-                    <tr key={m.key} className={i === 0 && m.wins > 0 ? 'top-model' : ''}>
-                      <td className="rank-cell">
-                        {i === 0 && m.wins > 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}
-                      </td>
-                      <td className="model-cell">
-                        <span className="model-name">模型 {m.key}</span>
-                        <span className="model-files">{m.sources.join(', ')}</span>
-                      </td>
-                      <td><b>{m.wins}</b> / {m.scenes}</td>
-                      <td>
-                        <div className="winrate-bar">
-                          <div className="winrate-fill" style={{ width: `${m.winRate}%` }} />
-                          <span className="winrate-text">{m.winRate.toFixed(0)}%</span>
+                    <div key={m.key} className="chart-bar-row">
+                      <div className="chart-bar-name">模型 {m.key}</div>
+                      <div className="chart-bar-track">
+                        <div className="chart-bar-fill" style={{ width: `${m.winRate}%`, background: chartColors[i % chartColors.length] }}>
+                          {m.winRate >= 15 && <span className="chart-bar-pct">{m.winRate.toFixed(0)}%</span>}
                         </div>
-                      </td>
-                      <td>{m.totalVotes}</td>
-                      <td>{m.scenes}</td>
-                    </tr>
+                        {m.winRate < 15 && <span className="chart-bar-pct-out">{m.winRate.toFixed(0)}%</span>}
+                      </div>
+                    </div>
                   ))}
-                </tbody>
-              </table>
+                </div>
+              </div>
+
+              {/* Donut chart: vote share */}
+              <div className="chart-card">
+                <h3>得票占比</h3>
+                <div className="chart-donut-wrap">
+                  <svg width={donutSize} height={donutSize} viewBox={`0 0 ${donutSize} ${donutSize}`}>
+                    {donutSegments.map((seg, i) => (
+                      <circle key={i} cx={donutSize/2} cy={donutSize/2} r={donutR}
+                        fill="none" stroke={seg.color} strokeWidth={donutStroke}
+                        strokeDasharray={`${seg.dashLen} ${donutCirc - seg.dashLen}`}
+                        strokeDashoffset={-seg.offset}
+                        transform={`rotate(-90 ${donutSize/2} ${donutSize/2})`}
+                        style={{ transition: 'stroke-dasharray .5s, stroke-dashoffset .5s' }}
+                      />
+                    ))}
+                    <text x={donutSize/2} y={donutSize/2 - 6} textAnchor="middle" fontSize="20" fontWeight="800" fill="var(--text)">{totalModelVotes}</text>
+                    <text x={donutSize/2} y={donutSize/2 + 14} textAnchor="middle" fontSize="11" fill="var(--dim)">总票数</text>
+                  </svg>
+                  <div className="chart-donut-legend">
+                    {donutSegments.map((seg, i) => (
+                      <div key={i} className="chart-legend-item">
+                        <span className="chart-legend-dot" style={{ background: seg.color }} />
+                        <span>模型 {seg.m.key}</span>
+                        <b>{(seg.pct * 100).toFixed(0)}%</b>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        )}
+
+            {/* Score overview cards */}
+            <div className="chart-scores">
+              {modelRanking.map((m, i) => {
+                const votePct = totalModelVotes > 0 ? (m.totalVotes / totalModelVotes * 100) : 0
+                return (
+                  <div key={m.key} className="chart-score-card" style={{ borderTopColor: chartColors[i % chartColors.length] }}>
+                    <div className="chart-score-pct" style={{ color: chartColors[i % chartColors.length] }}>{votePct.toFixed(0)}%</div>
+                    <div className="chart-score-name">模型 {m.key}</div>
+                    <div className="chart-score-detail">{m.totalVotes} 票 / {m.scenes} 场景 · 胜{m.wins}场</div>
+                  </div>
+                )
+              })}
+            </div>
+          </>
+          )
+        })()}
 
         {/* === 3. Per-reviewer breakdown (collapsible) === */}
         {users.length > 0 && (

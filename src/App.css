@@ -205,6 +205,32 @@
 .rv-note{color:var(--text);line-height:1.4;max-width:400px}
 .rv-empty{color:var(--dim);font-style:italic}
 
+/* ===== Chart Visualization ===== */
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+.chart-card h3{font-size:14px;font-weight:700;margin-bottom:16px;color:var(--text)}
+.chart-bars{display:flex;flex-direction:column;gap:12px}
+.chart-bar-row{display:flex;align-items:center;gap:10px}
+.chart-bar-name{font-size:13px;font-weight:600;min-width:60px;text-align:right;color:var(--text)}
+.chart-bar-track{flex:1;height:32px;background:var(--row);border-radius:6px;overflow:hidden;position:relative}
+.chart-bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;transition:width .6s ease;min-width:2px}
+.chart-bar-pct{font-size:12px;font-weight:700;color:#fff}
+.chart-bar-pct-out{font-size:12px;font-weight:700;color:var(--dim);margin-left:6px}
+
+.chart-donut-wrap{display:flex;align-items:center;gap:20px;justify-content:center;flex-wrap:wrap}
+.chart-donut-legend{display:flex;flex-direction:column;gap:8px}
+.chart-legend-item{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text)}
+.chart-legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.chart-legend-item b{margin-left:auto;min-width:30px;text-align:right}
+
+.chart-scores{display:grid;grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));gap:12px;margin-bottom:20px}
+.chart-score-card{background:var(--card);border:1px solid var(--border);border-top:4px solid;border-radius:12px;padding:18px 16px;text-align:center}
+.chart-score-pct{font-size:32px;font-weight:800;line-height:1.2}
+.chart-score-name{font-size:14px;font-weight:700;margin-top:4px;color:var(--text)}
+.chart-score-detail{font-size:11px;color:var(--dim);margin-top:4px}
+
+@media(max-width:768px){.chart-grid{grid-template-columns:1fr}}
+
 /* Narrative summary */
 .dash-narrative{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;margin-bottom:20px}
 .dash-narrative h2{font-size:17px;font-weight:700;margin-bottom:14px}
