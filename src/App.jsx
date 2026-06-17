@@ -94,6 +94,7 @@ function ReviewPage({ user, token, taskId, onBack, showToast }) {
   const [lightboxSrc, setLightboxSrc] = useState(null)
   const [expandedPrompts, setExpandedPrompts] = useState({})
   const [pendingPicks, setPendingPicks] = useState({})
+  // Note: expandedSections is only used in DashboardPage, not here
   const audioRef = useRef(null)
   const playBtnRef = useRef(null)
   const pollRef = useRef(null)
@@ -654,6 +655,7 @@ function DashboardPage({ user, taskId, onBack }) {
   const [task, setTask] = useState(null)
   const [summary, setSummary] = useState({})
   const [users, setUsers] = useState([])
+  const [expandedSections, setExpandedSections] = useState({ scenes: false, reviewers: false })
 
   useEffect(() => {
     async function load() {
@@ -789,7 +791,6 @@ function DashboardPage({ user, taskId, onBack }) {
     narrative.push({ type: 'participation', text: `当前仅 ${totalVoters} 人参与，建议邀请更多评审人以提高结果可信度。` })
   }
 
-  const [expandedSections, setExpandedSections] = useState({ scenes: false, reviewers: false })
   const toggleSection = key => setExpandedSections(p => ({ ...p, [key]: !p[key] }))
 
   return (
