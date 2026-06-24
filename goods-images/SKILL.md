@@ -1,6 +1,23 @@
 ---
 name: goods-images
-description: "Use when the user wants to generate product detail images or carousel/main images for e-commerce platforms like Taobao. Triggers on keywords like 商品图, 详情图, 产品图, 电商图, 淘宝图, 轮播图, 主图, or when user uploads a product photo and asks for marketing images."
+version: 1.1.0
+description: >
+  根据用户提供的商品图片和描述，自动生成电商平台商品详情图（9张）和轮播图（5张）。
+  触发词：商品图、详情图、产品图、电商图、淘宝图、轮播图、主图。
+triggers:
+  - 商品图
+  - 详情图
+  - 产品图
+  - 电商图
+  - 淘宝图
+  - 轮播图
+  - 主图
+metadata:
+  openclaw:
+    requires:
+      bins: ["python3"]
+      pip: ["Pillow"]
+    os: ["linux", "darwin", "win32"]
 ---
 
 # 商品详情图 & 轮播图生成 Skill
@@ -9,11 +26,20 @@ description: "Use when the user wants to generate product detail images or carou
 
 根据用户提供的商品图片和描述，生成电商平台（淘宝/天猫/京东）的 **商品详情图**（9张）和/或 **商品轮播图**（5张）。
 
+## 环境要求
+
+| 依赖 | 说明 | 必需 |
+|------|------|------|
+| **AI 图像生成能力** | Agent 平台提供的文生图/图生图工具（如 DALL-E、Midjourney、Stable Diffusion 等） | ✅ 核心 |
+| **Python 3 + Pillow** | 后处理叠加中文文字 | ⚠️ 首选方案需要 |
+| **中文字体** | Noto CJK / PingFang / 文泉驿（任意一种） | ⚠️ 渲染中文需要 |
+| **多模态视觉能力** | Agent 能看图理解商品 | ✅ 分析商品需要 |
+
 ## 核心原则
 
 1. **商品图必须保真。** 用户提供的商品图片中的图案、文字、Logo、颜色不得有任何改变。详情图和轮播图是在原图基础上做排版设计和文案包装，不是重新生成商品。
 2. **用户零操作。** 全部后台自动完成，直接在对话中输出图片结果。不打开可见浏览器窗口，不让用户手动导出。
-3. **环境自适应。** 优先使用 `run_command` + Python PIL 精确渲染中文文字，如果环境不支持则自动降级到 `generate_image` 方案。
+3. **环境自适应。** 优先使用 Python PIL 精确渲染中文文字，如果环境不支持则自动降级到 AI 生图方案。
 
 ## When to Use
 
@@ -31,7 +57,7 @@ description: "Use when the user wants to generate product detail images or carou
 
 **输入处理**：
 - 有图片 → 观察图片中的产品，推断品类、外观、卖点
-- 仅文字 → 从描述中提取信息，用 `generate_image` 先生成 1 张商品图
+- 仅文字 → 从描述中提取信息，用 AI 生图工具先生成 1 张商品图
 - 信息不足时追问，**最多补问 1 轮**，其余从图片和描述中推断
 
 **⚠️ 用户可能只要轮播图或只要详情图。** 如果用户明确说只要其中一种，跳过另一种。不确定时默认两种都生成。
@@ -41,27 +67,27 @@ description: "Use when the user wants to generate product detail images or carou
 **你必须生成 14 张图片，不是 1 张！** 按以下步骤逐一执行：
 
 ### 轮播图（5张）
-1. 用 `generate_image` 生成模特图1（传入用户原图作为 ImagePaths）
-2. 用 `generate_image` 生成模特图2（传入用户原图作为 ImagePaths）
-3. 用 `generate_image` 生成模特图3（传入用户原图作为 ImagePaths）
-4. 用 PIL 脚本或 `generate_image` 在模特图上叠加 Logo + 活动条 + 卖点关键词，生成 carousel_01 ~ carousel_04
-5. 用 PIL 脚本或 `generate_image` 生成 carousel_05（白底图，仅 Logo）
+1. 用 AI 生图工具生成模特图1（传入用户原图作为参考图）
+2. 用 AI 生图工具生成模特图2（传入用户原图作为参考图）
+3. 用 AI 生图工具生成模特图3（传入用户原图作为参考图）
+4. 用 PIL 脚本或 AI 生图工具在模特图上叠加 Logo + 活动条 + 卖点关键词，生成 carousel_01 ~ carousel_04
+5. 用 PIL 脚本或 AI 生图工具生成 carousel_05（白底图，仅 Logo）
 
 ### 详情图（9张）
-6. `generate_image` → 主图封面（传入原图）
-7. `generate_image` → 卖点1（传入原图）
-8. `generate_image` → 卖点2（传入原图）
-9. `generate_image` → 卖点3（传入原图）
-10. `generate_image` → 细节标注图（传入原图）
-11. `generate_image` → 穿着/使用场景
-12. `generate_image` → 产品参数表（传入原图）
-13. `generate_image` → 尺码/规格表
-14. `generate_image` → 售后保障
+6. AI 生图 → 主图封面（传入原图）
+7. AI 生图 → 卖点1（传入原图）
+8. AI 生图 → 卖点2（传入原图）
+9. AI 生图 → 卖点3（传入原图）
+10. AI 生图 → 细节标注图（传入原图）
+11. AI 生图 → 穿着/使用场景
+12. AI 生图 → 产品参数表（传入原图）
+13. AI 生图 → 尺码/规格表
+14. AI 生图 → 售后保障
 
 ### 关键规则
-- **每张图都要单独调用一次 `generate_image`**，不要试图一次生成多张
-- **必须传入用户原图作为 ImagePaths**，否则 AI 会画出不一样的商品
-- **Logo 和活动文字不要写在 generate_image 的 prompt 里**（AI 画中文会变形），应该用 PIL 后处理
+- **每张图都要单独调用一次 AI 生图工具**，不要试图一次生成多张
+- **必须传入用户原图作为参考图/ImagePaths**，否则 AI 会画出不一样的商品
+- **Logo 和活动文字不要写在生图 prompt 里**（AI 画中文会变形），应该用 PIL 后处理
 - **背景不要纯白**，要有场景感
 
 ---
@@ -110,7 +136,7 @@ description: "Use when the user wants to generate product detail images or carou
 
 ### Step A: 生成模特/场景图
 
-用 `generate_image` 生成 3 张图，**必须传入用户原图作为 ImagePaths**。
+用 AI 生图工具生成 3 张图，**必须传入用户原图作为参考图**。
 
 **⚠️ 根据商品品类决定构图和主体：**
 
@@ -158,7 +184,7 @@ soft studio lighting, professional, high resolution, 800x800
 
 **Agent 应按以下优先级自动选择方案：**
 
-#### 方案 1（首选）：`run_command` + Python PIL
+#### 方案 1（首选）：Python PIL 后处理
 
 先测试环境：
 ```bash
@@ -178,6 +204,8 @@ FONT_PATHS = [
     '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc',    # Linux Noto alt
     '/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf',  # Linux Droid
     '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc',             # Linux 文泉驿
+    'C:/Windows/Fonts/msyh.ttc',                                 # Windows 微软雅黑
+    'C:/Windows/Fonts/simhei.ttf',                               # Windows 黑体
 ]
 
 def get_font(size, bold=False):
@@ -300,16 +328,11 @@ add_overlay('product.jpg', 'carousel_04.jpg', logo, promos, keywords)
 add_overlay('product.jpg', 'carousel_05.jpg', logo)  # 白底图，无活动条/卖点
 ```
 
-**⚠️ 执行完成后删除中间产物：**
-```bash
-rm -f /tmp/product-details/overlay.py
-```
+#### 方案 2（降级）：AI 生图工具直接生成
 
-#### 方案 2（降级）：`generate_image` 直接生成
+如果 Python PIL 不可用，把模特图传入 AI 生图工具的参考图/ImagePaths，在 prompt 中描述叠加布局。中文文字可能不完美但可接受。
 
-如果 `run_command` 不可用，把模特图传入 `generate_image` 的 `ImagePaths`，在 prompt 中描述叠加布局。中文文字可能不完美但可接受。
-
-#### 方案 3（最后备选）：`browser_subagent` + HTML
+#### 方案 3（最后备选）：HTML/CSS 渲染 + 截图
 
 用 HTML/CSS 精确渲染后截图。用户会看到浏览器窗口，体验较差，仅作最终兜底。
 
@@ -344,7 +367,7 @@ rm -f /tmp/product-details/overlay.py
 
 ### 详情图生成方式
 
-**用 `generate_image` 逐张生成。** 每张传入用户原图作为 `ImagePaths`。
+**用 AI 生图工具逐张生成。** 每张传入用户原图作为参考图。
 
 **Prompt 通用结构**：
 ```
@@ -450,7 +473,7 @@ Style: trustworthy, warm, [风格配色].
 
 ### 文件保存路径
 
-所有生成的图片保存到 `/tmp/product-details/`：
+所有生成的图片保存到工作目录下的 `product-details/` 子目录：
 
 | 图片类型 | 文件名 |
 |---------|--------|
@@ -461,7 +484,7 @@ Style: trustworthy, warm, [风格配色].
 
 ### 展示方式
 
-用 `view_file` 在对话中直接展示所有图片：
+在对话中直接展示所有图片：
 
 1. 先展示 5 张轮播图
 2. 再展示 9 张详情图
@@ -473,10 +496,10 @@ Style: trustworthy, warm, [风格配色].
 
 | 场景 | 处理方式 |
 |------|---------|
-| `generate_image` 生成的图片不符合预期 | 调整 prompt 重新生成，最多重试 2 次 |
-| PIL 不可用 | 自动降级到 `generate_image` 方案 |
+| AI 生成的图片不符合预期 | 调整 prompt 重新生成，最多重试 2 次 |
+| PIL 不可用 | 自动降级到 AI 生图方案 |
 | 用户原图分辨率过低 | 提示用户，但仍继续生成 |
-| generate_image 调用失败 | 跳过该张图，继续生成其余图片，最后告知用户 |
+| AI 生图调用失败 | 跳过该张图，继续生成其余图片，最后告知用户 |
 
 ---
 
@@ -484,11 +507,11 @@ Style: trustworthy, warm, [风格配色].
 
 | ✅ 正确 | ❌ 错误 |
 |---------|---------|
-| `generate_image` 传入用户原图作为 ImagePaths | 不传原图导致商品外观偏差 |
+| AI 生图传入用户原图作为参考图 | 不传原图导致商品外观偏差 |
 | 所有中文文案由 AI 根据商品分析自动生成 | 要求用户自己写文案 |
 | 模特/场景图背景有场景感 | 纯白或纯灰背景 |
 | 直接在对话中输出图片 | 让用户手动去网页导出 |
-| PIL 首选、generate_image 降级 | 硬依赖某个方案不做兜底 |
+| PIL 首选、AI 生图降级 | 硬依赖某个方案不做兜底 |
 | 所有图片风格统一 | 每张图风格不一样 |
 | 根据品类调整构图/尺码/场景 | 所有商品用同一套模板 |
 | 卖点关键词从描述自动提取 | 遗漏用户描述中的核心卖点 |
